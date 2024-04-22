@@ -13,6 +13,6 @@ def open_parquet(parquet_file):
     df = pd.read_parquet(parquet_file)
     return df
 
-parquet_df = open_parquet("C:\\Users\\amith\\Desktop\\code_elt\\justplay-infra-pipeline-development\\output_parquet\\student-mat.parquet")
+parquet_df = open_parquet("C:\\Users\\amith\\Desktop\\code_elt\\justplay-infra-pipeline-development\\output\\student-mat.parquet")
 if parquet_df is not None:
     print(parquet_df.head(5))
