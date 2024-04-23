@@ -16,6 +16,9 @@ Once the pre-processing and validation stages are completed without issues, the 
 Subsequently, the successful Parquet files within the folder initiate an automated pipeline responsible for uploading the Parquet file to a ```PostgresSQL/MySQL``` database getting database credential information from ```db_creds.yaml``` file and pre-defined database schema from the ```schema_sql.yaml``` file. In an optimal scenario, this pipeline would additionally transfer the files to a data warehouse (e.g. BigQuery), enabling the analytics team to access and analyze the data. Furthermore, it would move the files to an object store (e.g. google cloud storage or s3 buckets), facilitating widespread access for other technical teams. However, for the purposes of the project, the files are uploaded to a local database to facilitate viewing and execution of SQL queries.
 </td></tr></table>
 
+> [!NOTE]
+> View ```conversion_log.txt``` for debugging and logging details.
+
 ### Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
 <table><tr><td>
