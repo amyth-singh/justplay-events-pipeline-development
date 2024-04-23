@@ -1,0 +1,38 @@
+2024-04-23 01:50:43,074 - INFO - Watching input CSV folder...
+2024-04-23 01:50:46,628 - INFO - Converted input_csv\student-mat.csv to Parquet format
+2024-04-23 01:52:03,034 - INFO - Watching input CSV folder...
+2024-04-23 01:52:10,333 - INFO - Converted input_csv\student-mat.csv to Parquet format
+2024-04-23 01:52:17,638 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
+2024-04-23 01:56:05,831 - INFO - Watching input CSV folder...
+2024-04-23 01:56:18,417 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
+2024-04-23 01:56:18,420 - INFO - Moved unsuccessful CSV file input_csv\student-mat-extra-field.csv to output_failed folder
+2024-04-23 01:56:21,904 - INFO - Converted input_csv\student-mat.csv to Parquet format
+2024-04-23 01:56:21,905 - INFO - Deleted CSV file input_csv\student-mat.csv
+2024-04-23 01:58:59,054 - INFO - Watching input CSV folder...
+2024-04-23 02:02:16,470 - INFO - Watching input CSV folder...
+2024-04-23 02:03:09,393 - INFO - Watching input CSV folder...
+2024-04-23 02:03:15,183 - INFO - Converted input_csv\student-mat.csv to Parquet format
+2024-04-23 02:03:15,184 - INFO - Deleted CSV file input_csv\student-mat.csv
+2024-04-23 02:03:22,699 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
+2024-04-23 02:03:22,700 - INFO - Moved unsuccessful CSV file input_csv\student-mat-extra-field.csv to output_failed folder
+2024-04-23 02:04:01,532 - INFO - Watching input CSV folder...
+2024-04-23 02:04:19,138 - INFO - Converted input_csv\student-mat.csv to Parquet format
+2024-04-23 02:04:19,139 - INFO - Deleted CSV file input_csv\student-mat.csv
+2024-04-23 02:04:30,281 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
+2024-04-23 02:04:30,282 - INFO - Moved unsuccessful CSV file input_csv\student-mat-extra-field.csv to output_failed folder
+2024-04-23 02:05:55,647 - INFO - Watching input CSV folder...
+2024-04-23 02:06:00,323 - INFO - Converted input_csv\student-mat.csv to Parquet format
+2024-04-23 02:06:00,324 - INFO - Deleted CSV file input_csv\student-mat.csv
+2024-04-23 02:06:00,349 - INFO - Converted input_csv\student-mat1.csv to Parquet format
+2024-04-23 02:06:00,349 - INFO - Deleted CSV file input_csv\student-mat1.csv
+2024-04-23 02:06:00,392 - INFO - Converted input_csv\student-mat2.csv to Parquet format
+2024-04-23 02:06:00,392 - INFO - Deleted CSV file input_csv\student-mat2.csv
+2024-04-23 02:06:00,432 - INFO - Converted input_csv\student-mat3.csv to Parquet format
+2024-04-23 02:06:00,434 - INFO - Deleted CSV file input_csv\student-mat3.csv
+2024-04-23 02:06:00,467 - INFO - Converted input_csv\student-mat4.csv to Parquet format
+2024-04-23 02:06:00,468 - INFO - Deleted CSV file input_csv\student-mat4.csv
+2024-04-23 02:06:32,950 - INFO - Watching input CSV folder...
+2024-04-23 02:06:45,879 - INFO - Converted input_csv\student-mat.csv to Parquet format
+2024-04-23 02:06:45,880 - INFO - Deleted CSV file input_csv\student-mat.csv
+2024-04-23 02:06:48,437 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
+2024-04-23 02:06:48,438 - INFO - Moved unsuccessful CSV file input_csv\student-mat-extra-field.csv to output_failed folder

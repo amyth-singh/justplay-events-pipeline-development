@@ -1,6 +1,6 @@
 database:
-  dbname: postgres
-  user: postgres
-  password: porcupine6
   host: localhost
+  user: postgres
   port: 5432
+  password: porcupine6
+  database: amithdb
