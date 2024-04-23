@@ -1,9 +1,9 @@
-### Resource :
+### Resource and Background :
 Retrieve the math performance dataset from https://archive.ics.uci.edu/dataset/320/student+performance. The metadata is available in the 'student.txt' file.
 
-## Code Solution :
-Background - Let's suppose the math performance dataset is obtained through an automated evaluation system. This data arrives on a scheduled basis (e.g., daily, weekly, monthly) and requires processing to generate student-based metrics. The objective is to read the dataset and populate the data into an RDBMS. The choice to insert the data into an open-source RDBMS is optional.
+Let's suppose the math performance dataset is obtained through an automated evaluation system. This data arrives on a scheduled basis (e.g., daily, weekly, monthly) and requires processing to generate student-based metrics. The objective is to read the dataset and populate the data into an RDBMS. The choice to insert the data into an open-source RDBMS is optional.
 
+## Solution :
 ![Screenshot 2024-04-23 160755](https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/083de1d8-8662-42f7-a80c-9aa01cbf4636)
 
 ```Assuming that the incoming data is provided in CSV format, the solution is constructed to manage various methods of data input, including manual uploads, bulk uploads, and scripted extractions or ingestions (such as through a pipeline). It is designed to emulate an event-driven architecture model when deployed locally, and when transitioned to any cloud platform, it allows for serverless trigger capabilities and automatic scaling features.```
@@ -14,7 +14,7 @@ Background - Let's suppose the math performance dataset is obtained through an a
 
 ``` Subsequently, the successful Parquet files within the folder initiate an automated pipeline responsible for uploading the Parquet file to a PostgresSQL/MySQL database. In an optimal scenario, this pipeline would additionally transfer the files to a data warehouse, enabling the analytics team to access and analyze the data. Furthermore, it would move the files to an object store, facilitating widespread access for other technical teams. However, for the purposes of the project, the files are uploaded to a local database to facilitate viewing and execution of SQL queries.```
 
-### Requirements :
+### Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
 ```During the workflow of the solution, every step is meticulously documented and recorded in a 'conversion_log.txt' file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.```
 
