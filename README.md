@@ -1,9 +1,10 @@
-# Part 1
 ### Resource :
 Retrieve the math performance dataset from https://archive.ics.uci.edu/dataset/320/student+performance. The metadata is available in the 'student.txt' file.
 
-## Background - Code Implementation :
+## Code :
 Let's suppose the math performance dataset is obtained through an automated evaluation system. This data arrives on a scheduled basis (e.g., daily, weekly, monthly) and requires processing to generate student-based metrics. The objective is to read the dataset and populate the data into an RDBMS. The choice to insert the data into an open-source RDBMS is optional.
+
+```Guessing that the data comes in the form of CSVs, the solution is built to handle hand-dropped, bulk-dropped and script-dropped (extraction pipeline) of CSVs. The solution is designed to mimic an event-based-archtecture paradigm when used locally, but when migrated to any cloud-service, it allows for serverless trigger functionality and auto-scaling```
 
 ### Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
