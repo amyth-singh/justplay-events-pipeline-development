@@ -7,27 +7,33 @@ Let's suppose the math performance dataset is obtained through an automated eval
 ![Screenshot 2024-04-23 160755](https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/083de1d8-8662-42f7-a80c-9aa01cbf4636)
 
 <table><tr><td>
-Assuming that the incoming data is provided in CSV format, the solution is constructed to manage various methods of data input, including manual uploads, bulk uploads, and scripted extractions or ingestions (such as through a pipeline). It is designed to emulate an event-driven architecture model when deployed locally, and when transitioned to any cloud platform, it allows for serverless trigger capabilities and automatic scaling features.
+Assuming that the incoming data is provided in ```CSV format```, the solution is constructed to manage various methods of data input, including manual uploads, bulk uploads, and scripted extractions or ingestions (such as through a pipeline). It is designed to emulate an event-driven architecture model when deployed locally, and when transitioned to any cloud platform, it allows for serverless trigger capabilities and automatic scaling features.
+  
+The current solution in the repository oversees a ```input_csv``` folder where CSV files are expected to be placed or introduced. Upon the arrival of CSV files in this folder, it initiates an automated process involving extraction, validation, and pre-processing. This process includes removing rows with missing or null values, standardising values and field names to lowercase, appending an auto-incremental 'id' column, adding a 'creating_timestamp' column for incremental dataset construction, and substituting the delimiter with a comma. Additionally, the system individually assesses each CSV file against the schema defined in the ```schema.yaml``` file to ensure compliance.
 
-The current solution in the repository oversees a designated folder where CSV files are expected to be placed or introduced. Upon the arrival of CSV files in this folder, it initiates an automated process involving extraction, validation, and pre-processing. This process includes removing rows with missing or null values, standardizing values and field names to lowercase, appending an auto-incremental 'id' column, adding a 'creating_timestamp' column for incremental dataset construction, and substituting the delimiter with a comma. Additionally, the system individually assesses each CSV file against the schema defined in the 'schema.yaml' file to ensure compliance.
+Once the pre-processing and validation stages are completed without issues, the compliant CSV file proceeds into a rule-based system. In this system, if the file meets the specified criteria, it undergoes conversion and compression into a Parquet file, after which it is relocated to a ```output_parquet``` folder. Conversely, if the CSV file fails validation or pre-processing, it is transferred to a designated ```output_failed``` folder which resides in the ```input_csv``` folder. This allows analysts or engineers to manually review the problematic files for further investigation.
 
-Once the pre-processing and validation stages are completed without issues, the compliant CSV file proceeds into a rule-based system. In this system, if the file meets the specified criteria, it undergoes conversion and compression into a Parquet file, after which it is relocated to a designated folder. Conversely, if the CSV file fails validation or pre-processing, it is transferred to a designated "failed" folder. This allows analysts or engineers to manually review the problematic files for further investigation.
-
-Subsequently, the successful Parquet files within the folder initiate an automated pipeline responsible for uploading the Parquet file to a PostgresSQL/MySQL database. In an optimal scenario, this pipeline would additionally transfer the files to a data warehouse, enabling the analytics team to access and analyze the data. Furthermore, it would move the files to an object store, facilitating widespread access for other technical teams. However, for the purposes of the project, the files are uploaded to a local database to facilitate viewing and execution of SQL queries.
+Subsequently, the successful Parquet files within the folder initiate an automated pipeline responsible for uploading the Parquet file to a ```PostgresSQL/MySQL``` database. In an optimal scenario, this pipeline would additionally transfer the files to a data warehouse (e.g. BigQuery), enabling the analytics team to access and analyze the data. Furthermore, it would move the files to an object store (e.g. google cloud storage or s3 buckets), facilitating widespread access for other technical teams. However, for the purposes of the project, the files are uploaded to a local database to facilitate viewing and execution of SQL queries.
 </td></tr></table>
 
 ### Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
-```During the workflow of the solution, every step is meticulously documented and recorded in a 'conversion_log.txt' file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.```
+<table><tr><td>
+During the workflow of the solution, every step is meticulously documented and recorded in a 'conversion_log.txt' file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.
+</td></tr></table>
 
-2. It should handle potential data quality issues like missing data.
-```Presently, the solution addresses basic data quality issues including missing values, null values, schema mismatches, and incorrect delimiters. However, there is potential for the solution to evolve and tackle more complex challenges such as data type inconsistencies, data formatting errors, duplicate entries, incomplete datasets, outlier and anomaly detection, and data loss prevention over time. To maintain efficiency and simplicity, the solution currently focuses on managing fundamental data quality concerns. ```
+3. It should handle potential data quality issues like missing data.
+<td><tr><table>
+Presently, the solution addresses basic data quality issues including missing values, null values, schema mismatches, and incorrect delimiters. However, there is potential for the solution to evolve and tackle more complex challenges such as data type inconsistencies, data formatting errors, duplicate entries, incomplete datasets, outlier and anomaly detection, and data loss prevention over time. To maintain efficiency and simplicity, the solution currently focuses on managing fundamental data quality concerns.
+</td></tr></table>
 
-3. The solution should follow good data management practices, ensuring accessibility for various user profiles (e.g., scientists, business stakeholders).
-```The pipeline currently checks, compresses and stores valid CSVs into a folder. In an ideal scenario, this folder would be a cloud object store where access control, data security, data retention and other lifecycle management processes can be ensured. At the moment the solution incorporates some aspects of good data management practices like data validation, logging, automation, schema management, error handling and data disposal ```
-
-4. Provide a way to serve and visualise the data. 
-5. Dashboards and/or plots should be runnable on open-source software, both locally and on the system.
+4. The solution should follow good data management practices, ensuring accessibility for various user profiles (e.g., scientists, business stakeholders).
+<td><tr><table>
+The pipeline currently checks, compresses and stores valid CSVs into a folder. In an ideal scenario, this folder would be a cloud object store where access control, data security, data retention and other lifecycle management processes can be ensured. At the moment the solution incorporates some aspects of good data management practices like data validation, logging, automation, schema management, error handling and data disposal ```
+</td></tr></table>
+  
+7. Provide a way to serve and visualise the data. 
+8. Dashboards and/or plots should be runnable on open-source software, both locally and on the system.
 
 ### Alternative Scenarios :
 What could be done if data volume increases 100x?
