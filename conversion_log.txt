@@ -1,38 +1,2004 @@
-2024-04-23 01:50:43,074 - INFO - Watching input CSV folder...
-2024-04-23 01:50:46,628 - INFO - Converted input_csv\student-mat.csv to Parquet format
-2024-04-23 01:52:03,034 - INFO - Watching input CSV folder...
-2024-04-23 01:52:10,333 - INFO - Converted input_csv\student-mat.csv to Parquet format
-2024-04-23 01:52:17,638 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
-2024-04-23 01:56:05,831 - INFO - Watching input CSV folder...
-2024-04-23 01:56:18,417 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
-2024-04-23 01:56:18,420 - INFO - Moved unsuccessful CSV file input_csv\student-mat-extra-field.csv to output_failed folder
-2024-04-23 01:56:21,904 - INFO - Converted input_csv\student-mat.csv to Parquet format
-2024-04-23 01:56:21,905 - INFO - Deleted CSV file input_csv\student-mat.csv
-2024-04-23 01:58:59,054 - INFO - Watching input CSV folder...
-2024-04-23 02:02:16,470 - INFO - Watching input CSV folder...
-2024-04-23 02:03:09,393 - INFO - Watching input CSV folder...
-2024-04-23 02:03:15,183 - INFO - Converted input_csv\student-mat.csv to Parquet format
-2024-04-23 02:03:15,184 - INFO - Deleted CSV file input_csv\student-mat.csv
-2024-04-23 02:03:22,699 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
-2024-04-23 02:03:22,700 - INFO - Moved unsuccessful CSV file input_csv\student-mat-extra-field.csv to output_failed folder
-2024-04-23 02:04:01,532 - INFO - Watching input CSV folder...
-2024-04-23 02:04:19,138 - INFO - Converted input_csv\student-mat.csv to Parquet format
-2024-04-23 02:04:19,139 - INFO - Deleted CSV file input_csv\student-mat.csv
-2024-04-23 02:04:30,281 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
-2024-04-23 02:04:30,282 - INFO - Moved unsuccessful CSV file input_csv\student-mat-extra-field.csv to output_failed folder
-2024-04-23 02:05:55,647 - INFO - Watching input CSV folder...
-2024-04-23 02:06:00,323 - INFO - Converted input_csv\student-mat.csv to Parquet format
-2024-04-23 02:06:00,324 - INFO - Deleted CSV file input_csv\student-mat.csv
-2024-04-23 02:06:00,349 - INFO - Converted input_csv\student-mat1.csv to Parquet format
-2024-04-23 02:06:00,349 - INFO - Deleted CSV file input_csv\student-mat1.csv
-2024-04-23 02:06:00,392 - INFO - Converted input_csv\student-mat2.csv to Parquet format
-2024-04-23 02:06:00,392 - INFO - Deleted CSV file input_csv\student-mat2.csv
-2024-04-23 02:06:00,432 - INFO - Converted input_csv\student-mat3.csv to Parquet format
-2024-04-23 02:06:00,434 - INFO - Deleted CSV file input_csv\student-mat3.csv
-2024-04-23 02:06:00,467 - INFO - Converted input_csv\student-mat4.csv to Parquet format
-2024-04-23 02:06:00,468 - INFO - Deleted CSV file input_csv\student-mat4.csv
-2024-04-23 02:06:32,950 - INFO - Watching input CSV folder...
-2024-04-23 02:06:45,879 - INFO - Converted input_csv\student-mat.csv to Parquet format
-2024-04-23 02:06:45,880 - INFO - Deleted CSV file input_csv\student-mat.csv
-2024-04-23 02:06:48,437 - ERROR - CSV schema does not match schema.yaml for file: input_csv\student-mat-extra-field.csv
-2024-04-23 02:06:48,438 - INFO - Moved unsuccessful CSV file input_csv\student-mat-extra-field.csv to output_failed folder
+2024-04-23 03:00:58,086 - INFO - Watching input CSV folder...
+2024-04-23 03:01:05,311 - INFO - Converted input_csv\duplicate_1.csv to Parquet format
+2024-04-23 03:01:05,312 - INFO - Deleted CSV file input_csv\duplicate_1.csv
+2024-04-23 03:01:05,334 - INFO - Converted input_csv\duplicate_2.csv to Parquet format
+2024-04-23 03:01:05,335 - INFO - Deleted CSV file input_csv\duplicate_2.csv
+2024-04-23 03:01:05,358 - INFO - Converted input_csv\duplicate_3.csv to Parquet format
+2024-04-23 03:01:05,358 - INFO - Deleted CSV file input_csv\duplicate_3.csv
+2024-04-23 03:01:05,380 - INFO - Converted input_csv\duplicate_4.csv to Parquet format
+2024-04-23 03:01:05,381 - INFO - Deleted CSV file input_csv\duplicate_4.csv
+2024-04-23 03:01:05,407 - INFO - Converted input_csv\duplicate_5.csv to Parquet format
+2024-04-23 03:01:05,407 - INFO - Deleted CSV file input_csv\duplicate_5.csv
+2024-04-23 03:01:05,431 - INFO - Converted input_csv\duplicate_6.csv to Parquet format
+2024-04-23 03:01:05,432 - INFO - Deleted CSV file input_csv\duplicate_6.csv
+2024-04-23 03:01:05,458 - INFO - Converted input_csv\duplicate_7.csv to Parquet format
+2024-04-23 03:01:05,458 - INFO - Deleted CSV file input_csv\duplicate_7.csv
+2024-04-23 03:01:05,482 - INFO - Converted input_csv\duplicate_8.csv to Parquet format
+2024-04-23 03:01:05,482 - INFO - Deleted CSV file input_csv\duplicate_8.csv
+2024-04-23 03:01:05,507 - INFO - Converted input_csv\duplicate_9.csv to Parquet format
+2024-04-23 03:01:05,507 - INFO - Deleted CSV file input_csv\duplicate_9.csv
+2024-04-23 03:01:05,529 - INFO - Converted input_csv\duplicate_10.csv to Parquet format
+2024-04-23 03:01:05,530 - INFO - Deleted CSV file input_csv\duplicate_10.csv
+2024-04-23 03:01:05,557 - INFO - Converted input_csv\duplicate_11.csv to Parquet format
+2024-04-23 03:01:05,558 - INFO - Deleted CSV file input_csv\duplicate_11.csv
+2024-04-23 03:01:05,579 - INFO - Converted input_csv\duplicate_12.csv to Parquet format
+2024-04-23 03:01:05,580 - INFO - Deleted CSV file input_csv\duplicate_12.csv
+2024-04-23 03:01:05,603 - INFO - Converted input_csv\duplicate_13.csv to Parquet format
+2024-04-23 03:01:05,605 - INFO - Deleted CSV file input_csv\duplicate_13.csv
+2024-04-23 03:01:05,627 - INFO - Converted input_csv\duplicate_14.csv to Parquet format
+2024-04-23 03:01:05,628 - INFO - Deleted CSV file input_csv\duplicate_14.csv
+2024-04-23 03:01:05,650 - INFO - Converted input_csv\duplicate_15.csv to Parquet format
+2024-04-23 03:01:05,652 - INFO - Deleted CSV file input_csv\duplicate_15.csv
+2024-04-23 03:01:05,676 - INFO - Converted input_csv\duplicate_16.csv to Parquet format
+2024-04-23 03:01:05,676 - INFO - Deleted CSV file input_csv\duplicate_16.csv
+2024-04-23 03:01:05,700 - INFO - Converted input_csv\duplicate_17.csv to Parquet format
+2024-04-23 03:01:05,700 - INFO - Deleted CSV file input_csv\duplicate_17.csv
+2024-04-23 03:01:05,725 - INFO - Converted input_csv\duplicate_18.csv to Parquet format
+2024-04-23 03:01:05,726 - INFO - Deleted CSV file input_csv\duplicate_18.csv
+2024-04-23 03:01:05,748 - INFO - Converted input_csv\duplicate_19.csv to Parquet format
+2024-04-23 03:01:05,749 - INFO - Deleted CSV file input_csv\duplicate_19.csv
+2024-04-23 03:01:05,773 - INFO - Converted input_csv\duplicate_20.csv to Parquet format
+2024-04-23 03:01:05,774 - INFO - Deleted CSV file input_csv\duplicate_20.csv
+2024-04-23 03:01:05,796 - INFO - Converted input_csv\duplicate_21.csv to Parquet format
+2024-04-23 03:01:05,797 - INFO - Deleted CSV file input_csv\duplicate_21.csv
+2024-04-23 03:01:05,825 - INFO - Converted input_csv\duplicate_22.csv to Parquet format
+2024-04-23 03:01:05,827 - INFO - Deleted CSV file input_csv\duplicate_22.csv
+2024-04-23 03:01:05,856 - INFO - Converted input_csv\duplicate_23.csv to Parquet format
+2024-04-23 03:01:05,856 - INFO - Deleted CSV file input_csv\duplicate_23.csv
+2024-04-23 03:01:05,879 - INFO - Converted input_csv\duplicate_24.csv to Parquet format
+2024-04-23 03:01:05,880 - INFO - Deleted CSV file input_csv\duplicate_24.csv
+2024-04-23 03:01:05,909 - INFO - Converted input_csv\duplicate_25.csv to Parquet format
+2024-04-23 03:01:05,911 - INFO - Deleted CSV file input_csv\duplicate_25.csv
+2024-04-23 03:01:05,945 - INFO - Converted input_csv\duplicate_26.csv to Parquet format
+2024-04-23 03:01:05,945 - INFO - Deleted CSV file input_csv\duplicate_26.csv
+2024-04-23 03:01:05,978 - INFO - Converted input_csv\duplicate_27.csv to Parquet format
+2024-04-23 03:01:06,040 - INFO - Deleted CSV file input_csv\duplicate_27.csv
+2024-04-23 03:01:06,125 - INFO - Converted input_csv\duplicate_28.csv to Parquet format
+2024-04-23 03:01:06,126 - INFO - Deleted CSV file input_csv\duplicate_28.csv
+2024-04-23 03:01:06,174 - INFO - Converted input_csv\duplicate_29.csv to Parquet format
+2024-04-23 03:01:06,174 - INFO - Deleted CSV file input_csv\duplicate_29.csv
+2024-04-23 03:01:06,212 - INFO - Converted input_csv\duplicate_30.csv to Parquet format
+2024-04-23 03:01:06,213 - INFO - Deleted CSV file input_csv\duplicate_30.csv
+2024-04-23 03:01:06,245 - INFO - Converted input_csv\duplicate_31.csv to Parquet format
+2024-04-23 03:01:06,245 - INFO - Deleted CSV file input_csv\duplicate_31.csv
+2024-04-23 03:01:06,277 - INFO - Converted input_csv\duplicate_32.csv to Parquet format
+2024-04-23 03:01:06,278 - INFO - Deleted CSV file input_csv\duplicate_32.csv
+2024-04-23 03:01:06,304 - INFO - Converted input_csv\duplicate_33.csv to Parquet format
+2024-04-23 03:01:06,306 - INFO - Deleted CSV file input_csv\duplicate_33.csv
+2024-04-23 03:01:06,332 - INFO - Converted input_csv\duplicate_34.csv to Parquet format
+2024-04-23 03:01:06,332 - INFO - Deleted CSV file input_csv\duplicate_34.csv
+2024-04-23 03:01:06,363 - INFO - Converted input_csv\duplicate_35.csv to Parquet format
+2024-04-23 03:01:06,364 - INFO - Deleted CSV file input_csv\duplicate_35.csv
+2024-04-23 03:01:06,391 - INFO - Converted input_csv\duplicate_36.csv to Parquet format
+2024-04-23 03:01:06,392 - INFO - Deleted CSV file input_csv\duplicate_36.csv
+2024-04-23 03:01:06,422 - INFO - Converted input_csv\duplicate_37.csv to Parquet format
+2024-04-23 03:01:06,422 - INFO - Deleted CSV file input_csv\duplicate_37.csv
+2024-04-23 03:01:06,461 - INFO - Converted input_csv\duplicate_38.csv to Parquet format
+2024-04-23 03:01:06,462 - INFO - Deleted CSV file input_csv\duplicate_38.csv
+2024-04-23 03:01:06,495 - INFO - Converted input_csv\duplicate_39.csv to Parquet format
+2024-04-23 03:01:06,495 - INFO - Deleted CSV file input_csv\duplicate_39.csv
+2024-04-23 03:01:06,530 - INFO - Converted input_csv\duplicate_40.csv to Parquet format
+2024-04-23 03:01:06,531 - INFO - Deleted CSV file input_csv\duplicate_40.csv
+2024-04-23 03:01:06,582 - INFO - Converted input_csv\duplicate_41.csv to Parquet format
+2024-04-23 03:01:06,583 - INFO - Deleted CSV file input_csv\duplicate_41.csv
+2024-04-23 03:01:06,621 - INFO - Converted input_csv\duplicate_42.csv to Parquet format
+2024-04-23 03:01:06,623 - INFO - Deleted CSV file input_csv\duplicate_42.csv
+2024-04-23 03:01:06,658 - INFO - Converted input_csv\duplicate_43.csv to Parquet format
+2024-04-23 03:01:06,661 - INFO - Deleted CSV file input_csv\duplicate_43.csv
+2024-04-23 03:01:06,694 - INFO - Converted input_csv\duplicate_44.csv to Parquet format
+2024-04-23 03:01:06,696 - INFO - Deleted CSV file input_csv\duplicate_44.csv
+2024-04-23 03:01:06,727 - INFO - Converted input_csv\duplicate_45.csv to Parquet format
+2024-04-23 03:01:06,728 - INFO - Deleted CSV file input_csv\duplicate_45.csv
+2024-04-23 03:01:06,761 - INFO - Converted input_csv\duplicate_46.csv to Parquet format
+2024-04-23 03:01:06,762 - INFO - Deleted CSV file input_csv\duplicate_46.csv
+2024-04-23 03:01:06,794 - INFO - Converted input_csv\duplicate_47.csv to Parquet format
+2024-04-23 03:01:06,795 - INFO - Deleted CSV file input_csv\duplicate_47.csv
+2024-04-23 03:01:06,826 - INFO - Converted input_csv\duplicate_48.csv to Parquet format
+2024-04-23 03:01:06,827 - INFO - Deleted CSV file input_csv\duplicate_48.csv
+2024-04-23 03:01:06,858 - INFO - Converted input_csv\duplicate_49.csv to Parquet format
+2024-04-23 03:01:06,861 - INFO - Deleted CSV file input_csv\duplicate_49.csv
+2024-04-23 03:01:06,891 - INFO - Converted input_csv\duplicate_50.csv to Parquet format
+2024-04-23 03:01:06,892 - INFO - Deleted CSV file input_csv\duplicate_50.csv
+2024-04-23 03:01:06,921 - INFO - Converted input_csv\duplicate_51.csv to Parquet format
+2024-04-23 03:01:06,922 - INFO - Deleted CSV file input_csv\duplicate_51.csv
+2024-04-23 03:01:06,960 - INFO - Converted input_csv\duplicate_52.csv to Parquet format
+2024-04-23 03:01:06,960 - INFO - Deleted CSV file input_csv\duplicate_52.csv
+2024-04-23 03:01:06,994 - INFO - Converted input_csv\duplicate_53.csv to Parquet format
+2024-04-23 03:01:06,995 - INFO - Deleted CSV file input_csv\duplicate_53.csv
+2024-04-23 03:01:07,025 - INFO - Converted input_csv\duplicate_54.csv to Parquet format
+2024-04-23 03:01:07,025 - INFO - Deleted CSV file input_csv\duplicate_54.csv
+2024-04-23 03:01:07,058 - INFO - Converted input_csv\duplicate_55.csv to Parquet format
+2024-04-23 03:01:07,059 - INFO - Deleted CSV file input_csv\duplicate_55.csv
+2024-04-23 03:01:07,091 - INFO - Converted input_csv\duplicate_56.csv to Parquet format
+2024-04-23 03:01:07,091 - INFO - Deleted CSV file input_csv\duplicate_56.csv
+2024-04-23 03:01:07,123 - INFO - Converted input_csv\duplicate_57.csv to Parquet format
+2024-04-23 03:01:07,124 - INFO - Deleted CSV file input_csv\duplicate_57.csv
+2024-04-23 03:01:07,148 - INFO - Converted input_csv\duplicate_58.csv to Parquet format
+2024-04-23 03:01:07,148 - INFO - Deleted CSV file input_csv\duplicate_58.csv
+2024-04-23 03:01:07,179 - INFO - Converted input_csv\duplicate_59.csv to Parquet format
+2024-04-23 03:01:07,180 - INFO - Deleted CSV file input_csv\duplicate_59.csv
+2024-04-23 03:01:07,210 - INFO - Converted input_csv\duplicate_60.csv to Parquet format
+2024-04-23 03:01:07,210 - INFO - Deleted CSV file input_csv\duplicate_60.csv
+2024-04-23 03:01:07,233 - INFO - Converted input_csv\duplicate_61.csv to Parquet format
+2024-04-23 03:01:07,234 - INFO - Deleted CSV file input_csv\duplicate_61.csv
+2024-04-23 03:01:07,262 - INFO - Converted input_csv\duplicate_62.csv to Parquet format
+2024-04-23 03:01:07,263 - INFO - Deleted CSV file input_csv\duplicate_62.csv
+2024-04-23 03:01:07,286 - INFO - Converted input_csv\duplicate_63.csv to Parquet format
+2024-04-23 03:01:07,289 - INFO - Deleted CSV file input_csv\duplicate_63.csv
+2024-04-23 03:01:07,311 - INFO - Converted input_csv\duplicate_64.csv to Parquet format
+2024-04-23 03:01:07,312 - INFO - Deleted CSV file input_csv\duplicate_64.csv
+2024-04-23 03:01:07,337 - INFO - Converted input_csv\duplicate_65.csv to Parquet format
+2024-04-23 03:01:07,339 - INFO - Deleted CSV file input_csv\duplicate_65.csv
+2024-04-23 03:01:07,359 - INFO - Converted input_csv\duplicate_66.csv to Parquet format
+2024-04-23 03:01:07,360 - INFO - Deleted CSV file input_csv\duplicate_66.csv
+2024-04-23 03:01:07,387 - INFO - Converted input_csv\duplicate_67.csv to Parquet format
+2024-04-23 03:01:07,388 - INFO - Deleted CSV file input_csv\duplicate_67.csv
+2024-04-23 03:01:07,417 - INFO - Converted input_csv\duplicate_68.csv to Parquet format
+2024-04-23 03:01:07,418 - INFO - Deleted CSV file input_csv\duplicate_68.csv
+2024-04-23 03:01:07,444 - INFO - Converted input_csv\duplicate_69.csv to Parquet format
+2024-04-23 03:01:07,444 - INFO - Deleted CSV file input_csv\duplicate_69.csv
+2024-04-23 03:01:07,478 - INFO - Converted input_csv\duplicate_70.csv to Parquet format
+2024-04-23 03:01:07,479 - INFO - Deleted CSV file input_csv\duplicate_70.csv
+2024-04-23 03:01:07,515 - INFO - Converted input_csv\duplicate_71.csv to Parquet format
+2024-04-23 03:01:07,516 - INFO - Deleted CSV file input_csv\duplicate_71.csv
+2024-04-23 03:01:07,555 - INFO - Converted input_csv\duplicate_72.csv to Parquet format
+2024-04-23 03:01:07,557 - INFO - Deleted CSV file input_csv\duplicate_72.csv
+2024-04-23 03:01:07,588 - INFO - Converted input_csv\duplicate_73.csv to Parquet format
+2024-04-23 03:01:07,590 - INFO - Deleted CSV file input_csv\duplicate_73.csv
+2024-04-23 03:01:07,798 - INFO - Converted input_csv\duplicate_74.csv to Parquet format
+2024-04-23 03:01:07,798 - INFO - Deleted CSV file input_csv\duplicate_74.csv
+2024-04-23 03:01:07,833 - INFO - Converted input_csv\duplicate_75.csv to Parquet format
+2024-04-23 03:01:07,833 - INFO - Deleted CSV file input_csv\duplicate_75.csv
+2024-04-23 03:01:07,866 - INFO - Converted input_csv\duplicate_76.csv to Parquet format
+2024-04-23 03:01:07,868 - INFO - Deleted CSV file input_csv\duplicate_76.csv
+2024-04-23 03:01:07,893 - INFO - Converted input_csv\duplicate_77.csv to Parquet format
+2024-04-23 03:01:07,894 - INFO - Deleted CSV file input_csv\duplicate_77.csv
+2024-04-23 03:01:07,927 - INFO - Converted input_csv\duplicate_78.csv to Parquet format
+2024-04-23 03:01:07,927 - INFO - Deleted CSV file input_csv\duplicate_78.csv
+2024-04-23 03:01:07,954 - INFO - Converted input_csv\duplicate_79.csv to Parquet format
+2024-04-23 03:01:07,955 - INFO - Deleted CSV file input_csv\duplicate_79.csv
+2024-04-23 03:01:07,977 - INFO - Converted input_csv\duplicate_80.csv to Parquet format
+2024-04-23 03:01:07,978 - INFO - Deleted CSV file input_csv\duplicate_80.csv
+2024-04-23 03:01:08,003 - INFO - Converted input_csv\duplicate_81.csv to Parquet format
+2024-04-23 03:01:08,004 - INFO - Deleted CSV file input_csv\duplicate_81.csv
+2024-04-23 03:01:08,026 - INFO - Converted input_csv\duplicate_82.csv to Parquet format
+2024-04-23 03:01:08,027 - INFO - Deleted CSV file input_csv\duplicate_82.csv
+2024-04-23 03:01:08,045 - INFO - Converted input_csv\duplicate_83.csv to Parquet format
+2024-04-23 03:01:08,047 - INFO - Deleted CSV file input_csv\duplicate_83.csv
+2024-04-23 03:01:08,067 - INFO - Converted input_csv\duplicate_84.csv to Parquet format
+2024-04-23 03:01:08,068 - INFO - Deleted CSV file input_csv\duplicate_84.csv
+2024-04-23 03:01:08,087 - INFO - Converted input_csv\duplicate_85.csv to Parquet format
+2024-04-23 03:01:08,088 - INFO - Deleted CSV file input_csv\duplicate_85.csv
+2024-04-23 03:01:08,107 - INFO - Converted input_csv\duplicate_86.csv to Parquet format
+2024-04-23 03:01:08,107 - INFO - Deleted CSV file input_csv\duplicate_86.csv
+2024-04-23 03:01:08,128 - INFO - Converted input_csv\duplicate_87.csv to Parquet format
+2024-04-23 03:01:08,128 - INFO - Deleted CSV file input_csv\duplicate_87.csv
+2024-04-23 03:01:08,150 - INFO - Converted input_csv\duplicate_88.csv to Parquet format
+2024-04-23 03:01:08,151 - INFO - Deleted CSV file input_csv\duplicate_88.csv
+2024-04-23 03:01:08,173 - INFO - Converted input_csv\duplicate_89.csv to Parquet format
+2024-04-23 03:01:08,174 - INFO - Deleted CSV file input_csv\duplicate_89.csv
+2024-04-23 03:01:08,195 - INFO - Converted input_csv\duplicate_90.csv to Parquet format
+2024-04-23 03:01:08,195 - INFO - Deleted CSV file input_csv\duplicate_90.csv
+2024-04-23 03:01:08,218 - INFO - Converted input_csv\duplicate_91.csv to Parquet format
+2024-04-23 03:01:08,220 - INFO - Deleted CSV file input_csv\duplicate_91.csv
+2024-04-23 03:01:08,241 - INFO - Converted input_csv\duplicate_92.csv to Parquet format
+2024-04-23 03:01:08,242 - INFO - Deleted CSV file input_csv\duplicate_92.csv
+2024-04-23 03:01:08,262 - INFO - Converted input_csv\duplicate_93.csv to Parquet format
+2024-04-23 03:01:08,263 - INFO - Deleted CSV file input_csv\duplicate_93.csv
+2024-04-23 03:01:08,286 - INFO - Converted input_csv\duplicate_94.csv to Parquet format
+2024-04-23 03:01:08,287 - INFO - Deleted CSV file input_csv\duplicate_94.csv
+2024-04-23 03:01:08,304 - INFO - Converted input_csv\duplicate_95.csv to Parquet format
+2024-04-23 03:01:08,304 - INFO - Deleted CSV file input_csv\duplicate_95.csv
+2024-04-23 03:01:08,324 - INFO - Converted input_csv\duplicate_96.csv to Parquet format
+2024-04-23 03:01:08,324 - INFO - Deleted CSV file input_csv\duplicate_96.csv
+2024-04-23 03:01:08,343 - INFO - Converted input_csv\duplicate_97.csv to Parquet format
+2024-04-23 03:01:08,343 - INFO - Deleted CSV file input_csv\duplicate_97.csv
+2024-04-23 03:01:08,361 - INFO - Converted input_csv\duplicate_98.csv to Parquet format
+2024-04-23 03:01:08,362 - INFO - Deleted CSV file input_csv\duplicate_98.csv
+2024-04-23 03:01:08,381 - INFO - Converted input_csv\duplicate_99.csv to Parquet format
+2024-04-23 03:01:08,383 - INFO - Deleted CSV file input_csv\duplicate_99.csv
+2024-04-23 03:01:08,405 - INFO - Converted input_csv\duplicate_100.csv to Parquet format
+2024-04-23 03:01:08,405 - INFO - Deleted CSV file input_csv\duplicate_100.csv
+2024-04-23 03:01:08,423 - INFO - Converted input_csv\duplicate_101.csv to Parquet format
+2024-04-23 03:01:08,424 - INFO - Deleted CSV file input_csv\duplicate_101.csv
+2024-04-23 03:01:08,445 - INFO - Converted input_csv\duplicate_102.csv to Parquet format
+2024-04-23 03:01:08,446 - INFO - Deleted CSV file input_csv\duplicate_102.csv
+2024-04-23 03:01:08,470 - INFO - Converted input_csv\duplicate_103.csv to Parquet format
+2024-04-23 03:01:08,470 - INFO - Deleted CSV file input_csv\duplicate_103.csv
+2024-04-23 03:01:08,491 - INFO - Converted input_csv\duplicate_104.csv to Parquet format
+2024-04-23 03:01:08,492 - INFO - Deleted CSV file input_csv\duplicate_104.csv
+2024-04-23 03:01:08,512 - INFO - Converted input_csv\duplicate_105.csv to Parquet format
+2024-04-23 03:01:08,513 - INFO - Deleted CSV file input_csv\duplicate_105.csv
+2024-04-23 03:01:08,536 - INFO - Converted input_csv\duplicate_106.csv to Parquet format
+2024-04-23 03:01:08,536 - INFO - Deleted CSV file input_csv\duplicate_106.csv
+2024-04-23 03:01:08,559 - INFO - Converted input_csv\duplicate_107.csv to Parquet format
+2024-04-23 03:01:08,560 - INFO - Deleted CSV file input_csv\duplicate_107.csv
+2024-04-23 03:01:08,581 - INFO - Converted input_csv\duplicate_108.csv to Parquet format
+2024-04-23 03:01:08,583 - INFO - Deleted CSV file input_csv\duplicate_108.csv
+2024-04-23 03:01:08,604 - INFO - Converted input_csv\duplicate_109.csv to Parquet format
+2024-04-23 03:01:08,605 - INFO - Deleted CSV file input_csv\duplicate_109.csv
+2024-04-23 03:01:08,625 - INFO - Converted input_csv\duplicate_110.csv to Parquet format
+2024-04-23 03:01:08,626 - INFO - Deleted CSV file input_csv\duplicate_110.csv
+2024-04-23 03:01:08,644 - INFO - Converted input_csv\duplicate_111.csv to Parquet format
+2024-04-23 03:01:08,644 - INFO - Deleted CSV file input_csv\duplicate_111.csv
+2024-04-23 03:01:08,663 - INFO - Converted input_csv\duplicate_112.csv to Parquet format
+2024-04-23 03:01:08,664 - INFO - Deleted CSV file input_csv\duplicate_112.csv
+2024-04-23 03:01:08,688 - INFO - Converted input_csv\duplicate_113.csv to Parquet format
+2024-04-23 03:01:08,689 - INFO - Deleted CSV file input_csv\duplicate_113.csv
+2024-04-23 03:01:08,710 - INFO - Converted input_csv\duplicate_114.csv to Parquet format
+2024-04-23 03:01:08,711 - INFO - Deleted CSV file input_csv\duplicate_114.csv
+2024-04-23 03:01:08,740 - INFO - Converted input_csv\duplicate_115.csv to Parquet format
+2024-04-23 03:01:08,741 - INFO - Deleted CSV file input_csv\duplicate_115.csv
+2024-04-23 03:01:08,762 - INFO - Converted input_csv\duplicate_116.csv to Parquet format
+2024-04-23 03:01:08,763 - INFO - Deleted CSV file input_csv\duplicate_116.csv
+2024-04-23 03:01:08,783 - INFO - Converted input_csv\duplicate_117.csv to Parquet format
+2024-04-23 03:01:08,786 - INFO - Deleted CSV file input_csv\duplicate_117.csv
+2024-04-23 03:01:08,804 - INFO - Converted input_csv\duplicate_118.csv to Parquet format
+2024-04-23 03:01:08,805 - INFO - Deleted CSV file input_csv\duplicate_118.csv
+2024-04-23 03:01:08,824 - INFO - Converted input_csv\duplicate_119.csv to Parquet format
+2024-04-23 03:01:08,825 - INFO - Deleted CSV file input_csv\duplicate_119.csv
+2024-04-23 03:01:08,843 - INFO - Converted input_csv\duplicate_120.csv to Parquet format
+2024-04-23 03:01:08,844 - INFO - Deleted CSV file input_csv\duplicate_120.csv
+2024-04-23 03:01:08,863 - INFO - Converted input_csv\duplicate_121.csv to Parquet format
+2024-04-23 03:01:08,863 - INFO - Deleted CSV file input_csv\duplicate_121.csv
+2024-04-23 03:01:08,884 - INFO - Converted input_csv\duplicate_122.csv to Parquet format
+2024-04-23 03:01:08,885 - INFO - Deleted CSV file input_csv\duplicate_122.csv
+2024-04-23 03:01:08,904 - INFO - Converted input_csv\duplicate_123.csv to Parquet format
+2024-04-23 03:01:08,904 - INFO - Deleted CSV file input_csv\duplicate_123.csv
+2024-04-23 03:01:08,922 - INFO - Converted input_csv\duplicate_124.csv to Parquet format
+2024-04-23 03:01:08,923 - INFO - Deleted CSV file input_csv\duplicate_124.csv
+2024-04-23 03:01:08,942 - INFO - Converted input_csv\duplicate_125.csv to Parquet format
+2024-04-23 03:01:08,942 - INFO - Deleted CSV file input_csv\duplicate_125.csv
+2024-04-23 03:01:08,961 - INFO - Converted input_csv\duplicate_126.csv to Parquet format
+2024-04-23 03:01:08,962 - INFO - Deleted CSV file input_csv\duplicate_126.csv
+2024-04-23 03:01:08,983 - INFO - Converted input_csv\duplicate_127.csv to Parquet format
+2024-04-23 03:01:08,986 - INFO - Deleted CSV file input_csv\duplicate_127.csv
+2024-04-23 03:01:09,013 - INFO - Converted input_csv\duplicate_128.csv to Parquet format
+2024-04-23 03:01:09,013 - INFO - Deleted CSV file input_csv\duplicate_128.csv
+2024-04-23 03:01:09,045 - INFO - Converted input_csv\duplicate_129.csv to Parquet format
+2024-04-23 03:01:09,046 - INFO - Deleted CSV file input_csv\duplicate_129.csv
+2024-04-23 03:01:09,065 - INFO - Converted input_csv\duplicate_130.csv to Parquet format
+2024-04-23 03:01:09,067 - INFO - Deleted CSV file input_csv\duplicate_130.csv
+2024-04-23 03:01:09,087 - INFO - Converted input_csv\duplicate_131.csv to Parquet format
+2024-04-23 03:01:09,088 - INFO - Deleted CSV file input_csv\duplicate_131.csv
+2024-04-23 03:01:09,107 - INFO - Converted input_csv\duplicate_132.csv to Parquet format
+2024-04-23 03:01:09,108 - INFO - Deleted CSV file input_csv\duplicate_132.csv
+2024-04-23 03:01:09,127 - INFO - Converted input_csv\duplicate_133.csv to Parquet format
+2024-04-23 03:01:09,127 - INFO - Deleted CSV file input_csv\duplicate_133.csv
+2024-04-23 03:01:09,147 - INFO - Converted input_csv\duplicate_134.csv to Parquet format
+2024-04-23 03:01:09,147 - INFO - Deleted CSV file input_csv\duplicate_134.csv
+2024-04-23 03:01:09,169 - INFO - Converted input_csv\duplicate_135.csv to Parquet format
+2024-04-23 03:01:09,171 - INFO - Deleted CSV file input_csv\duplicate_135.csv
+2024-04-23 03:01:09,190 - INFO - Converted input_csv\duplicate_136.csv to Parquet format
+2024-04-23 03:01:09,191 - INFO - Deleted CSV file input_csv\duplicate_136.csv
+2024-04-23 03:01:09,213 - INFO - Converted input_csv\duplicate_137.csv to Parquet format
+2024-04-23 03:01:09,213 - INFO - Deleted CSV file input_csv\duplicate_137.csv
+2024-04-23 03:01:09,233 - INFO - Converted input_csv\duplicate_138.csv to Parquet format
+2024-04-23 03:01:09,235 - INFO - Deleted CSV file input_csv\duplicate_138.csv
+2024-04-23 03:01:09,257 - INFO - Converted input_csv\duplicate_139.csv to Parquet format
+2024-04-23 03:01:09,257 - INFO - Deleted CSV file input_csv\duplicate_139.csv
+2024-04-23 03:01:09,278 - INFO - Converted input_csv\duplicate_140.csv to Parquet format
+2024-04-23 03:01:09,279 - INFO - Deleted CSV file input_csv\duplicate_140.csv
+2024-04-23 03:01:09,297 - INFO - Converted input_csv\duplicate_141.csv to Parquet format
+2024-04-23 03:01:09,297 - INFO - Deleted CSV file input_csv\duplicate_141.csv
+2024-04-23 03:01:09,363 - INFO - Converted input_csv\duplicate_142.csv to Parquet format
+2024-04-23 03:01:09,364 - INFO - Deleted CSV file input_csv\duplicate_142.csv
+2024-04-23 03:01:09,429 - INFO - Converted input_csv\duplicate_143.csv to Parquet format
+2024-04-23 03:01:09,430 - INFO - Deleted CSV file input_csv\duplicate_143.csv
+2024-04-23 03:01:09,452 - INFO - Converted input_csv\duplicate_144.csv to Parquet format
+2024-04-23 03:01:09,455 - INFO - Deleted CSV file input_csv\duplicate_144.csv
+2024-04-23 03:01:09,484 - INFO - Converted input_csv\duplicate_145.csv to Parquet format
+2024-04-23 03:01:09,485 - INFO - Deleted CSV file input_csv\duplicate_145.csv
+2024-04-23 03:01:09,500 - INFO - Converted input_csv\duplicate_146.csv to Parquet format
+2024-04-23 03:01:09,501 - INFO - Deleted CSV file input_csv\duplicate_146.csv
+2024-04-23 03:01:09,520 - INFO - Converted input_csv\duplicate_147.csv to Parquet format
+2024-04-23 03:01:09,523 - INFO - Deleted CSV file input_csv\duplicate_147.csv
+2024-04-23 03:01:09,546 - INFO - Converted input_csv\duplicate_148.csv to Parquet format
+2024-04-23 03:01:09,547 - INFO - Deleted CSV file input_csv\duplicate_148.csv
+2024-04-23 03:01:09,571 - INFO - Converted input_csv\duplicate_149.csv to Parquet format
+2024-04-23 03:01:09,571 - INFO - Deleted CSV file input_csv\duplicate_149.csv
+2024-04-23 03:01:09,588 - INFO - Converted input_csv\duplicate_150.csv to Parquet format
+2024-04-23 03:01:09,589 - INFO - Deleted CSV file input_csv\duplicate_150.csv
+2024-04-23 03:01:09,609 - INFO - Converted input_csv\duplicate_151.csv to Parquet format
+2024-04-23 03:01:09,609 - INFO - Deleted CSV file input_csv\duplicate_151.csv
+2024-04-23 03:01:09,628 - INFO - Converted input_csv\duplicate_152.csv to Parquet format
+2024-04-23 03:01:09,628 - INFO - Deleted CSV file input_csv\duplicate_152.csv
+2024-04-23 03:01:09,648 - INFO - Converted input_csv\duplicate_153.csv to Parquet format
+2024-04-23 03:01:09,648 - INFO - Deleted CSV file input_csv\duplicate_153.csv
+2024-04-23 03:01:09,668 - INFO - Converted input_csv\duplicate_154.csv to Parquet format
+2024-04-23 03:01:09,670 - INFO - Deleted CSV file input_csv\duplicate_154.csv
+2024-04-23 03:01:09,690 - INFO - Converted input_csv\duplicate_155.csv to Parquet format
+2024-04-23 03:01:09,690 - INFO - Deleted CSV file input_csv\duplicate_155.csv
+2024-04-23 03:01:09,714 - INFO - Converted input_csv\duplicate_156.csv to Parquet format
+2024-04-23 03:01:09,715 - INFO - Deleted CSV file input_csv\duplicate_156.csv
+2024-04-23 03:01:09,740 - INFO - Converted input_csv\duplicate_157.csv to Parquet format
+2024-04-23 03:01:09,741 - INFO - Deleted CSV file input_csv\duplicate_157.csv
+2024-04-23 03:01:09,761 - INFO - Converted input_csv\duplicate_158.csv to Parquet format
+2024-04-23 03:01:09,761 - INFO - Deleted CSV file input_csv\duplicate_158.csv
+2024-04-23 03:01:09,784 - INFO - Converted input_csv\duplicate_159.csv to Parquet format
+2024-04-23 03:01:09,787 - INFO - Deleted CSV file input_csv\duplicate_159.csv
+2024-04-23 03:01:09,807 - INFO - Converted input_csv\duplicate_160.csv to Parquet format
+2024-04-23 03:01:09,808 - INFO - Deleted CSV file input_csv\duplicate_160.csv
+2024-04-23 03:01:09,828 - INFO - Converted input_csv\duplicate_161.csv to Parquet format
+2024-04-23 03:01:09,828 - INFO - Deleted CSV file input_csv\duplicate_161.csv
+2024-04-23 03:01:09,848 - INFO - Converted input_csv\duplicate_162.csv to Parquet format
+2024-04-23 03:01:09,849 - INFO - Deleted CSV file input_csv\duplicate_162.csv
+2024-04-23 03:01:09,872 - INFO - Converted input_csv\duplicate_163.csv to Parquet format
+2024-04-23 03:01:09,873 - INFO - Deleted CSV file input_csv\duplicate_163.csv
+2024-04-23 03:01:09,891 - INFO - Converted input_csv\duplicate_164.csv to Parquet format
+2024-04-23 03:01:09,892 - INFO - Deleted CSV file input_csv\duplicate_164.csv
+2024-04-23 03:01:09,911 - INFO - Converted input_csv\duplicate_165.csv to Parquet format
+2024-04-23 03:01:09,912 - INFO - Deleted CSV file input_csv\duplicate_165.csv
+2024-04-23 03:01:09,930 - INFO - Converted input_csv\duplicate_166.csv to Parquet format
+2024-04-23 03:01:09,931 - INFO - Deleted CSV file input_csv\duplicate_166.csv
+2024-04-23 03:01:09,953 - INFO - Converted input_csv\duplicate_167.csv to Parquet format
+2024-04-23 03:01:09,955 - INFO - Deleted CSV file input_csv\duplicate_167.csv
+2024-04-23 03:01:09,972 - INFO - Converted input_csv\duplicate_168.csv to Parquet format
+2024-04-23 03:01:09,973 - INFO - Deleted CSV file input_csv\duplicate_168.csv
+2024-04-23 03:01:09,992 - INFO - Converted input_csv\duplicate_169.csv to Parquet format
+2024-04-23 03:01:09,993 - INFO - Deleted CSV file input_csv\duplicate_169.csv
+2024-04-23 03:01:10,014 - INFO - Converted input_csv\duplicate_170.csv to Parquet format
+2024-04-23 03:01:10,014 - INFO - Deleted CSV file input_csv\duplicate_170.csv
+2024-04-23 03:01:10,041 - INFO - Converted input_csv\duplicate_171.csv to Parquet format
+2024-04-23 03:01:10,041 - INFO - Deleted CSV file input_csv\duplicate_171.csv
+2024-04-23 03:01:10,064 - INFO - Converted input_csv\duplicate_172.csv to Parquet format
+2024-04-23 03:01:10,065 - INFO - Deleted CSV file input_csv\duplicate_172.csv
+2024-04-23 03:01:10,089 - INFO - Converted input_csv\duplicate_173.csv to Parquet format
+2024-04-23 03:01:10,089 - INFO - Deleted CSV file input_csv\duplicate_173.csv
+2024-04-23 03:01:10,107 - INFO - Converted input_csv\duplicate_174.csv to Parquet format
+2024-04-23 03:01:10,108 - INFO - Deleted CSV file input_csv\duplicate_174.csv
+2024-04-23 03:01:10,130 - INFO - Converted input_csv\duplicate_175.csv to Parquet format
+2024-04-23 03:01:10,131 - INFO - Deleted CSV file input_csv\duplicate_175.csv
+2024-04-23 03:01:10,148 - INFO - Converted input_csv\duplicate_176.csv to Parquet format
+2024-04-23 03:01:10,149 - INFO - Deleted CSV file input_csv\duplicate_176.csv
+2024-04-23 03:01:10,172 - INFO - Converted input_csv\duplicate_177.csv to Parquet format
+2024-04-23 03:01:10,172 - INFO - Deleted CSV file input_csv\duplicate_177.csv
+2024-04-23 03:01:10,192 - INFO - Converted input_csv\duplicate_178.csv to Parquet format
+2024-04-23 03:01:10,192 - INFO - Deleted CSV file input_csv\duplicate_178.csv
+2024-04-23 03:01:10,213 - INFO - Converted input_csv\duplicate_179.csv to Parquet format
+2024-04-23 03:01:10,213 - INFO - Deleted CSV file input_csv\duplicate_179.csv
+2024-04-23 03:01:10,231 - INFO - Converted input_csv\duplicate_180.csv to Parquet format
+2024-04-23 03:01:10,232 - INFO - Deleted CSV file input_csv\duplicate_180.csv
+2024-04-23 03:01:10,263 - INFO - Converted input_csv\duplicate_181.csv to Parquet format
+2024-04-23 03:01:10,263 - INFO - Deleted CSV file input_csv\duplicate_181.csv
+2024-04-23 03:01:10,291 - INFO - Converted input_csv\duplicate_182.csv to Parquet format
+2024-04-23 03:01:10,292 - INFO - Deleted CSV file input_csv\duplicate_182.csv
+2024-04-23 03:01:10,319 - INFO - Converted input_csv\duplicate_183.csv to Parquet format
+2024-04-23 03:01:10,322 - INFO - Deleted CSV file input_csv\duplicate_183.csv
+2024-04-23 03:01:10,349 - INFO - Converted input_csv\duplicate_184.csv to Parquet format
+2024-04-23 03:01:10,350 - INFO - Deleted CSV file input_csv\duplicate_184.csv
+2024-04-23 03:01:10,375 - INFO - Converted input_csv\duplicate_185.csv to Parquet format
+2024-04-23 03:01:10,376 - INFO - Deleted CSV file input_csv\duplicate_185.csv
+2024-04-23 03:01:10,403 - INFO - Converted input_csv\duplicate_186.csv to Parquet format
+2024-04-23 03:01:10,406 - INFO - Deleted CSV file input_csv\duplicate_186.csv
+2024-04-23 03:01:10,428 - INFO - Converted input_csv\duplicate_187.csv to Parquet format
+2024-04-23 03:01:10,428 - INFO - Deleted CSV file input_csv\duplicate_187.csv
+2024-04-23 03:01:10,451 - INFO - Converted input_csv\duplicate_188.csv to Parquet format
+2024-04-23 03:01:10,451 - INFO - Deleted CSV file input_csv\duplicate_188.csv
+2024-04-23 03:01:10,478 - INFO - Converted input_csv\duplicate_189.csv to Parquet format
+2024-04-23 03:01:10,479 - INFO - Deleted CSV file input_csv\duplicate_189.csv
+2024-04-23 03:01:10,501 - INFO - Converted input_csv\duplicate_190.csv to Parquet format
+2024-04-23 03:01:10,503 - INFO - Deleted CSV file input_csv\duplicate_190.csv
+2024-04-23 03:01:10,530 - INFO - Converted input_csv\duplicate_191.csv to Parquet format
+2024-04-23 03:01:10,531 - INFO - Deleted CSV file input_csv\duplicate_191.csv
+2024-04-23 03:01:10,565 - INFO - Converted input_csv\duplicate_192.csv to Parquet format
+2024-04-23 03:01:10,566 - INFO - Deleted CSV file input_csv\duplicate_192.csv
+2024-04-23 03:01:10,592 - INFO - Converted input_csv\duplicate_193.csv to Parquet format
+2024-04-23 03:01:10,593 - INFO - Deleted CSV file input_csv\duplicate_193.csv
+2024-04-23 03:01:10,630 - INFO - Converted input_csv\duplicate_194.csv to Parquet format
+2024-04-23 03:01:10,631 - INFO - Deleted CSV file input_csv\duplicate_194.csv
+2024-04-23 03:01:10,657 - INFO - Converted input_csv\duplicate_195.csv to Parquet format
+2024-04-23 03:01:10,659 - INFO - Deleted CSV file input_csv\duplicate_195.csv
+2024-04-23 03:01:10,682 - INFO - Converted input_csv\duplicate_196.csv to Parquet format
+2024-04-23 03:01:10,684 - INFO - Deleted CSV file input_csv\duplicate_196.csv
+2024-04-23 03:01:10,710 - INFO - Converted input_csv\duplicate_197.csv to Parquet format
+2024-04-23 03:01:10,711 - INFO - Deleted CSV file input_csv\duplicate_197.csv
+2024-04-23 03:01:10,731 - INFO - Converted input_csv\duplicate_198.csv to Parquet format
+2024-04-23 03:01:10,732 - INFO - Deleted CSV file input_csv\duplicate_198.csv
+2024-04-23 03:01:10,767 - INFO - Converted input_csv\duplicate_199.csv to Parquet format
+2024-04-23 03:01:10,768 - INFO - Deleted CSV file input_csv\duplicate_199.csv
+2024-04-23 03:01:10,801 - INFO - Converted input_csv\duplicate_200.csv to Parquet format
+2024-04-23 03:01:10,803 - INFO - Deleted CSV file input_csv\duplicate_200.csv
+2024-04-23 03:01:10,832 - INFO - Converted input_csv\duplicate_201.csv to Parquet format
+2024-04-23 03:01:10,833 - INFO - Deleted CSV file input_csv\duplicate_201.csv
+2024-04-23 03:01:10,857 - INFO - Converted input_csv\duplicate_202.csv to Parquet format
+2024-04-23 03:01:10,859 - INFO - Deleted CSV file input_csv\duplicate_202.csv
+2024-04-23 03:01:10,877 - INFO - Converted input_csv\duplicate_203.csv to Parquet format
+2024-04-23 03:01:10,878 - INFO - Deleted CSV file input_csv\duplicate_203.csv
+2024-04-23 03:01:10,896 - INFO - Converted input_csv\duplicate_204.csv to Parquet format
+2024-04-23 03:01:10,897 - INFO - Deleted CSV file input_csv\duplicate_204.csv
+2024-04-23 03:01:10,917 - INFO - Converted input_csv\duplicate_205.csv to Parquet format
+2024-04-23 03:01:10,918 - INFO - Deleted CSV file input_csv\duplicate_205.csv
+2024-04-23 03:01:10,936 - INFO - Converted input_csv\duplicate_206.csv to Parquet format
+2024-04-23 03:01:10,938 - INFO - Deleted CSV file input_csv\duplicate_206.csv
+2024-04-23 03:01:10,962 - INFO - Converted input_csv\duplicate_207.csv to Parquet format
+2024-04-23 03:01:10,963 - INFO - Deleted CSV file input_csv\duplicate_207.csv
+2024-04-23 03:01:10,981 - INFO - Converted input_csv\duplicate_208.csv to Parquet format
+2024-04-23 03:01:10,982 - INFO - Deleted CSV file input_csv\duplicate_208.csv
+2024-04-23 03:01:10,999 - INFO - Converted input_csv\duplicate_209.csv to Parquet format
+2024-04-23 03:01:11,000 - INFO - Deleted CSV file input_csv\duplicate_209.csv
+2024-04-23 03:01:11,043 - INFO - Converted input_csv\duplicate_210.csv to Parquet format
+2024-04-23 03:01:11,044 - INFO - Deleted CSV file input_csv\duplicate_210.csv
+2024-04-23 03:01:11,085 - INFO - Converted input_csv\duplicate_211.csv to Parquet format
+2024-04-23 03:01:11,086 - INFO - Deleted CSV file input_csv\duplicate_211.csv
+2024-04-23 03:01:11,111 - INFO - Converted input_csv\duplicate_212.csv to Parquet format
+2024-04-23 03:01:11,112 - INFO - Deleted CSV file input_csv\duplicate_212.csv
+2024-04-23 03:01:11,130 - INFO - Converted input_csv\duplicate_213.csv to Parquet format
+2024-04-23 03:01:11,131 - INFO - Deleted CSV file input_csv\duplicate_213.csv
+2024-04-23 03:01:11,154 - INFO - Converted input_csv\duplicate_214.csv to Parquet format
+2024-04-23 03:01:11,154 - INFO - Deleted CSV file input_csv\duplicate_214.csv
+2024-04-23 03:01:11,173 - INFO - Converted input_csv\duplicate_215.csv to Parquet format
+2024-04-23 03:01:11,174 - INFO - Deleted CSV file input_csv\duplicate_215.csv
+2024-04-23 03:01:11,202 - INFO - Converted input_csv\duplicate_216.csv to Parquet format
+2024-04-23 03:01:11,202 - INFO - Deleted CSV file input_csv\duplicate_216.csv
+2024-04-23 03:01:11,233 - INFO - Converted input_csv\duplicate_217.csv to Parquet format
+2024-04-23 03:01:11,234 - INFO - Deleted CSV file input_csv\duplicate_217.csv
+2024-04-23 03:01:11,268 - INFO - Converted input_csv\duplicate_218.csv to Parquet format
+2024-04-23 03:01:11,269 - INFO - Deleted CSV file input_csv\duplicate_218.csv
+2024-04-23 03:01:11,298 - INFO - Converted input_csv\duplicate_219.csv to Parquet format
+2024-04-23 03:01:11,299 - INFO - Deleted CSV file input_csv\duplicate_219.csv
+2024-04-23 03:01:11,335 - INFO - Converted input_csv\duplicate_220.csv to Parquet format
+2024-04-23 03:01:11,337 - INFO - Deleted CSV file input_csv\duplicate_220.csv
+2024-04-23 03:01:11,361 - INFO - Converted input_csv\duplicate_221.csv to Parquet format
+2024-04-23 03:01:11,362 - INFO - Deleted CSV file input_csv\duplicate_221.csv
+2024-04-23 03:01:11,380 - INFO - Converted input_csv\duplicate_222.csv to Parquet format
+2024-04-23 03:01:11,381 - INFO - Deleted CSV file input_csv\duplicate_222.csv
+2024-04-23 03:01:11,402 - INFO - Converted input_csv\duplicate_223.csv to Parquet format
+2024-04-23 03:01:11,403 - INFO - Deleted CSV file input_csv\duplicate_223.csv
+2024-04-23 03:01:11,422 - INFO - Converted input_csv\duplicate_224.csv to Parquet format
+2024-04-23 03:01:11,423 - INFO - Deleted CSV file input_csv\duplicate_224.csv
+2024-04-23 03:01:11,443 - INFO - Converted input_csv\duplicate_225.csv to Parquet format
+2024-04-23 03:01:11,444 - INFO - Deleted CSV file input_csv\duplicate_225.csv
+2024-04-23 03:01:11,462 - INFO - Converted input_csv\duplicate_226.csv to Parquet format
+2024-04-23 03:01:11,463 - INFO - Deleted CSV file input_csv\duplicate_226.csv
+2024-04-23 03:01:11,485 - INFO - Converted input_csv\duplicate_227.csv to Parquet format
+2024-04-23 03:01:11,486 - INFO - Deleted CSV file input_csv\duplicate_227.csv
+2024-04-23 03:01:11,511 - INFO - Converted input_csv\duplicate_228.csv to Parquet format
+2024-04-23 03:01:11,512 - INFO - Deleted CSV file input_csv\duplicate_228.csv
+2024-04-23 03:01:11,533 - INFO - Converted input_csv\duplicate_229.csv to Parquet format
+2024-04-23 03:01:11,533 - INFO - Deleted CSV file input_csv\duplicate_229.csv
+2024-04-23 03:01:11,559 - INFO - Converted input_csv\duplicate_230.csv to Parquet format
+2024-04-23 03:01:11,560 - INFO - Deleted CSV file input_csv\duplicate_230.csv
+2024-04-23 03:01:11,580 - INFO - Converted input_csv\duplicate_231.csv to Parquet format
+2024-04-23 03:01:11,581 - INFO - Deleted CSV file input_csv\duplicate_231.csv
+2024-04-23 03:01:11,602 - INFO - Converted input_csv\duplicate_232.csv to Parquet format
+2024-04-23 03:01:11,603 - INFO - Deleted CSV file input_csv\duplicate_232.csv
+2024-04-23 03:01:11,627 - INFO - Converted input_csv\duplicate_233.csv to Parquet format
+2024-04-23 03:01:11,628 - INFO - Deleted CSV file input_csv\duplicate_233.csv
+2024-04-23 03:01:11,650 - INFO - Converted input_csv\duplicate_234.csv to Parquet format
+2024-04-23 03:01:11,650 - INFO - Deleted CSV file input_csv\duplicate_234.csv
+2024-04-23 03:01:11,678 - INFO - Converted input_csv\duplicate_235.csv to Parquet format
+2024-04-23 03:01:11,678 - INFO - Deleted CSV file input_csv\duplicate_235.csv
+2024-04-23 03:01:11,702 - INFO - Converted input_csv\duplicate_236.csv to Parquet format
+2024-04-23 03:01:11,703 - INFO - Deleted CSV file input_csv\duplicate_236.csv
+2024-04-23 03:01:11,726 - INFO - Converted input_csv\duplicate_237.csv to Parquet format
+2024-04-23 03:01:11,727 - INFO - Deleted CSV file input_csv\duplicate_237.csv
+2024-04-23 03:01:11,758 - INFO - Converted input_csv\duplicate_238.csv to Parquet format
+2024-04-23 03:01:11,760 - INFO - Deleted CSV file input_csv\duplicate_238.csv
+2024-04-23 03:01:11,786 - INFO - Converted input_csv\duplicate_239.csv to Parquet format
+2024-04-23 03:01:11,787 - INFO - Deleted CSV file input_csv\duplicate_239.csv
+2024-04-23 03:01:11,821 - INFO - Converted input_csv\duplicate_240.csv to Parquet format
+2024-04-23 03:01:11,823 - INFO - Deleted CSV file input_csv\duplicate_240.csv
+2024-04-23 03:01:11,846 - INFO - Converted input_csv\duplicate_241.csv to Parquet format
+2024-04-23 03:01:11,847 - INFO - Deleted CSV file input_csv\duplicate_241.csv
+2024-04-23 03:01:11,867 - INFO - Converted input_csv\duplicate_242.csv to Parquet format
+2024-04-23 03:01:11,867 - INFO - Deleted CSV file input_csv\duplicate_242.csv
+2024-04-23 03:01:11,901 - INFO - Converted input_csv\duplicate_243.csv to Parquet format
+2024-04-23 03:01:11,903 - INFO - Deleted CSV file input_csv\duplicate_243.csv
+2024-04-23 03:01:11,932 - INFO - Converted input_csv\duplicate_244.csv to Parquet format
+2024-04-23 03:01:11,935 - INFO - Deleted CSV file input_csv\duplicate_244.csv
+2024-04-23 03:01:11,963 - INFO - Converted input_csv\duplicate_245.csv to Parquet format
+2024-04-23 03:01:11,964 - INFO - Deleted CSV file input_csv\duplicate_245.csv
+2024-04-23 03:01:11,991 - INFO - Converted input_csv\duplicate_246.csv to Parquet format
+2024-04-23 03:01:11,993 - INFO - Deleted CSV file input_csv\duplicate_246.csv
+2024-04-23 03:01:12,016 - INFO - Converted input_csv\duplicate_247.csv to Parquet format
+2024-04-23 03:01:12,017 - INFO - Deleted CSV file input_csv\duplicate_247.csv
+2024-04-23 03:01:12,045 - INFO - Converted input_csv\duplicate_248.csv to Parquet format
+2024-04-23 03:01:12,046 - INFO - Deleted CSV file input_csv\duplicate_248.csv
+2024-04-23 03:01:12,066 - INFO - Converted input_csv\duplicate_249.csv to Parquet format
+2024-04-23 03:01:12,066 - INFO - Deleted CSV file input_csv\duplicate_249.csv
+2024-04-23 03:01:12,085 - INFO - Converted input_csv\duplicate_250.csv to Parquet format
+2024-04-23 03:01:12,086 - INFO - Deleted CSV file input_csv\duplicate_250.csv
+2024-04-23 03:01:12,109 - INFO - Converted input_csv\duplicate_251.csv to Parquet format
+2024-04-23 03:01:12,109 - INFO - Deleted CSV file input_csv\duplicate_251.csv
+2024-04-23 03:01:12,136 - INFO - Converted input_csv\duplicate_252.csv to Parquet format
+2024-04-23 03:01:12,137 - INFO - Deleted CSV file input_csv\duplicate_252.csv
+2024-04-23 03:01:12,160 - INFO - Converted input_csv\duplicate_253.csv to Parquet format
+2024-04-23 03:01:12,161 - INFO - Deleted CSV file input_csv\duplicate_253.csv
+2024-04-23 03:01:12,185 - INFO - Converted input_csv\duplicate_254.csv to Parquet format
+2024-04-23 03:01:12,186 - INFO - Deleted CSV file input_csv\duplicate_254.csv
+2024-04-23 03:01:12,209 - INFO - Converted input_csv\duplicate_255.csv to Parquet format
+2024-04-23 03:01:12,210 - INFO - Deleted CSV file input_csv\duplicate_255.csv
+2024-04-23 03:01:12,231 - INFO - Converted input_csv\duplicate_256.csv to Parquet format
+2024-04-23 03:01:12,231 - INFO - Deleted CSV file input_csv\duplicate_256.csv
+2024-04-23 03:01:12,259 - INFO - Converted input_csv\duplicate_257.csv to Parquet format
+2024-04-23 03:01:12,259 - INFO - Deleted CSV file input_csv\duplicate_257.csv
+2024-04-23 03:01:12,283 - INFO - Converted input_csv\duplicate_258.csv to Parquet format
+2024-04-23 03:01:12,284 - INFO - Deleted CSV file input_csv\duplicate_258.csv
+2024-04-23 03:01:12,304 - INFO - Converted input_csv\duplicate_259.csv to Parquet format
+2024-04-23 03:01:12,305 - INFO - Deleted CSV file input_csv\duplicate_259.csv
+2024-04-23 03:01:12,330 - INFO - Converted input_csv\duplicate_260.csv to Parquet format
+2024-04-23 03:01:12,331 - INFO - Deleted CSV file input_csv\duplicate_260.csv
+2024-04-23 03:01:12,362 - INFO - Converted input_csv\duplicate_261.csv to Parquet format
+2024-04-23 03:01:12,363 - INFO - Deleted CSV file input_csv\duplicate_261.csv
+2024-04-23 03:01:12,402 - INFO - Converted input_csv\duplicate_262.csv to Parquet format
+2024-04-23 03:01:12,404 - INFO - Deleted CSV file input_csv\duplicate_262.csv
+2024-04-23 03:01:12,443 - INFO - Converted input_csv\duplicate_263.csv to Parquet format
+2024-04-23 03:01:12,446 - INFO - Deleted CSV file input_csv\duplicate_263.csv
+2024-04-23 03:01:12,476 - INFO - Converted input_csv\duplicate_264.csv to Parquet format
+2024-04-23 03:01:12,477 - INFO - Deleted CSV file input_csv\duplicate_264.csv
+2024-04-23 03:01:12,499 - INFO - Converted input_csv\duplicate_265.csv to Parquet format
+2024-04-23 03:01:12,500 - INFO - Deleted CSV file input_csv\duplicate_265.csv
+2024-04-23 03:01:12,531 - INFO - Converted input_csv\duplicate_266.csv to Parquet format
+2024-04-23 03:01:12,532 - INFO - Deleted CSV file input_csv\duplicate_266.csv
+2024-04-23 03:01:12,566 - INFO - Converted input_csv\duplicate_267.csv to Parquet format
+2024-04-23 03:01:12,567 - INFO - Deleted CSV file input_csv\duplicate_267.csv
+2024-04-23 03:01:12,597 - INFO - Converted input_csv\duplicate_268.csv to Parquet format
+2024-04-23 03:01:12,598 - INFO - Deleted CSV file input_csv\duplicate_268.csv
+2024-04-23 03:01:12,617 - INFO - Converted input_csv\duplicate_269.csv to Parquet format
+2024-04-23 03:01:12,617 - INFO - Deleted CSV file input_csv\duplicate_269.csv
+2024-04-23 03:01:12,640 - INFO - Converted input_csv\duplicate_270.csv to Parquet format
+2024-04-23 03:01:12,642 - INFO - Deleted CSV file input_csv\duplicate_270.csv
+2024-04-23 03:01:12,670 - INFO - Converted input_csv\duplicate_271.csv to Parquet format
+2024-04-23 03:01:12,671 - INFO - Deleted CSV file input_csv\duplicate_271.csv
+2024-04-23 03:01:12,705 - INFO - Converted input_csv\duplicate_272.csv to Parquet format
+2024-04-23 03:01:12,706 - INFO - Deleted CSV file input_csv\duplicate_272.csv
+2024-04-23 03:01:12,745 - INFO - Converted input_csv\duplicate_273.csv to Parquet format
+2024-04-23 03:01:12,746 - INFO - Deleted CSV file input_csv\duplicate_273.csv
+2024-04-23 03:01:12,777 - INFO - Converted input_csv\duplicate_274.csv to Parquet format
+2024-04-23 03:01:12,778 - INFO - Deleted CSV file input_csv\duplicate_274.csv
+2024-04-23 03:01:12,806 - INFO - Converted input_csv\duplicate_275.csv to Parquet format
+2024-04-23 03:01:12,807 - INFO - Deleted CSV file input_csv\duplicate_275.csv
+2024-04-23 03:01:12,840 - INFO - Converted input_csv\duplicate_276.csv to Parquet format
+2024-04-23 03:01:12,841 - INFO - Deleted CSV file input_csv\duplicate_276.csv
+2024-04-23 03:01:12,874 - INFO - Converted input_csv\duplicate_277.csv to Parquet format
+2024-04-23 03:01:12,875 - INFO - Deleted CSV file input_csv\duplicate_277.csv
+2024-04-23 03:01:12,904 - INFO - Converted input_csv\duplicate_278.csv to Parquet format
+2024-04-23 03:01:12,905 - INFO - Deleted CSV file input_csv\duplicate_278.csv
+2024-04-23 03:01:12,929 - INFO - Converted input_csv\duplicate_279.csv to Parquet format
+2024-04-23 03:01:12,929 - INFO - Deleted CSV file input_csv\duplicate_279.csv
+2024-04-23 03:01:12,965 - INFO - Converted input_csv\duplicate_280.csv to Parquet format
+2024-04-23 03:01:12,966 - INFO - Deleted CSV file input_csv\duplicate_280.csv
+2024-04-23 03:01:12,989 - INFO - Converted input_csv\duplicate_281.csv to Parquet format
+2024-04-23 03:01:12,990 - INFO - Deleted CSV file input_csv\duplicate_281.csv
+2024-04-23 03:01:13,010 - INFO - Converted input_csv\duplicate_282.csv to Parquet format
+2024-04-23 03:01:13,011 - INFO - Deleted CSV file input_csv\duplicate_282.csv
+2024-04-23 03:01:13,033 - INFO - Converted input_csv\duplicate_283.csv to Parquet format
+2024-04-23 03:01:13,034 - INFO - Deleted CSV file input_csv\duplicate_283.csv
+2024-04-23 03:01:13,052 - INFO - Converted input_csv\duplicate_284.csv to Parquet format
+2024-04-23 03:01:13,052 - INFO - Deleted CSV file input_csv\duplicate_284.csv
+2024-04-23 03:01:13,071 - INFO - Converted input_csv\duplicate_285.csv to Parquet format
+2024-04-23 03:01:13,072 - INFO - Deleted CSV file input_csv\duplicate_285.csv
+2024-04-23 03:01:13,089 - INFO - Converted input_csv\duplicate_286.csv to Parquet format
+2024-04-23 03:01:13,090 - INFO - Deleted CSV file input_csv\duplicate_286.csv
+2024-04-23 03:01:13,110 - INFO - Converted input_csv\duplicate_287.csv to Parquet format
+2024-04-23 03:01:13,111 - INFO - Deleted CSV file input_csv\duplicate_287.csv
+2024-04-23 03:01:13,131 - INFO - Converted input_csv\duplicate_288.csv to Parquet format
+2024-04-23 03:01:13,131 - INFO - Deleted CSV file input_csv\duplicate_288.csv
+2024-04-23 03:01:13,145 - INFO - Converted input_csv\duplicate_289.csv to Parquet format
+2024-04-23 03:01:13,146 - INFO - Deleted CSV file input_csv\duplicate_289.csv
+2024-04-23 03:01:13,167 - INFO - Converted input_csv\duplicate_290.csv to Parquet format
+2024-04-23 03:01:13,168 - INFO - Deleted CSV file input_csv\duplicate_290.csv
+2024-04-23 03:01:13,188 - INFO - Converted input_csv\duplicate_291.csv to Parquet format
+2024-04-23 03:01:13,189 - INFO - Deleted CSV file input_csv\duplicate_291.csv
+2024-04-23 03:01:13,208 - INFO - Converted input_csv\duplicate_292.csv to Parquet format
+2024-04-23 03:01:13,211 - INFO - Deleted CSV file input_csv\duplicate_292.csv
+2024-04-23 03:01:13,233 - INFO - Converted input_csv\duplicate_293.csv to Parquet format
+2024-04-23 03:01:13,236 - INFO - Deleted CSV file input_csv\duplicate_293.csv
+2024-04-23 03:01:13,255 - INFO - Converted input_csv\duplicate_294.csv to Parquet format
+2024-04-23 03:01:13,256 - INFO - Deleted CSV file input_csv\duplicate_294.csv
+2024-04-23 03:01:13,280 - INFO - Converted input_csv\duplicate_295.csv to Parquet format
+2024-04-23 03:01:13,281 - INFO - Deleted CSV file input_csv\duplicate_295.csv
+2024-04-23 03:01:13,299 - INFO - Converted input_csv\duplicate_296.csv to Parquet format
+2024-04-23 03:01:13,300 - INFO - Deleted CSV file input_csv\duplicate_296.csv
+2024-04-23 03:01:13,319 - INFO - Converted input_csv\duplicate_297.csv to Parquet format
+2024-04-23 03:01:13,320 - INFO - Deleted CSV file input_csv\duplicate_297.csv
+2024-04-23 03:01:13,338 - INFO - Converted input_csv\duplicate_298.csv to Parquet format
+2024-04-23 03:01:13,339 - INFO - Deleted CSV file input_csv\duplicate_298.csv
+2024-04-23 03:01:13,363 - INFO - Converted input_csv\duplicate_299.csv to Parquet format
+2024-04-23 03:01:13,364 - INFO - Deleted CSV file input_csv\duplicate_299.csv
+2024-04-23 03:01:13,383 - INFO - Converted input_csv\duplicate_300.csv to Parquet format
+2024-04-23 03:01:13,384 - INFO - Deleted CSV file input_csv\duplicate_300.csv
+2024-04-23 03:01:13,444 - INFO - Converted input_csv\duplicate_301.csv to Parquet format
+2024-04-23 03:01:13,446 - INFO - Deleted CSV file input_csv\duplicate_301.csv
+2024-04-23 03:01:13,487 - INFO - Converted input_csv\duplicate_302.csv to Parquet format
+2024-04-23 03:01:13,487 - INFO - Deleted CSV file input_csv\duplicate_302.csv
+2024-04-23 03:01:13,508 - INFO - Converted input_csv\duplicate_303.csv to Parquet format
+2024-04-23 03:01:13,509 - INFO - Deleted CSV file input_csv\duplicate_303.csv
+2024-04-23 03:01:13,533 - INFO - Converted input_csv\duplicate_304.csv to Parquet format
+2024-04-23 03:01:13,534 - INFO - Deleted CSV file input_csv\duplicate_304.csv
+2024-04-23 03:01:13,556 - INFO - Converted input_csv\duplicate_305.csv to Parquet format
+2024-04-23 03:01:13,557 - INFO - Deleted CSV file input_csv\duplicate_305.csv
+2024-04-23 03:01:13,582 - INFO - Converted input_csv\duplicate_306.csv to Parquet format
+2024-04-23 03:01:13,582 - INFO - Deleted CSV file input_csv\duplicate_306.csv
+2024-04-23 03:01:13,604 - INFO - Converted input_csv\duplicate_307.csv to Parquet format
+2024-04-23 03:01:13,605 - INFO - Deleted CSV file input_csv\duplicate_307.csv
+2024-04-23 03:01:13,627 - INFO - Converted input_csv\duplicate_308.csv to Parquet format
+2024-04-23 03:01:13,629 - INFO - Deleted CSV file input_csv\duplicate_308.csv
+2024-04-23 03:01:13,656 - INFO - Converted input_csv\duplicate_309.csv to Parquet format
+2024-04-23 03:01:13,657 - INFO - Deleted CSV file input_csv\duplicate_309.csv
+2024-04-23 03:01:13,684 - INFO - Converted input_csv\duplicate_310.csv to Parquet format
+2024-04-23 03:01:13,686 - INFO - Deleted CSV file input_csv\duplicate_310.csv
+2024-04-23 03:01:13,712 - INFO - Converted input_csv\duplicate_311.csv to Parquet format
+2024-04-23 03:01:13,713 - INFO - Deleted CSV file input_csv\duplicate_311.csv
+2024-04-23 03:01:13,751 - INFO - Converted input_csv\duplicate_312.csv to Parquet format
+2024-04-23 03:01:13,752 - INFO - Deleted CSV file input_csv\duplicate_312.csv
+2024-04-23 03:01:13,769 - INFO - Converted input_csv\duplicate_313.csv to Parquet format
+2024-04-23 03:01:13,770 - INFO - Deleted CSV file input_csv\duplicate_313.csv
+2024-04-23 03:01:13,790 - INFO - Converted input_csv\duplicate_314.csv to Parquet format
+2024-04-23 03:01:13,791 - INFO - Deleted CSV file input_csv\duplicate_314.csv
+2024-04-23 03:01:13,812 - INFO - Converted input_csv\duplicate_315.csv to Parquet format
+2024-04-23 03:01:13,813 - INFO - Deleted CSV file input_csv\duplicate_315.csv
+2024-04-23 03:01:13,831 - INFO - Converted input_csv\duplicate_316.csv to Parquet format
+2024-04-23 03:01:13,832 - INFO - Deleted CSV file input_csv\duplicate_316.csv
+2024-04-23 03:01:13,849 - INFO - Converted input_csv\duplicate_317.csv to Parquet format
+2024-04-23 03:01:13,850 - INFO - Deleted CSV file input_csv\duplicate_317.csv
+2024-04-23 03:01:13,872 - INFO - Converted input_csv\duplicate_318.csv to Parquet format
+2024-04-23 03:01:13,873 - INFO - Deleted CSV file input_csv\duplicate_318.csv
+2024-04-23 03:01:13,890 - INFO - Converted input_csv\duplicate_319.csv to Parquet format
+2024-04-23 03:01:13,891 - INFO - Deleted CSV file input_csv\duplicate_319.csv
+2024-04-23 03:01:13,910 - INFO - Converted input_csv\duplicate_320.csv to Parquet format
+2024-04-23 03:01:13,912 - INFO - Deleted CSV file input_csv\duplicate_320.csv
+2024-04-23 03:01:13,932 - INFO - Converted input_csv\duplicate_321.csv to Parquet format
+2024-04-23 03:01:13,932 - INFO - Deleted CSV file input_csv\duplicate_321.csv
+2024-04-23 03:01:13,950 - INFO - Converted input_csv\duplicate_322.csv to Parquet format
+2024-04-23 03:01:13,951 - INFO - Deleted CSV file input_csv\duplicate_322.csv
+2024-04-23 03:01:13,971 - INFO - Converted input_csv\duplicate_323.csv to Parquet format
+2024-04-23 03:01:13,971 - INFO - Deleted CSV file input_csv\duplicate_323.csv
+2024-04-23 03:01:13,990 - INFO - Converted input_csv\duplicate_324.csv to Parquet format
+2024-04-23 03:01:13,991 - INFO - Deleted CSV file input_csv\duplicate_324.csv
+2024-04-23 03:01:14,013 - INFO - Converted input_csv\duplicate_325.csv to Parquet format
+2024-04-23 03:01:14,013 - INFO - Deleted CSV file input_csv\duplicate_325.csv
+2024-04-23 03:01:14,031 - INFO - Converted input_csv\duplicate_326.csv to Parquet format
+2024-04-23 03:01:14,031 - INFO - Deleted CSV file input_csv\duplicate_326.csv
+2024-04-23 03:01:14,049 - INFO - Converted input_csv\duplicate_327.csv to Parquet format
+2024-04-23 03:01:14,050 - INFO - Deleted CSV file input_csv\duplicate_327.csv
+2024-04-23 03:01:14,069 - INFO - Converted input_csv\duplicate_328.csv to Parquet format
+2024-04-23 03:01:14,070 - INFO - Deleted CSV file input_csv\duplicate_328.csv
+2024-04-23 03:01:14,097 - INFO - Converted input_csv\duplicate_329.csv to Parquet format
+2024-04-23 03:01:14,098 - INFO - Deleted CSV file input_csv\duplicate_329.csv
+2024-04-23 03:01:14,116 - INFO - Converted input_csv\duplicate_330.csv to Parquet format
+2024-04-23 03:01:14,117 - INFO - Deleted CSV file input_csv\duplicate_330.csv
+2024-04-23 03:01:14,134 - INFO - Converted input_csv\duplicate_331.csv to Parquet format
+2024-04-23 03:01:14,135 - INFO - Deleted CSV file input_csv\duplicate_331.csv
+2024-04-23 03:01:14,153 - INFO - Converted input_csv\duplicate_332.csv to Parquet format
+2024-04-23 03:01:14,153 - INFO - Deleted CSV file input_csv\duplicate_332.csv
+2024-04-23 03:01:14,174 - INFO - Converted input_csv\duplicate_333.csv to Parquet format
+2024-04-23 03:01:14,174 - INFO - Deleted CSV file input_csv\duplicate_333.csv
+2024-04-23 03:01:14,193 - INFO - Converted input_csv\duplicate_334.csv to Parquet format
+2024-04-23 03:01:14,194 - INFO - Deleted CSV file input_csv\duplicate_334.csv
+2024-04-23 03:01:14,213 - INFO - Converted input_csv\duplicate_335.csv to Parquet format
+2024-04-23 03:01:14,214 - INFO - Deleted CSV file input_csv\duplicate_335.csv
+2024-04-23 03:01:14,237 - INFO - Converted input_csv\duplicate_336.csv to Parquet format
+2024-04-23 03:01:14,238 - INFO - Deleted CSV file input_csv\duplicate_336.csv
+2024-04-23 03:01:14,255 - INFO - Converted input_csv\duplicate_337.csv to Parquet format
+2024-04-23 03:01:14,256 - INFO - Deleted CSV file input_csv\duplicate_337.csv
+2024-04-23 03:01:14,277 - INFO - Converted input_csv\duplicate_338.csv to Parquet format
+2024-04-23 03:01:14,278 - INFO - Deleted CSV file input_csv\duplicate_338.csv
+2024-04-23 03:01:14,297 - INFO - Converted input_csv\duplicate_339.csv to Parquet format
+2024-04-23 03:01:14,298 - INFO - Deleted CSV file input_csv\duplicate_339.csv
+2024-04-23 03:01:14,320 - INFO - Converted input_csv\duplicate_340.csv to Parquet format
+2024-04-23 03:01:14,320 - INFO - Deleted CSV file input_csv\duplicate_340.csv
+2024-04-23 03:01:14,338 - INFO - Converted input_csv\duplicate_341.csv to Parquet format
+2024-04-23 03:01:14,339 - INFO - Deleted CSV file input_csv\duplicate_341.csv
+2024-04-23 03:01:14,360 - INFO - Converted input_csv\duplicate_342.csv to Parquet format
+2024-04-23 03:01:14,360 - INFO - Deleted CSV file input_csv\duplicate_342.csv
+2024-04-23 03:01:14,387 - INFO - Converted input_csv\duplicate_343.csv to Parquet format
+2024-04-23 03:01:14,387 - INFO - Deleted CSV file input_csv\duplicate_343.csv
+2024-04-23 03:01:14,407 - INFO - Converted input_csv\duplicate_344.csv to Parquet format
+2024-04-23 03:01:14,408 - INFO - Deleted CSV file input_csv\duplicate_344.csv
+2024-04-23 03:01:14,434 - INFO - Converted input_csv\duplicate_345.csv to Parquet format
+2024-04-23 03:01:14,435 - INFO - Deleted CSV file input_csv\duplicate_345.csv
+2024-04-23 03:01:14,457 - INFO - Converted input_csv\duplicate_346.csv to Parquet format
+2024-04-23 03:01:14,457 - INFO - Deleted CSV file input_csv\duplicate_346.csv
+2024-04-23 03:01:14,477 - INFO - Converted input_csv\duplicate_347.csv to Parquet format
+2024-04-23 03:01:14,479 - INFO - Deleted CSV file input_csv\duplicate_347.csv
+2024-04-23 03:01:14,504 - INFO - Converted input_csv\duplicate_348.csv to Parquet format
+2024-04-23 03:01:14,505 - INFO - Deleted CSV file input_csv\duplicate_348.csv
+2024-04-23 03:01:14,524 - INFO - Converted input_csv\duplicate_349.csv to Parquet format
+2024-04-23 03:01:14,525 - INFO - Deleted CSV file input_csv\duplicate_349.csv
+2024-04-23 03:01:14,548 - INFO - Converted input_csv\duplicate_350.csv to Parquet format
+2024-04-23 03:01:14,549 - INFO - Deleted CSV file input_csv\duplicate_350.csv
+2024-04-23 03:01:14,570 - INFO - Converted input_csv\duplicate_351.csv to Parquet format
+2024-04-23 03:01:14,571 - INFO - Deleted CSV file input_csv\duplicate_351.csv
+2024-04-23 03:01:14,597 - INFO - Converted input_csv\duplicate_352.csv to Parquet format
+2024-04-23 03:01:14,599 - INFO - Deleted CSV file input_csv\duplicate_352.csv
+2024-04-23 03:01:14,622 - INFO - Converted input_csv\duplicate_353.csv to Parquet format
+2024-04-23 03:01:14,623 - INFO - Deleted CSV file input_csv\duplicate_353.csv
+2024-04-23 03:01:14,643 - INFO - Converted input_csv\duplicate_354.csv to Parquet format
+2024-04-23 03:01:14,643 - INFO - Deleted CSV file input_csv\duplicate_354.csv
+2024-04-23 03:01:14,663 - INFO - Converted input_csv\duplicate_355.csv to Parquet format
+2024-04-23 03:01:14,665 - INFO - Deleted CSV file input_csv\duplicate_355.csv
+2024-04-23 03:01:14,685 - INFO - Converted input_csv\duplicate_356.csv to Parquet format
+2024-04-23 03:01:14,686 - INFO - Deleted CSV file input_csv\duplicate_356.csv
+2024-04-23 03:01:14,708 - INFO - Converted input_csv\duplicate_357.csv to Parquet format
+2024-04-23 03:01:14,709 - INFO - Deleted CSV file input_csv\duplicate_357.csv
+2024-04-23 03:01:14,736 - INFO - Converted input_csv\duplicate_358.csv to Parquet format
+2024-04-23 03:01:14,736 - INFO - Deleted CSV file input_csv\duplicate_358.csv
+2024-04-23 03:01:14,759 - INFO - Converted input_csv\duplicate_359.csv to Parquet format
+2024-04-23 03:01:14,759 - INFO - Deleted CSV file input_csv\duplicate_359.csv
+2024-04-23 03:01:14,782 - INFO - Converted input_csv\duplicate_360.csv to Parquet format
+2024-04-23 03:01:14,783 - INFO - Deleted CSV file input_csv\duplicate_360.csv
+2024-04-23 03:01:14,806 - INFO - Converted input_csv\duplicate_361.csv to Parquet format
+2024-04-23 03:01:14,806 - INFO - Deleted CSV file input_csv\duplicate_361.csv
+2024-04-23 03:01:14,835 - INFO - Converted input_csv\duplicate_362.csv to Parquet format
+2024-04-23 03:01:14,837 - INFO - Deleted CSV file input_csv\duplicate_362.csv
+2024-04-23 03:01:14,861 - INFO - Converted input_csv\duplicate_363.csv to Parquet format
+2024-04-23 03:01:14,863 - INFO - Deleted CSV file input_csv\duplicate_363.csv
+2024-04-23 03:01:14,909 - INFO - Converted input_csv\duplicate_364.csv to Parquet format
+2024-04-23 03:01:14,910 - INFO - Deleted CSV file input_csv\duplicate_364.csv
+2024-04-23 03:01:14,937 - INFO - Converted input_csv\duplicate_365.csv to Parquet format
+2024-04-23 03:01:14,938 - INFO - Deleted CSV file input_csv\duplicate_365.csv
+2024-04-23 03:01:14,971 - INFO - Converted input_csv\duplicate_366.csv to Parquet format
+2024-04-23 03:01:14,972 - INFO - Deleted CSV file input_csv\duplicate_366.csv
+2024-04-23 03:01:14,999 - INFO - Converted input_csv\duplicate_367.csv to Parquet format
+2024-04-23 03:01:14,999 - INFO - Deleted CSV file input_csv\duplicate_367.csv
+2024-04-23 03:01:15,020 - INFO - Converted input_csv\duplicate_368.csv to Parquet format
+2024-04-23 03:01:15,021 - INFO - Deleted CSV file input_csv\duplicate_368.csv
+2024-04-23 03:01:15,042 - INFO - Converted input_csv\duplicate_369.csv to Parquet format
+2024-04-23 03:01:15,043 - INFO - Deleted CSV file input_csv\duplicate_369.csv
+2024-04-23 03:01:15,067 - INFO - Converted input_csv\duplicate_370.csv to Parquet format
+2024-04-23 03:01:15,068 - INFO - Deleted CSV file input_csv\duplicate_370.csv
+2024-04-23 03:01:15,091 - INFO - Converted input_csv\duplicate_371.csv to Parquet format
+2024-04-23 03:01:15,092 - INFO - Deleted CSV file input_csv\duplicate_371.csv
+2024-04-23 03:01:15,117 - INFO - Converted input_csv\duplicate_372.csv to Parquet format
+2024-04-23 03:01:15,118 - INFO - Deleted CSV file input_csv\duplicate_372.csv
+2024-04-23 03:01:15,151 - INFO - Converted input_csv\duplicate_373.csv to Parquet format
+2024-04-23 03:01:15,152 - INFO - Deleted CSV file input_csv\duplicate_373.csv
+2024-04-23 03:01:15,174 - INFO - Converted input_csv\duplicate_374.csv to Parquet format
+2024-04-23 03:01:15,176 - INFO - Deleted CSV file input_csv\duplicate_374.csv
+2024-04-23 03:01:15,196 - INFO - Converted input_csv\duplicate_375.csv to Parquet format
+2024-04-23 03:01:15,196 - INFO - Deleted CSV file input_csv\duplicate_375.csv
+2024-04-23 03:01:15,220 - INFO - Converted input_csv\duplicate_376.csv to Parquet format
+2024-04-23 03:01:15,221 - INFO - Deleted CSV file input_csv\duplicate_376.csv
+2024-04-23 03:01:15,241 - INFO - Converted input_csv\duplicate_377.csv to Parquet format
+2024-04-23 03:01:15,242 - INFO - Deleted CSV file input_csv\duplicate_377.csv
+2024-04-23 03:01:15,263 - INFO - Converted input_csv\duplicate_378.csv to Parquet format
+2024-04-23 03:01:15,264 - INFO - Deleted CSV file input_csv\duplicate_378.csv
+2024-04-23 03:01:15,291 - INFO - Converted input_csv\duplicate_379.csv to Parquet format
+2024-04-23 03:01:15,292 - INFO - Deleted CSV file input_csv\duplicate_379.csv
+2024-04-23 03:01:15,322 - INFO - Converted input_csv\duplicate_380.csv to Parquet format
+2024-04-23 03:01:15,323 - INFO - Deleted CSV file input_csv\duplicate_380.csv
+2024-04-23 03:01:15,351 - INFO - Converted input_csv\duplicate_381.csv to Parquet format
+2024-04-23 03:01:15,352 - INFO - Deleted CSV file input_csv\duplicate_381.csv
+2024-04-23 03:01:15,374 - INFO - Converted input_csv\duplicate_382.csv to Parquet format
+2024-04-23 03:01:15,375 - INFO - Deleted CSV file input_csv\duplicate_382.csv
+2024-04-23 03:01:15,406 - INFO - Converted input_csv\duplicate_383.csv to Parquet format
+2024-04-23 03:01:15,407 - INFO - Deleted CSV file input_csv\duplicate_383.csv
+2024-04-23 03:01:15,441 - INFO - Converted input_csv\duplicate_384.csv to Parquet format
+2024-04-23 03:01:15,443 - INFO - Deleted CSV file input_csv\duplicate_384.csv
+2024-04-23 03:01:15,466 - INFO - Converted input_csv\duplicate_385.csv to Parquet format
+2024-04-23 03:01:15,470 - INFO - Deleted CSV file input_csv\duplicate_385.csv
+2024-04-23 03:01:15,505 - INFO - Converted input_csv\duplicate_386.csv to Parquet format
+2024-04-23 03:01:15,506 - INFO - Deleted CSV file input_csv\duplicate_386.csv
+2024-04-23 03:01:15,530 - INFO - Converted input_csv\duplicate_387.csv to Parquet format
+2024-04-23 03:01:15,532 - INFO - Deleted CSV file input_csv\duplicate_387.csv
+2024-04-23 03:01:15,556 - INFO - Converted input_csv\duplicate_388.csv to Parquet format
+2024-04-23 03:01:15,557 - INFO - Deleted CSV file input_csv\duplicate_388.csv
+2024-04-23 03:01:15,579 - INFO - Converted input_csv\duplicate_389.csv to Parquet format
+2024-04-23 03:01:15,579 - INFO - Deleted CSV file input_csv\duplicate_389.csv
+2024-04-23 03:01:15,604 - INFO - Converted input_csv\duplicate_390.csv to Parquet format
+2024-04-23 03:01:15,605 - INFO - Deleted CSV file input_csv\duplicate_390.csv
+2024-04-23 03:01:15,627 - INFO - Converted input_csv\duplicate_391.csv to Parquet format
+2024-04-23 03:01:15,628 - INFO - Deleted CSV file input_csv\duplicate_391.csv
+2024-04-23 03:01:15,655 - INFO - Converted input_csv\duplicate_392.csv to Parquet format
+2024-04-23 03:01:15,656 - INFO - Deleted CSV file input_csv\duplicate_392.csv
+2024-04-23 03:01:15,694 - INFO - Converted input_csv\duplicate_393.csv to Parquet format
+2024-04-23 03:01:15,695 - INFO - Deleted CSV file input_csv\duplicate_393.csv
+2024-04-23 03:01:15,727 - INFO - Converted input_csv\duplicate_394.csv to Parquet format
+2024-04-23 03:01:15,728 - INFO - Deleted CSV file input_csv\duplicate_394.csv
+2024-04-23 03:01:15,755 - INFO - Converted input_csv\duplicate_395.csv to Parquet format
+2024-04-23 03:01:15,757 - INFO - Deleted CSV file input_csv\duplicate_395.csv
+2024-04-23 03:01:15,783 - INFO - Converted input_csv\duplicate_396.csv to Parquet format
+2024-04-23 03:01:15,784 - INFO - Deleted CSV file input_csv\duplicate_396.csv
+2024-04-23 03:01:15,811 - INFO - Converted input_csv\duplicate_397.csv to Parquet format
+2024-04-23 03:01:15,811 - INFO - Deleted CSV file input_csv\duplicate_397.csv
+2024-04-23 03:01:15,834 - INFO - Converted input_csv\duplicate_398.csv to Parquet format
+2024-04-23 03:01:15,835 - INFO - Deleted CSV file input_csv\duplicate_398.csv
+2024-04-23 03:01:15,856 - INFO - Converted input_csv\duplicate_399.csv to Parquet format
+2024-04-23 03:01:15,857 - INFO - Deleted CSV file input_csv\duplicate_399.csv
+2024-04-23 03:01:15,922 - INFO - Converted input_csv\duplicate_400.csv to Parquet format
+2024-04-23 03:01:15,954 - INFO - Deleted CSV file input_csv\duplicate_400.csv
+2024-04-23 03:01:15,981 - INFO - Converted input_csv\duplicate_401.csv to Parquet format
+2024-04-23 03:01:15,981 - INFO - Deleted CSV file input_csv\duplicate_401.csv
+2024-04-23 03:01:16,002 - INFO - Converted input_csv\duplicate_402.csv to Parquet format
+2024-04-23 03:01:16,005 - INFO - Deleted CSV file input_csv\duplicate_402.csv
+2024-04-23 03:01:16,029 - INFO - Converted input_csv\duplicate_403.csv to Parquet format
+2024-04-23 03:01:16,030 - INFO - Deleted CSV file input_csv\duplicate_403.csv
+2024-04-23 03:01:16,057 - INFO - Converted input_csv\duplicate_404.csv to Parquet format
+2024-04-23 03:01:16,058 - INFO - Deleted CSV file input_csv\duplicate_404.csv
+2024-04-23 03:01:16,088 - INFO - Converted input_csv\duplicate_405.csv to Parquet format
+2024-04-23 03:01:16,089 - INFO - Deleted CSV file input_csv\duplicate_405.csv
+2024-04-23 03:01:16,114 - INFO - Converted input_csv\duplicate_406.csv to Parquet format
+2024-04-23 03:01:16,116 - INFO - Deleted CSV file input_csv\duplicate_406.csv
+2024-04-23 03:01:16,136 - INFO - Converted input_csv\duplicate_407.csv to Parquet format
+2024-04-23 03:01:16,136 - INFO - Deleted CSV file input_csv\duplicate_407.csv
+2024-04-23 03:01:16,161 - INFO - Converted input_csv\duplicate_408.csv to Parquet format
+2024-04-23 03:01:16,162 - INFO - Deleted CSV file input_csv\duplicate_408.csv
+2024-04-23 03:01:16,190 - INFO - Converted input_csv\duplicate_409.csv to Parquet format
+2024-04-23 03:01:16,191 - INFO - Deleted CSV file input_csv\duplicate_409.csv
+2024-04-23 03:01:16,217 - INFO - Converted input_csv\duplicate_410.csv to Parquet format
+2024-04-23 03:01:16,218 - INFO - Deleted CSV file input_csv\duplicate_410.csv
+2024-04-23 03:01:16,249 - INFO - Converted input_csv\duplicate_411.csv to Parquet format
+2024-04-23 03:01:16,251 - INFO - Deleted CSV file input_csv\duplicate_411.csv
+2024-04-23 03:01:16,283 - INFO - Converted input_csv\duplicate_412.csv to Parquet format
+2024-04-23 03:01:16,284 - INFO - Deleted CSV file input_csv\duplicate_412.csv
+2024-04-23 03:01:16,315 - INFO - Converted input_csv\duplicate_413.csv to Parquet format
+2024-04-23 03:01:16,316 - INFO - Deleted CSV file input_csv\duplicate_413.csv
+2024-04-23 03:01:16,349 - INFO - Converted input_csv\duplicate_414.csv to Parquet format
+2024-04-23 03:01:16,350 - INFO - Deleted CSV file input_csv\duplicate_414.csv
+2024-04-23 03:01:16,379 - INFO - Converted input_csv\duplicate_415.csv to Parquet format
+2024-04-23 03:01:16,379 - INFO - Deleted CSV file input_csv\duplicate_415.csv
+2024-04-23 03:01:16,402 - INFO - Converted input_csv\duplicate_416.csv to Parquet format
+2024-04-23 03:01:16,405 - INFO - Deleted CSV file input_csv\duplicate_416.csv
+2024-04-23 03:01:16,437 - INFO - Converted input_csv\duplicate_417.csv to Parquet format
+2024-04-23 03:01:16,439 - INFO - Deleted CSV file input_csv\duplicate_417.csv
+2024-04-23 03:01:16,473 - INFO - Converted input_csv\duplicate_418.csv to Parquet format
+2024-04-23 03:01:16,474 - INFO - Deleted CSV file input_csv\duplicate_418.csv
+2024-04-23 03:01:16,497 - INFO - Converted input_csv\duplicate_419.csv to Parquet format
+2024-04-23 03:01:16,497 - INFO - Deleted CSV file input_csv\duplicate_419.csv
+2024-04-23 03:01:16,515 - INFO - Converted input_csv\duplicate_420.csv to Parquet format
+2024-04-23 03:01:16,516 - INFO - Deleted CSV file input_csv\duplicate_420.csv
+2024-04-23 03:01:16,538 - INFO - Converted input_csv\duplicate_421.csv to Parquet format
+2024-04-23 03:01:16,539 - INFO - Deleted CSV file input_csv\duplicate_421.csv
+2024-04-23 03:01:16,567 - INFO - Converted input_csv\duplicate_422.csv to Parquet format
+2024-04-23 03:01:16,567 - INFO - Deleted CSV file input_csv\duplicate_422.csv
+2024-04-23 03:01:16,593 - INFO - Converted input_csv\duplicate_423.csv to Parquet format
+2024-04-23 03:01:16,594 - INFO - Deleted CSV file input_csv\duplicate_423.csv
+2024-04-23 03:01:16,616 - INFO - Converted input_csv\duplicate_424.csv to Parquet format
+2024-04-23 03:01:16,617 - INFO - Deleted CSV file input_csv\duplicate_424.csv
+2024-04-23 03:01:16,649 - INFO - Converted input_csv\duplicate_425.csv to Parquet format
+2024-04-23 03:01:16,650 - INFO - Deleted CSV file input_csv\duplicate_425.csv
+2024-04-23 03:01:16,681 - INFO - Converted input_csv\duplicate_426.csv to Parquet format
+2024-04-23 03:01:16,682 - INFO - Deleted CSV file input_csv\duplicate_426.csv
+2024-04-23 03:01:16,713 - INFO - Converted input_csv\duplicate_427.csv to Parquet format
+2024-04-23 03:01:16,714 - INFO - Deleted CSV file input_csv\duplicate_427.csv
+2024-04-23 03:01:16,739 - INFO - Converted input_csv\duplicate_428.csv to Parquet format
+2024-04-23 03:01:16,740 - INFO - Deleted CSV file input_csv\duplicate_428.csv
+2024-04-23 03:01:16,761 - INFO - Converted input_csv\duplicate_429.csv to Parquet format
+2024-04-23 03:01:16,762 - INFO - Deleted CSV file input_csv\duplicate_429.csv
+2024-04-23 03:01:16,794 - INFO - Converted input_csv\duplicate_430.csv to Parquet format
+2024-04-23 03:01:16,795 - INFO - Deleted CSV file input_csv\duplicate_430.csv
+2024-04-23 03:01:16,815 - INFO - Converted input_csv\duplicate_431.csv to Parquet format
+2024-04-23 03:01:16,816 - INFO - Deleted CSV file input_csv\duplicate_431.csv
+2024-04-23 03:01:16,848 - INFO - Converted input_csv\duplicate_432.csv to Parquet format
+2024-04-23 03:01:16,848 - INFO - Deleted CSV file input_csv\duplicate_432.csv
+2024-04-23 03:01:16,877 - INFO - Converted input_csv\duplicate_433.csv to Parquet format
+2024-04-23 03:01:16,878 - INFO - Deleted CSV file input_csv\duplicate_433.csv
+2024-04-23 03:01:16,901 - INFO - Converted input_csv\duplicate_434.csv to Parquet format
+2024-04-23 03:01:16,903 - INFO - Deleted CSV file input_csv\duplicate_434.csv
+2024-04-23 03:01:16,938 - INFO - Converted input_csv\duplicate_435.csv to Parquet format
+2024-04-23 03:01:16,940 - INFO - Deleted CSV file input_csv\duplicate_435.csv
+2024-04-23 03:01:16,970 - INFO - Converted input_csv\duplicate_436.csv to Parquet format
+2024-04-23 03:01:16,972 - INFO - Deleted CSV file input_csv\duplicate_436.csv
+2024-04-23 03:01:17,006 - INFO - Converted input_csv\duplicate_437.csv to Parquet format
+2024-04-23 03:01:17,008 - INFO - Deleted CSV file input_csv\duplicate_437.csv
+2024-04-23 03:01:17,044 - INFO - Converted input_csv\duplicate_438.csv to Parquet format
+2024-04-23 03:01:17,045 - INFO - Deleted CSV file input_csv\duplicate_438.csv
+2024-04-23 03:01:17,068 - INFO - Converted input_csv\duplicate_439.csv to Parquet format
+2024-04-23 03:01:17,069 - INFO - Deleted CSV file input_csv\duplicate_439.csv
+2024-04-23 03:01:17,107 - INFO - Converted input_csv\duplicate_440.csv to Parquet format
+2024-04-23 03:01:17,108 - INFO - Deleted CSV file input_csv\duplicate_440.csv
+2024-04-23 03:01:17,135 - INFO - Converted input_csv\duplicate_441.csv to Parquet format
+2024-04-23 03:01:17,136 - INFO - Deleted CSV file input_csv\duplicate_441.csv
+2024-04-23 03:01:17,160 - INFO - Converted input_csv\duplicate_442.csv to Parquet format
+2024-04-23 03:01:17,160 - INFO - Deleted CSV file input_csv\duplicate_442.csv
+2024-04-23 03:01:17,189 - INFO - Converted input_csv\duplicate_443.csv to Parquet format
+2024-04-23 03:01:17,190 - INFO - Deleted CSV file input_csv\duplicate_443.csv
+2024-04-23 03:01:17,226 - INFO - Converted input_csv\duplicate_444.csv to Parquet format
+2024-04-23 03:01:17,227 - INFO - Deleted CSV file input_csv\duplicate_444.csv
+2024-04-23 03:01:17,258 - INFO - Converted input_csv\duplicate_445.csv to Parquet format
+2024-04-23 03:01:17,259 - INFO - Deleted CSV file input_csv\duplicate_445.csv
+2024-04-23 03:01:17,290 - INFO - Converted input_csv\duplicate_446.csv to Parquet format
+2024-04-23 03:01:17,291 - INFO - Deleted CSV file input_csv\duplicate_446.csv
+2024-04-23 03:01:17,311 - INFO - Converted input_csv\duplicate_447.csv to Parquet format
+2024-04-23 03:01:17,312 - INFO - Deleted CSV file input_csv\duplicate_447.csv
+2024-04-23 03:01:17,340 - INFO - Converted input_csv\duplicate_448.csv to Parquet format
+2024-04-23 03:01:17,340 - INFO - Deleted CSV file input_csv\duplicate_448.csv
+2024-04-23 03:01:17,370 - INFO - Converted input_csv\duplicate_449.csv to Parquet format
+2024-04-23 03:01:17,372 - INFO - Deleted CSV file input_csv\duplicate_449.csv
+2024-04-23 03:01:17,404 - INFO - Converted input_csv\duplicate_450.csv to Parquet format
+2024-04-23 03:01:17,406 - INFO - Deleted CSV file input_csv\duplicate_450.csv
+2024-04-23 03:01:17,441 - INFO - Converted input_csv\duplicate_451.csv to Parquet format
+2024-04-23 03:01:17,443 - INFO - Deleted CSV file input_csv\duplicate_451.csv
+2024-04-23 03:01:17,477 - INFO - Converted input_csv\duplicate_452.csv to Parquet format
+2024-04-23 03:01:17,479 - INFO - Deleted CSV file input_csv\duplicate_452.csv
+2024-04-23 03:01:17,521 - INFO - Converted input_csv\duplicate_453.csv to Parquet format
+2024-04-23 03:01:17,523 - INFO - Deleted CSV file input_csv\duplicate_453.csv
+2024-04-23 03:01:17,557 - INFO - Converted input_csv\duplicate_454.csv to Parquet format
+2024-04-23 03:01:17,559 - INFO - Deleted CSV file input_csv\duplicate_454.csv
+2024-04-23 03:01:17,600 - INFO - Converted input_csv\duplicate_455.csv to Parquet format
+2024-04-23 03:01:17,601 - INFO - Deleted CSV file input_csv\duplicate_455.csv
+2024-04-23 03:01:17,646 - INFO - Converted input_csv\duplicate_456.csv to Parquet format
+2024-04-23 03:01:17,647 - INFO - Deleted CSV file input_csv\duplicate_456.csv
+2024-04-23 03:01:17,685 - INFO - Converted input_csv\duplicate_457.csv to Parquet format
+2024-04-23 03:01:17,687 - INFO - Deleted CSV file input_csv\duplicate_457.csv
+2024-04-23 03:01:17,723 - INFO - Converted input_csv\duplicate_458.csv to Parquet format
+2024-04-23 03:01:17,725 - INFO - Deleted CSV file input_csv\duplicate_458.csv
+2024-04-23 03:01:17,767 - INFO - Converted input_csv\duplicate_459.csv to Parquet format
+2024-04-23 03:01:17,769 - INFO - Deleted CSV file input_csv\duplicate_459.csv
+2024-04-23 03:01:17,806 - INFO - Converted input_csv\duplicate_460.csv to Parquet format
+2024-04-23 03:01:17,807 - INFO - Deleted CSV file input_csv\duplicate_460.csv
+2024-04-23 03:01:17,840 - INFO - Converted input_csv\duplicate_461.csv to Parquet format
+2024-04-23 03:01:17,841 - INFO - Deleted CSV file input_csv\duplicate_461.csv
+2024-04-23 03:01:17,870 - INFO - Converted input_csv\duplicate_462.csv to Parquet format
+2024-04-23 03:01:17,873 - INFO - Deleted CSV file input_csv\duplicate_462.csv
+2024-04-23 03:01:17,908 - INFO - Converted input_csv\duplicate_463.csv to Parquet format
+2024-04-23 03:01:17,909 - INFO - Deleted CSV file input_csv\duplicate_463.csv
+2024-04-23 03:01:17,940 - INFO - Converted input_csv\duplicate_464.csv to Parquet format
+2024-04-23 03:01:17,941 - INFO - Deleted CSV file input_csv\duplicate_464.csv
+2024-04-23 03:01:17,968 - INFO - Converted input_csv\duplicate_465.csv to Parquet format
+2024-04-23 03:01:17,969 - INFO - Deleted CSV file input_csv\duplicate_465.csv
+2024-04-23 03:01:17,999 - INFO - Converted input_csv\duplicate_466.csv to Parquet format
+2024-04-23 03:01:18,000 - INFO - Deleted CSV file input_csv\duplicate_466.csv
+2024-04-23 03:01:18,028 - INFO - Converted input_csv\duplicate_467.csv to Parquet format
+2024-04-23 03:01:18,029 - INFO - Deleted CSV file input_csv\duplicate_467.csv
+2024-04-23 03:01:18,077 - INFO - Converted input_csv\duplicate_468.csv to Parquet format
+2024-04-23 03:01:18,078 - INFO - Deleted CSV file input_csv\duplicate_468.csv
+2024-04-23 03:01:18,107 - INFO - Converted input_csv\duplicate_469.csv to Parquet format
+2024-04-23 03:01:18,109 - INFO - Deleted CSV file input_csv\duplicate_469.csv
+2024-04-23 03:01:18,149 - INFO - Converted input_csv\duplicate_470.csv to Parquet format
+2024-04-23 03:01:18,149 - INFO - Deleted CSV file input_csv\duplicate_470.csv
+2024-04-23 03:01:18,179 - INFO - Converted input_csv\duplicate_471.csv to Parquet format
+2024-04-23 03:01:18,181 - INFO - Deleted CSV file input_csv\duplicate_471.csv
+2024-04-23 03:01:18,213 - INFO - Converted input_csv\duplicate_472.csv to Parquet format
+2024-04-23 03:01:18,214 - INFO - Deleted CSV file input_csv\duplicate_472.csv
+2024-04-23 03:01:18,245 - INFO - Converted input_csv\duplicate_473.csv to Parquet format
+2024-04-23 03:01:18,247 - INFO - Deleted CSV file input_csv\duplicate_473.csv
+2024-04-23 03:01:18,276 - INFO - Converted input_csv\duplicate_474.csv to Parquet format
+2024-04-23 03:01:18,278 - INFO - Deleted CSV file input_csv\duplicate_474.csv
+2024-04-23 03:01:18,307 - INFO - Converted input_csv\duplicate_475.csv to Parquet format
+2024-04-23 03:01:18,308 - INFO - Deleted CSV file input_csv\duplicate_475.csv
+2024-04-23 03:01:18,344 - INFO - Converted input_csv\duplicate_476.csv to Parquet format
+2024-04-23 03:01:18,345 - INFO - Deleted CSV file input_csv\duplicate_476.csv
+2024-04-23 03:01:18,379 - INFO - Converted input_csv\duplicate_477.csv to Parquet format
+2024-04-23 03:01:18,380 - INFO - Deleted CSV file input_csv\duplicate_477.csv
+2024-04-23 03:01:18,445 - INFO - Converted input_csv\duplicate_478.csv to Parquet format
+2024-04-23 03:01:18,483 - INFO - Deleted CSV file input_csv\duplicate_478.csv
+2024-04-23 03:01:18,552 - INFO - Converted input_csv\duplicate_479.csv to Parquet format
+2024-04-23 03:01:18,557 - INFO - Deleted CSV file input_csv\duplicate_479.csv
+2024-04-23 03:01:18,583 - INFO - Converted input_csv\duplicate_480.csv to Parquet format
+2024-04-23 03:01:18,584 - INFO - Deleted CSV file input_csv\duplicate_480.csv
+2024-04-23 03:01:18,615 - INFO - Converted input_csv\duplicate_481.csv to Parquet format
+2024-04-23 03:01:18,617 - INFO - Deleted CSV file input_csv\duplicate_481.csv
+2024-04-23 03:01:18,652 - INFO - Converted input_csv\duplicate_482.csv to Parquet format
+2024-04-23 03:01:18,653 - INFO - Deleted CSV file input_csv\duplicate_482.csv
+2024-04-23 03:01:18,698 - INFO - Converted input_csv\duplicate_483.csv to Parquet format
+2024-04-23 03:01:18,700 - INFO - Deleted CSV file input_csv\duplicate_483.csv
+2024-04-23 03:01:18,740 - INFO - Converted input_csv\duplicate_484.csv to Parquet format
+2024-04-23 03:01:18,743 - INFO - Deleted CSV file input_csv\duplicate_484.csv
+2024-04-23 03:01:18,794 - INFO - Converted input_csv\duplicate_485.csv to Parquet format
+2024-04-23 03:01:18,796 - INFO - Deleted CSV file input_csv\duplicate_485.csv
+2024-04-23 03:01:18,831 - INFO - Converted input_csv\duplicate_486.csv to Parquet format
+2024-04-23 03:01:18,833 - INFO - Deleted CSV file input_csv\duplicate_486.csv
+2024-04-23 03:01:18,866 - INFO - Converted input_csv\duplicate_487.csv to Parquet format
+2024-04-23 03:01:18,867 - INFO - Deleted CSV file input_csv\duplicate_487.csv
+2024-04-23 03:01:18,909 - INFO - Converted input_csv\duplicate_488.csv to Parquet format
+2024-04-23 03:01:18,911 - INFO - Deleted CSV file input_csv\duplicate_488.csv
+2024-04-23 03:01:18,958 - INFO - Converted input_csv\duplicate_489.csv to Parquet format
+2024-04-23 03:01:18,960 - INFO - Deleted CSV file input_csv\duplicate_489.csv
+2024-04-23 03:01:19,008 - INFO - Converted input_csv\duplicate_490.csv to Parquet format
+2024-04-23 03:01:19,010 - INFO - Deleted CSV file input_csv\duplicate_490.csv
+2024-04-23 03:01:19,056 - INFO - Converted input_csv\duplicate_491.csv to Parquet format
+2024-04-23 03:01:19,057 - INFO - Deleted CSV file input_csv\duplicate_491.csv
+2024-04-23 03:01:19,100 - INFO - Converted input_csv\duplicate_492.csv to Parquet format
+2024-04-23 03:01:19,101 - INFO - Deleted CSV file input_csv\duplicate_492.csv
+2024-04-23 03:01:19,155 - INFO - Converted input_csv\duplicate_493.csv to Parquet format
+2024-04-23 03:01:19,158 - INFO - Deleted CSV file input_csv\duplicate_493.csv
+2024-04-23 03:01:19,193 - INFO - Converted input_csv\duplicate_494.csv to Parquet format
+2024-04-23 03:01:19,194 - INFO - Deleted CSV file input_csv\duplicate_494.csv
+2024-04-23 03:01:19,229 - INFO - Converted input_csv\duplicate_495.csv to Parquet format
+2024-04-23 03:01:19,230 - INFO - Deleted CSV file input_csv\duplicate_495.csv
+2024-04-23 03:01:19,261 - INFO - Converted input_csv\duplicate_496.csv to Parquet format
+2024-04-23 03:01:19,263 - INFO - Deleted CSV file input_csv\duplicate_496.csv
+2024-04-23 03:01:19,293 - INFO - Converted input_csv\duplicate_497.csv to Parquet format
+2024-04-23 03:01:19,294 - INFO - Deleted CSV file input_csv\duplicate_497.csv
+2024-04-23 03:01:19,333 - INFO - Converted input_csv\duplicate_498.csv to Parquet format
+2024-04-23 03:01:19,334 - INFO - Deleted CSV file input_csv\duplicate_498.csv
+2024-04-23 03:01:19,385 - INFO - Converted input_csv\duplicate_499.csv to Parquet format
+2024-04-23 03:01:19,386 - INFO - Deleted CSV file input_csv\duplicate_499.csv
+2024-04-23 03:01:19,437 - INFO - Converted input_csv\duplicate_500.csv to Parquet format
+2024-04-23 03:01:19,439 - INFO - Deleted CSV file input_csv\duplicate_500.csv
+2024-04-23 03:01:19,486 - INFO - Converted input_csv\duplicate_501.csv to Parquet format
+2024-04-23 03:01:19,487 - INFO - Deleted CSV file input_csv\duplicate_501.csv
+2024-04-23 03:01:19,527 - INFO - Converted input_csv\duplicate_502.csv to Parquet format
+2024-04-23 03:01:19,528 - INFO - Deleted CSV file input_csv\duplicate_502.csv
+2024-04-23 03:01:19,575 - INFO - Converted input_csv\duplicate_503.csv to Parquet format
+2024-04-23 03:01:19,576 - INFO - Deleted CSV file input_csv\duplicate_503.csv
+2024-04-23 03:01:19,629 - INFO - Converted input_csv\duplicate_504.csv to Parquet format
+2024-04-23 03:01:19,631 - INFO - Deleted CSV file input_csv\duplicate_504.csv
+2024-04-23 03:01:19,685 - INFO - Converted input_csv\duplicate_505.csv to Parquet format
+2024-04-23 03:01:19,686 - INFO - Deleted CSV file input_csv\duplicate_505.csv
+2024-04-23 03:01:19,726 - INFO - Converted input_csv\duplicate_506.csv to Parquet format
+2024-04-23 03:01:19,728 - INFO - Deleted CSV file input_csv\duplicate_506.csv
+2024-04-23 03:01:19,782 - INFO - Converted input_csv\duplicate_507.csv to Parquet format
+2024-04-23 03:01:19,783 - INFO - Deleted CSV file input_csv\duplicate_507.csv
+2024-04-23 03:01:19,816 - INFO - Converted input_csv\duplicate_508.csv to Parquet format
+2024-04-23 03:01:19,818 - INFO - Deleted CSV file input_csv\duplicate_508.csv
+2024-04-23 03:01:19,852 - INFO - Converted input_csv\duplicate_509.csv to Parquet format
+2024-04-23 03:01:19,853 - INFO - Deleted CSV file input_csv\duplicate_509.csv
+2024-04-23 03:01:19,895 - INFO - Converted input_csv\duplicate_510.csv to Parquet format
+2024-04-23 03:01:19,896 - INFO - Deleted CSV file input_csv\duplicate_510.csv
+2024-04-23 03:01:19,937 - INFO - Converted input_csv\duplicate_511.csv to Parquet format
+2024-04-23 03:01:19,939 - INFO - Deleted CSV file input_csv\duplicate_511.csv
+2024-04-23 03:01:19,974 - INFO - Converted input_csv\duplicate_512.csv to Parquet format
+2024-04-23 03:01:19,977 - INFO - Deleted CSV file input_csv\duplicate_512.csv
+2024-04-23 03:01:20,015 - INFO - Converted input_csv\duplicate_513.csv to Parquet format
+2024-04-23 03:01:20,017 - INFO - Deleted CSV file input_csv\duplicate_513.csv
+2024-04-23 03:01:20,060 - INFO - Converted input_csv\duplicate_514.csv to Parquet format
+2024-04-23 03:01:20,061 - INFO - Deleted CSV file input_csv\duplicate_514.csv
+2024-04-23 03:01:20,094 - INFO - Converted input_csv\duplicate_515.csv to Parquet format
+2024-04-23 03:01:20,095 - INFO - Deleted CSV file input_csv\duplicate_515.csv
+2024-04-23 03:01:20,128 - INFO - Converted input_csv\duplicate_516.csv to Parquet format
+2024-04-23 03:01:20,129 - INFO - Deleted CSV file input_csv\duplicate_516.csv
+2024-04-23 03:01:20,168 - INFO - Converted input_csv\duplicate_517.csv to Parquet format
+2024-04-23 03:01:20,169 - INFO - Deleted CSV file input_csv\duplicate_517.csv
+2024-04-23 03:01:20,199 - INFO - Converted input_csv\duplicate_518.csv to Parquet format
+2024-04-23 03:01:20,200 - INFO - Deleted CSV file input_csv\duplicate_518.csv
+2024-04-23 03:01:20,234 - INFO - Converted input_csv\duplicate_519.csv to Parquet format
+2024-04-23 03:01:20,235 - INFO - Deleted CSV file input_csv\duplicate_519.csv
+2024-04-23 03:01:20,265 - INFO - Converted input_csv\duplicate_520.csv to Parquet format
+2024-04-23 03:01:20,266 - INFO - Deleted CSV file input_csv\duplicate_520.csv
+2024-04-23 03:01:20,298 - INFO - Converted input_csv\duplicate_521.csv to Parquet format
+2024-04-23 03:01:20,300 - INFO - Deleted CSV file input_csv\duplicate_521.csv
+2024-04-23 03:01:20,336 - INFO - Converted input_csv\duplicate_522.csv to Parquet format
+2024-04-23 03:01:20,337 - INFO - Deleted CSV file input_csv\duplicate_522.csv
+2024-04-23 03:01:20,369 - INFO - Converted input_csv\duplicate_523.csv to Parquet format
+2024-04-23 03:01:20,370 - INFO - Deleted CSV file input_csv\duplicate_523.csv
+2024-04-23 03:01:20,399 - INFO - Converted input_csv\duplicate_524.csv to Parquet format
+2024-04-23 03:01:20,400 - INFO - Deleted CSV file input_csv\duplicate_524.csv
+2024-04-23 03:01:20,426 - INFO - Converted input_csv\duplicate_525.csv to Parquet format
+2024-04-23 03:01:20,429 - INFO - Deleted CSV file input_csv\duplicate_525.csv
+2024-04-23 03:01:20,467 - INFO - Converted input_csv\duplicate_526.csv to Parquet format
+2024-04-23 03:01:20,468 - INFO - Deleted CSV file input_csv\duplicate_526.csv
+2024-04-23 03:01:20,501 - INFO - Converted input_csv\duplicate_527.csv to Parquet format
+2024-04-23 03:01:20,501 - INFO - Deleted CSV file input_csv\duplicate_527.csv
+2024-04-23 03:01:20,534 - INFO - Converted input_csv\duplicate_528.csv to Parquet format
+2024-04-23 03:01:20,534 - INFO - Deleted CSV file input_csv\duplicate_528.csv
+2024-04-23 03:01:20,572 - INFO - Converted input_csv\duplicate_529.csv to Parquet format
+2024-04-23 03:01:20,573 - INFO - Deleted CSV file input_csv\duplicate_529.csv
+2024-04-23 03:01:20,603 - INFO - Converted input_csv\duplicate_530.csv to Parquet format
+2024-04-23 03:01:20,604 - INFO - Deleted CSV file input_csv\duplicate_530.csv
+2024-04-23 03:01:20,627 - INFO - Converted input_csv\duplicate_531.csv to Parquet format
+2024-04-23 03:01:20,629 - INFO - Deleted CSV file input_csv\duplicate_531.csv
+2024-04-23 03:01:20,655 - INFO - Converted input_csv\duplicate_532.csv to Parquet format
+2024-04-23 03:01:20,656 - INFO - Deleted CSV file input_csv\duplicate_532.csv
+2024-04-23 03:01:20,682 - INFO - Converted input_csv\duplicate_533.csv to Parquet format
+2024-04-23 03:01:20,683 - INFO - Deleted CSV file input_csv\duplicate_533.csv
+2024-04-23 03:01:20,717 - INFO - Converted input_csv\duplicate_534.csv to Parquet format
+2024-04-23 03:01:20,718 - INFO - Deleted CSV file input_csv\duplicate_534.csv
+2024-04-23 03:01:20,744 - INFO - Converted input_csv\duplicate_535.csv to Parquet format
+2024-04-23 03:01:20,745 - INFO - Deleted CSV file input_csv\duplicate_535.csv
+2024-04-23 03:01:20,771 - INFO - Converted input_csv\duplicate_536.csv to Parquet format
+2024-04-23 03:01:20,772 - INFO - Deleted CSV file input_csv\duplicate_536.csv
+2024-04-23 03:01:20,802 - INFO - Converted input_csv\duplicate_537.csv to Parquet format
+2024-04-23 03:01:20,803 - INFO - Deleted CSV file input_csv\duplicate_537.csv
+2024-04-23 03:01:20,833 - INFO - Converted input_csv\duplicate_538.csv to Parquet format
+2024-04-23 03:01:20,834 - INFO - Deleted CSV file input_csv\duplicate_538.csv
+2024-04-23 03:01:20,865 - INFO - Converted input_csv\duplicate_539.csv to Parquet format
+2024-04-23 03:01:20,866 - INFO - Deleted CSV file input_csv\duplicate_539.csv
+2024-04-23 03:01:20,898 - INFO - Converted input_csv\duplicate_540.csv to Parquet format
+2024-04-23 03:01:20,899 - INFO - Deleted CSV file input_csv\duplicate_540.csv
+2024-04-23 03:01:20,930 - INFO - Converted input_csv\duplicate_541.csv to Parquet format
+2024-04-23 03:01:20,931 - INFO - Deleted CSV file input_csv\duplicate_541.csv
+2024-04-23 03:01:20,955 - INFO - Converted input_csv\duplicate_542.csv to Parquet format
+2024-04-23 03:01:20,956 - INFO - Deleted CSV file input_csv\duplicate_542.csv
+2024-04-23 03:01:20,984 - INFO - Converted input_csv\duplicate_543.csv to Parquet format
+2024-04-23 03:01:20,985 - INFO - Deleted CSV file input_csv\duplicate_543.csv
+2024-04-23 03:01:21,013 - INFO - Converted input_csv\duplicate_544.csv to Parquet format
+2024-04-23 03:01:21,014 - INFO - Deleted CSV file input_csv\duplicate_544.csv
+2024-04-23 03:01:21,040 - INFO - Converted input_csv\duplicate_545.csv to Parquet format
+2024-04-23 03:01:21,041 - INFO - Deleted CSV file input_csv\duplicate_545.csv
+2024-04-23 03:01:21,068 - INFO - Converted input_csv\duplicate_546.csv to Parquet format
+2024-04-23 03:01:21,069 - INFO - Deleted CSV file input_csv\duplicate_546.csv
+2024-04-23 03:01:21,090 - INFO - Converted input_csv\duplicate_547.csv to Parquet format
+2024-04-23 03:01:21,091 - INFO - Deleted CSV file input_csv\duplicate_547.csv
+2024-04-23 03:01:21,118 - INFO - Converted input_csv\duplicate_548.csv to Parquet format
+2024-04-23 03:01:21,119 - INFO - Deleted CSV file input_csv\duplicate_548.csv
+2024-04-23 03:01:21,145 - INFO - Converted input_csv\duplicate_549.csv to Parquet format
+2024-04-23 03:01:21,147 - INFO - Deleted CSV file input_csv\duplicate_549.csv
+2024-04-23 03:01:21,170 - INFO - Converted input_csv\duplicate_550.csv to Parquet format
+2024-04-23 03:01:21,171 - INFO - Deleted CSV file input_csv\duplicate_550.csv
+2024-04-23 03:01:21,199 - INFO - Converted input_csv\duplicate_551.csv to Parquet format
+2024-04-23 03:01:21,200 - INFO - Deleted CSV file input_csv\duplicate_551.csv
+2024-04-23 03:01:21,229 - INFO - Converted input_csv\duplicate_552.csv to Parquet format
+2024-04-23 03:01:21,230 - INFO - Deleted CSV file input_csv\duplicate_552.csv
+2024-04-23 03:01:21,263 - INFO - Converted input_csv\duplicate_553.csv to Parquet format
+2024-04-23 03:01:21,264 - INFO - Deleted CSV file input_csv\duplicate_553.csv
+2024-04-23 03:01:21,285 - INFO - Converted input_csv\duplicate_554.csv to Parquet format
+2024-04-23 03:01:21,286 - INFO - Deleted CSV file input_csv\duplicate_554.csv
+2024-04-23 03:01:21,306 - INFO - Converted input_csv\duplicate_555.csv to Parquet format
+2024-04-23 03:01:21,307 - INFO - Deleted CSV file input_csv\duplicate_555.csv
+2024-04-23 03:01:21,335 - INFO - Converted input_csv\duplicate_556.csv to Parquet format
+2024-04-23 03:01:21,337 - INFO - Deleted CSV file input_csv\duplicate_556.csv
+2024-04-23 03:01:21,362 - INFO - Converted input_csv\duplicate_557.csv to Parquet format
+2024-04-23 03:01:21,364 - INFO - Deleted CSV file input_csv\duplicate_557.csv
+2024-04-23 03:01:21,404 - INFO - Converted input_csv\duplicate_558.csv to Parquet format
+2024-04-23 03:01:21,405 - INFO - Deleted CSV file input_csv\duplicate_558.csv
+2024-04-23 03:01:21,440 - INFO - Converted input_csv\duplicate_559.csv to Parquet format
+2024-04-23 03:01:21,441 - INFO - Deleted CSV file input_csv\duplicate_559.csv
+2024-04-23 03:01:21,474 - INFO - Converted input_csv\duplicate_560.csv to Parquet format
+2024-04-23 03:01:21,475 - INFO - Deleted CSV file input_csv\duplicate_560.csv
+2024-04-23 03:01:21,508 - INFO - Converted input_csv\duplicate_561.csv to Parquet format
+2024-04-23 03:01:21,509 - INFO - Deleted CSV file input_csv\duplicate_561.csv
+2024-04-23 03:01:21,537 - INFO - Converted input_csv\duplicate_562.csv to Parquet format
+2024-04-23 03:01:21,537 - INFO - Deleted CSV file input_csv\duplicate_562.csv
+2024-04-23 03:01:21,574 - INFO - Converted input_csv\duplicate_563.csv to Parquet format
+2024-04-23 03:01:21,575 - INFO - Deleted CSV file input_csv\duplicate_563.csv
+2024-04-23 03:01:21,603 - INFO - Converted input_csv\duplicate_564.csv to Parquet format
+2024-04-23 03:01:21,604 - INFO - Deleted CSV file input_csv\duplicate_564.csv
+2024-04-23 03:01:21,637 - INFO - Converted input_csv\duplicate_565.csv to Parquet format
+2024-04-23 03:01:21,637 - INFO - Deleted CSV file input_csv\duplicate_565.csv
+2024-04-23 03:01:21,671 - INFO - Converted input_csv\duplicate_566.csv to Parquet format
+2024-04-23 03:01:21,672 - INFO - Deleted CSV file input_csv\duplicate_566.csv
+2024-04-23 03:01:21,703 - INFO - Converted input_csv\duplicate_567.csv to Parquet format
+2024-04-23 03:01:21,704 - INFO - Deleted CSV file input_csv\duplicate_567.csv
+2024-04-23 03:01:21,736 - INFO - Converted input_csv\duplicate_568.csv to Parquet format
+2024-04-23 03:01:21,737 - INFO - Deleted CSV file input_csv\duplicate_568.csv
+2024-04-23 03:01:21,770 - INFO - Converted input_csv\duplicate_569.csv to Parquet format
+2024-04-23 03:01:21,771 - INFO - Deleted CSV file input_csv\duplicate_569.csv
+2024-04-23 03:01:21,797 - INFO - Converted input_csv\duplicate_570.csv to Parquet format
+2024-04-23 03:01:21,798 - INFO - Deleted CSV file input_csv\duplicate_570.csv
+2024-04-23 03:01:21,827 - INFO - Converted input_csv\duplicate_571.csv to Parquet format
+2024-04-23 03:01:21,829 - INFO - Deleted CSV file input_csv\duplicate_571.csv
+2024-04-23 03:01:21,865 - INFO - Converted input_csv\duplicate_572.csv to Parquet format
+2024-04-23 03:01:21,866 - INFO - Deleted CSV file input_csv\duplicate_572.csv
+2024-04-23 03:01:21,900 - INFO - Converted input_csv\duplicate_573.csv to Parquet format
+2024-04-23 03:01:21,901 - INFO - Deleted CSV file input_csv\duplicate_573.csv
+2024-04-23 03:01:21,932 - INFO - Converted input_csv\duplicate_574.csv to Parquet format
+2024-04-23 03:01:21,933 - INFO - Deleted CSV file input_csv\duplicate_574.csv
+2024-04-23 03:01:21,959 - INFO - Converted input_csv\duplicate_575.csv to Parquet format
+2024-04-23 03:01:21,960 - INFO - Deleted CSV file input_csv\duplicate_575.csv
+2024-04-23 03:01:21,999 - INFO - Converted input_csv\duplicate_576.csv to Parquet format
+2024-04-23 03:01:22,000 - INFO - Deleted CSV file input_csv\duplicate_576.csv
+2024-04-23 03:01:22,031 - INFO - Converted input_csv\duplicate_577.csv to Parquet format
+2024-04-23 03:01:22,033 - INFO - Deleted CSV file input_csv\duplicate_577.csv
+2024-04-23 03:01:22,066 - INFO - Converted input_csv\duplicate_578.csv to Parquet format
+2024-04-23 03:01:22,067 - INFO - Deleted CSV file input_csv\duplicate_578.csv
+2024-04-23 03:01:22,106 - INFO - Converted input_csv\duplicate_579.csv to Parquet format
+2024-04-23 03:01:22,106 - INFO - Deleted CSV file input_csv\duplicate_579.csv
+2024-04-23 03:01:22,142 - INFO - Converted input_csv\duplicate_580.csv to Parquet format
+2024-04-23 03:01:22,143 - INFO - Deleted CSV file input_csv\duplicate_580.csv
+2024-04-23 03:01:22,180 - INFO - Converted input_csv\duplicate_581.csv to Parquet format
+2024-04-23 03:01:22,183 - INFO - Deleted CSV file input_csv\duplicate_581.csv
+2024-04-23 03:01:22,217 - INFO - Converted input_csv\duplicate_582.csv to Parquet format
+2024-04-23 03:01:22,219 - INFO - Deleted CSV file input_csv\duplicate_582.csv
+2024-04-23 03:01:22,252 - INFO - Converted input_csv\duplicate_583.csv to Parquet format
+2024-04-23 03:01:22,253 - INFO - Deleted CSV file input_csv\duplicate_583.csv
+2024-04-23 03:01:22,285 - INFO - Converted input_csv\duplicate_584.csv to Parquet format
+2024-04-23 03:01:22,285 - INFO - Deleted CSV file input_csv\duplicate_584.csv
+2024-04-23 03:01:22,323 - INFO - Converted input_csv\duplicate_585.csv to Parquet format
+2024-04-23 03:01:22,324 - INFO - Deleted CSV file input_csv\duplicate_585.csv
+2024-04-23 03:01:22,363 - INFO - Converted input_csv\duplicate_586.csv to Parquet format
+2024-04-23 03:01:22,364 - INFO - Deleted CSV file input_csv\duplicate_586.csv
+2024-04-23 03:01:22,417 - INFO - Converted input_csv\duplicate_587.csv to Parquet format
+2024-04-23 03:01:22,420 - INFO - Deleted CSV file input_csv\duplicate_587.csv
+2024-04-23 03:01:22,462 - INFO - Converted input_csv\duplicate_588.csv to Parquet format
+2024-04-23 03:01:22,463 - INFO - Deleted CSV file input_csv\duplicate_588.csv
+2024-04-23 03:01:22,497 - INFO - Converted input_csv\duplicate_589.csv to Parquet format
+2024-04-23 03:01:22,498 - INFO - Deleted CSV file input_csv\duplicate_589.csv
+2024-04-23 03:01:22,534 - INFO - Converted input_csv\duplicate_590.csv to Parquet format
+2024-04-23 03:01:22,536 - INFO - Deleted CSV file input_csv\duplicate_590.csv
+2024-04-23 03:01:22,578 - INFO - Converted input_csv\duplicate_591.csv to Parquet format
+2024-04-23 03:01:22,579 - INFO - Deleted CSV file input_csv\duplicate_591.csv
+2024-04-23 03:01:22,617 - INFO - Converted input_csv\duplicate_592.csv to Parquet format
+2024-04-23 03:01:22,620 - INFO - Deleted CSV file input_csv\duplicate_592.csv
+2024-04-23 03:01:22,671 - INFO - Converted input_csv\duplicate_593.csv to Parquet format
+2024-04-23 03:01:22,672 - INFO - Deleted CSV file input_csv\duplicate_593.csv
+2024-04-23 03:01:22,706 - INFO - Converted input_csv\duplicate_594.csv to Parquet format
+2024-04-23 03:01:22,707 - INFO - Deleted CSV file input_csv\duplicate_594.csv
+2024-04-23 03:01:22,748 - INFO - Converted input_csv\duplicate_595.csv to Parquet format
+2024-04-23 03:01:22,749 - INFO - Deleted CSV file input_csv\duplicate_595.csv
+2024-04-23 03:01:22,797 - INFO - Converted input_csv\duplicate_596.csv to Parquet format
+2024-04-23 03:01:22,799 - INFO - Deleted CSV file input_csv\duplicate_596.csv
+2024-04-23 03:01:22,846 - INFO - Converted input_csv\duplicate_597.csv to Parquet format
+2024-04-23 03:01:22,847 - INFO - Deleted CSV file input_csv\duplicate_597.csv
+2024-04-23 03:01:22,883 - INFO - Converted input_csv\duplicate_598.csv to Parquet format
+2024-04-23 03:01:22,887 - INFO - Deleted CSV file input_csv\duplicate_598.csv
+2024-04-23 03:01:22,922 - INFO - Converted input_csv\duplicate_599.csv to Parquet format
+2024-04-23 03:01:22,924 - INFO - Deleted CSV file input_csv\duplicate_599.csv
+2024-04-23 03:01:22,958 - INFO - Converted input_csv\duplicate_600.csv to Parquet format
+2024-04-23 03:01:22,959 - INFO - Deleted CSV file input_csv\duplicate_600.csv
+2024-04-23 03:01:22,998 - INFO - Converted input_csv\duplicate_601.csv to Parquet format
+2024-04-23 03:01:22,999 - INFO - Deleted CSV file input_csv\duplicate_601.csv
+2024-04-23 03:01:23,044 - INFO - Converted input_csv\duplicate_602.csv to Parquet format
+2024-04-23 03:01:23,045 - INFO - Deleted CSV file input_csv\duplicate_602.csv
+2024-04-23 03:01:23,084 - INFO - Converted input_csv\duplicate_603.csv to Parquet format
+2024-04-23 03:01:23,087 - INFO - Deleted CSV file input_csv\duplicate_603.csv
+2024-04-23 03:01:23,125 - INFO - Converted input_csv\duplicate_604.csv to Parquet format
+2024-04-23 03:01:23,127 - INFO - Deleted CSV file input_csv\duplicate_604.csv
+2024-04-23 03:01:23,169 - INFO - Converted input_csv\duplicate_605.csv to Parquet format
+2024-04-23 03:01:23,172 - INFO - Deleted CSV file input_csv\duplicate_605.csv
+2024-04-23 03:01:23,216 - INFO - Converted input_csv\duplicate_606.csv to Parquet format
+2024-04-23 03:01:23,218 - INFO - Deleted CSV file input_csv\duplicate_606.csv
+2024-04-23 03:01:23,267 - INFO - Converted input_csv\duplicate_607.csv to Parquet format
+2024-04-23 03:01:23,269 - INFO - Deleted CSV file input_csv\duplicate_607.csv
+2024-04-23 03:01:23,323 - INFO - Converted input_csv\duplicate_608.csv to Parquet format
+2024-04-23 03:01:23,324 - INFO - Deleted CSV file input_csv\duplicate_608.csv
+2024-04-23 03:01:23,353 - INFO - Converted input_csv\duplicate_609.csv to Parquet format
+2024-04-23 03:01:23,354 - INFO - Deleted CSV file input_csv\duplicate_609.csv
+2024-04-23 03:01:23,399 - INFO - Converted input_csv\duplicate_610.csv to Parquet format
+2024-04-23 03:01:23,401 - INFO - Deleted CSV file input_csv\duplicate_610.csv
+2024-04-23 03:01:23,446 - INFO - Converted input_csv\duplicate_611.csv to Parquet format
+2024-04-23 03:01:23,447 - INFO - Deleted CSV file input_csv\duplicate_611.csv
+2024-04-23 03:01:23,558 - INFO - Converted input_csv\duplicate_612.csv to Parquet format
+2024-04-23 03:01:23,559 - INFO - Deleted CSV file input_csv\duplicate_612.csv
+2024-04-23 03:01:23,610 - INFO - Converted input_csv\duplicate_613.csv to Parquet format
+2024-04-23 03:01:23,611 - INFO - Deleted CSV file input_csv\duplicate_613.csv
+2024-04-23 03:01:23,651 - INFO - Converted input_csv\duplicate_614.csv to Parquet format
+2024-04-23 03:01:23,652 - INFO - Deleted CSV file input_csv\duplicate_614.csv
+2024-04-23 03:01:23,690 - INFO - Converted input_csv\duplicate_615.csv to Parquet format
+2024-04-23 03:01:23,692 - INFO - Deleted CSV file input_csv\duplicate_615.csv
+2024-04-23 03:01:23,730 - INFO - Converted input_csv\duplicate_616.csv to Parquet format
+2024-04-23 03:01:23,731 - INFO - Deleted CSV file input_csv\duplicate_616.csv
+2024-04-23 03:01:23,766 - INFO - Converted input_csv\duplicate_617.csv to Parquet format
+2024-04-23 03:01:23,768 - INFO - Deleted CSV file input_csv\duplicate_617.csv
+2024-04-23 03:01:23,818 - INFO - Converted input_csv\duplicate_618.csv to Parquet format
+2024-04-23 03:01:23,820 - INFO - Deleted CSV file input_csv\duplicate_618.csv
+2024-04-23 03:01:23,865 - INFO - Converted input_csv\duplicate_619.csv to Parquet format
+2024-04-23 03:01:23,866 - INFO - Deleted CSV file input_csv\duplicate_619.csv
+2024-04-23 03:01:23,898 - INFO - Converted input_csv\duplicate_620.csv to Parquet format
+2024-04-23 03:01:23,899 - INFO - Deleted CSV file input_csv\duplicate_620.csv
+2024-04-23 03:01:23,935 - INFO - Converted input_csv\duplicate_621.csv to Parquet format
+2024-04-23 03:01:23,937 - INFO - Deleted CSV file input_csv\duplicate_621.csv
+2024-04-23 03:01:23,966 - INFO - Converted input_csv\duplicate_622.csv to Parquet format
+2024-04-23 03:01:23,967 - INFO - Deleted CSV file input_csv\duplicate_622.csv
+2024-04-23 03:01:23,995 - INFO - Converted input_csv\duplicate_623.csv to Parquet format
+2024-04-23 03:01:23,996 - INFO - Deleted CSV file input_csv\duplicate_623.csv
+2024-04-23 03:01:24,026 - INFO - Converted input_csv\duplicate_624.csv to Parquet format
+2024-04-23 03:01:24,027 - INFO - Deleted CSV file input_csv\duplicate_624.csv
+2024-04-23 03:01:24,065 - INFO - Converted input_csv\duplicate_625.csv to Parquet format
+2024-04-23 03:01:24,066 - INFO - Deleted CSV file input_csv\duplicate_625.csv
+2024-04-23 03:01:24,094 - INFO - Converted input_csv\duplicate_626.csv to Parquet format
+2024-04-23 03:01:24,095 - INFO - Deleted CSV file input_csv\duplicate_626.csv
+2024-04-23 03:01:24,127 - INFO - Converted input_csv\duplicate_627.csv to Parquet format
+2024-04-23 03:01:24,128 - INFO - Deleted CSV file input_csv\duplicate_627.csv
+2024-04-23 03:01:24,152 - INFO - Converted input_csv\duplicate_628.csv to Parquet format
+2024-04-23 03:01:24,154 - INFO - Deleted CSV file input_csv\duplicate_628.csv
+2024-04-23 03:01:24,185 - INFO - Converted input_csv\duplicate_629.csv to Parquet format
+2024-04-23 03:01:24,186 - INFO - Deleted CSV file input_csv\duplicate_629.csv
+2024-04-23 03:01:24,217 - INFO - Converted input_csv\duplicate_630.csv to Parquet format
+2024-04-23 03:01:24,218 - INFO - Deleted CSV file input_csv\duplicate_630.csv
+2024-04-23 03:01:24,246 - INFO - Converted input_csv\duplicate_631.csv to Parquet format
+2024-04-23 03:01:24,246 - INFO - Deleted CSV file input_csv\duplicate_631.csv
+2024-04-23 03:01:24,273 - INFO - Converted input_csv\duplicate_632.csv to Parquet format
+2024-04-23 03:01:24,274 - INFO - Deleted CSV file input_csv\duplicate_632.csv
+2024-04-23 03:01:24,303 - INFO - Converted input_csv\duplicate_633.csv to Parquet format
+2024-04-23 03:01:24,304 - INFO - Deleted CSV file input_csv\duplicate_633.csv
+2024-04-23 03:01:24,336 - INFO - Converted input_csv\duplicate_634.csv to Parquet format
+2024-04-23 03:01:24,338 - INFO - Deleted CSV file input_csv\duplicate_634.csv
+2024-04-23 03:01:24,366 - INFO - Converted input_csv\duplicate_635.csv to Parquet format
+2024-04-23 03:01:24,366 - INFO - Deleted CSV file input_csv\duplicate_635.csv
+2024-04-23 03:01:24,394 - INFO - Converted input_csv\duplicate_636.csv to Parquet format
+2024-04-23 03:01:24,395 - INFO - Deleted CSV file input_csv\duplicate_636.csv
+2024-04-23 03:01:24,425 - INFO - Converted input_csv\duplicate_637.csv to Parquet format
+2024-04-23 03:01:24,426 - INFO - Deleted CSV file input_csv\duplicate_637.csv
+2024-04-23 03:01:24,452 - INFO - Converted input_csv\duplicate_638.csv to Parquet format
+2024-04-23 03:01:24,454 - INFO - Deleted CSV file input_csv\duplicate_638.csv
+2024-04-23 03:01:24,476 - INFO - Converted input_csv\duplicate_639.csv to Parquet format
+2024-04-23 03:01:24,477 - INFO - Deleted CSV file input_csv\duplicate_639.csv
+2024-04-23 03:01:24,509 - INFO - Converted input_csv\duplicate_640.csv to Parquet format
+2024-04-23 03:01:24,510 - INFO - Deleted CSV file input_csv\duplicate_640.csv
+2024-04-23 03:01:24,539 - INFO - Converted input_csv\duplicate_641.csv to Parquet format
+2024-04-23 03:01:24,540 - INFO - Deleted CSV file input_csv\duplicate_641.csv
+2024-04-23 03:01:24,575 - INFO - Converted input_csv\duplicate_642.csv to Parquet format
+2024-04-23 03:01:24,576 - INFO - Deleted CSV file input_csv\duplicate_642.csv
+2024-04-23 03:01:24,602 - INFO - Converted input_csv\duplicate_643.csv to Parquet format
+2024-04-23 03:01:24,605 - INFO - Deleted CSV file input_csv\duplicate_643.csv
+2024-04-23 03:01:24,631 - INFO - Converted input_csv\duplicate_644.csv to Parquet format
+2024-04-23 03:01:24,632 - INFO - Deleted CSV file input_csv\duplicate_644.csv
+2024-04-23 03:01:24,660 - INFO - Converted input_csv\duplicate_645.csv to Parquet format
+2024-04-23 03:01:24,662 - INFO - Deleted CSV file input_csv\duplicate_645.csv
+2024-04-23 03:01:24,689 - INFO - Converted input_csv\duplicate_646.csv to Parquet format
+2024-04-23 03:01:24,690 - INFO - Deleted CSV file input_csv\duplicate_646.csv
+2024-04-23 03:01:24,713 - INFO - Converted input_csv\duplicate_647.csv to Parquet format
+2024-04-23 03:01:24,714 - INFO - Deleted CSV file input_csv\duplicate_647.csv
+2024-04-23 03:01:24,739 - INFO - Converted input_csv\duplicate_648.csv to Parquet format
+2024-04-23 03:01:24,740 - INFO - Deleted CSV file input_csv\duplicate_648.csv
+2024-04-23 03:01:24,770 - INFO - Converted input_csv\duplicate_649.csv to Parquet format
+2024-04-23 03:01:24,771 - INFO - Deleted CSV file input_csv\duplicate_649.csv
+2024-04-23 03:01:24,798 - INFO - Converted input_csv\duplicate_650.csv to Parquet format
+2024-04-23 03:01:24,799 - INFO - Deleted CSV file input_csv\duplicate_650.csv
+2024-04-23 03:01:24,826 - INFO - Converted input_csv\duplicate_651.csv to Parquet format
+2024-04-23 03:01:24,827 - INFO - Deleted CSV file input_csv\duplicate_651.csv
+2024-04-23 03:01:24,853 - INFO - Converted input_csv\duplicate_652.csv to Parquet format
+2024-04-23 03:01:24,856 - INFO - Deleted CSV file input_csv\duplicate_652.csv
+2024-04-23 03:01:24,883 - INFO - Converted input_csv\duplicate_653.csv to Parquet format
+2024-04-23 03:01:24,884 - INFO - Deleted CSV file input_csv\duplicate_653.csv
+2024-04-23 03:01:24,919 - INFO - Converted input_csv\duplicate_654.csv to Parquet format
+2024-04-23 03:01:24,921 - INFO - Deleted CSV file input_csv\duplicate_654.csv
+2024-04-23 03:01:24,943 - INFO - Converted input_csv\duplicate_655.csv to Parquet format
+2024-04-23 03:01:24,945 - INFO - Deleted CSV file input_csv\duplicate_655.csv
+2024-04-23 03:01:24,982 - INFO - Converted input_csv\duplicate_656.csv to Parquet format
+2024-04-23 03:01:24,983 - INFO - Deleted CSV file input_csv\duplicate_656.csv
+2024-04-23 03:01:25,015 - INFO - Converted input_csv\duplicate_657.csv to Parquet format
+2024-04-23 03:01:25,016 - INFO - Deleted CSV file input_csv\duplicate_657.csv
+2024-04-23 03:01:25,048 - INFO - Converted input_csv\duplicate_658.csv to Parquet format
+2024-04-23 03:01:25,050 - INFO - Deleted CSV file input_csv\duplicate_658.csv
+2024-04-23 03:01:25,075 - INFO - Converted input_csv\duplicate_659.csv to Parquet format
+2024-04-23 03:01:25,075 - INFO - Deleted CSV file input_csv\duplicate_659.csv
+2024-04-23 03:01:25,102 - INFO - Converted input_csv\duplicate_660.csv to Parquet format
+2024-04-23 03:01:25,104 - INFO - Deleted CSV file input_csv\duplicate_660.csv
+2024-04-23 03:01:25,129 - INFO - Converted input_csv\duplicate_661.csv to Parquet format
+2024-04-23 03:01:25,131 - INFO - Deleted CSV file input_csv\duplicate_661.csv
+2024-04-23 03:01:25,157 - INFO - Converted input_csv\duplicate_662.csv to Parquet format
+2024-04-23 03:01:25,157 - INFO - Deleted CSV file input_csv\duplicate_662.csv
+2024-04-23 03:01:25,182 - INFO - Converted input_csv\duplicate_663.csv to Parquet format
+2024-04-23 03:01:25,183 - INFO - Deleted CSV file input_csv\duplicate_663.csv
+2024-04-23 03:01:25,208 - INFO - Converted input_csv\duplicate_664.csv to Parquet format
+2024-04-23 03:01:25,209 - INFO - Deleted CSV file input_csv\duplicate_664.csv
+2024-04-23 03:01:25,236 - INFO - Converted input_csv\duplicate_665.csv to Parquet format
+2024-04-23 03:01:25,239 - INFO - Deleted CSV file input_csv\duplicate_665.csv
+2024-04-23 03:01:25,267 - INFO - Converted input_csv\duplicate_666.csv to Parquet format
+2024-04-23 03:01:25,268 - INFO - Deleted CSV file input_csv\duplicate_666.csv
+2024-04-23 03:01:25,300 - INFO - Converted input_csv\duplicate_667.csv to Parquet format
+2024-04-23 03:01:25,302 - INFO - Deleted CSV file input_csv\duplicate_667.csv
+2024-04-23 03:01:25,331 - INFO - Converted input_csv\duplicate_668.csv to Parquet format
+2024-04-23 03:01:25,333 - INFO - Deleted CSV file input_csv\duplicate_668.csv
+2024-04-23 03:01:25,372 - INFO - Converted input_csv\duplicate_669.csv to Parquet format
+2024-04-23 03:01:25,374 - INFO - Deleted CSV file input_csv\duplicate_669.csv
+2024-04-23 03:01:25,400 - INFO - Converted input_csv\duplicate_670.csv to Parquet format
+2024-04-23 03:01:25,401 - INFO - Deleted CSV file input_csv\duplicate_670.csv
+2024-04-23 03:01:25,428 - INFO - Converted input_csv\duplicate_671.csv to Parquet format
+2024-04-23 03:01:25,430 - INFO - Deleted CSV file input_csv\duplicate_671.csv
+2024-04-23 03:01:25,468 - INFO - Converted input_csv\duplicate_672.csv to Parquet format
+2024-04-23 03:01:25,470 - INFO - Deleted CSV file input_csv\duplicate_672.csv
+2024-04-23 03:01:25,501 - INFO - Converted input_csv\duplicate_673.csv to Parquet format
+2024-04-23 03:01:25,503 - INFO - Deleted CSV file input_csv\duplicate_673.csv
+2024-04-23 03:01:25,531 - INFO - Converted input_csv\duplicate_674.csv to Parquet format
+2024-04-23 03:01:25,532 - INFO - Deleted CSV file input_csv\duplicate_674.csv
+2024-04-23 03:01:25,563 - INFO - Converted input_csv\duplicate_675.csv to Parquet format
+2024-04-23 03:01:25,564 - INFO - Deleted CSV file input_csv\duplicate_675.csv
+2024-04-23 03:01:25,606 - INFO - Converted input_csv\duplicate_676.csv to Parquet format
+2024-04-23 03:01:25,607 - INFO - Deleted CSV file input_csv\duplicate_676.csv
+2024-04-23 03:01:25,641 - INFO - Converted input_csv\duplicate_677.csv to Parquet format
+2024-04-23 03:01:25,641 - INFO - Deleted CSV file input_csv\duplicate_677.csv
+2024-04-23 03:01:25,672 - INFO - Converted input_csv\duplicate_678.csv to Parquet format
+2024-04-23 03:01:25,674 - INFO - Deleted CSV file input_csv\duplicate_678.csv
+2024-04-23 03:01:25,705 - INFO - Converted input_csv\duplicate_679.csv to Parquet format
+2024-04-23 03:01:25,707 - INFO - Deleted CSV file input_csv\duplicate_679.csv
+2024-04-23 03:01:25,744 - INFO - Converted input_csv\duplicate_680.csv to Parquet format
+2024-04-23 03:01:25,745 - INFO - Deleted CSV file input_csv\duplicate_680.csv
+2024-04-23 03:01:25,777 - INFO - Converted input_csv\duplicate_681.csv to Parquet format
+2024-04-23 03:01:25,778 - INFO - Deleted CSV file input_csv\duplicate_681.csv
+2024-04-23 03:01:25,814 - INFO - Converted input_csv\duplicate_682.csv to Parquet format
+2024-04-23 03:01:25,815 - INFO - Deleted CSV file input_csv\duplicate_682.csv
+2024-04-23 03:01:25,845 - INFO - Converted input_csv\duplicate_683.csv to Parquet format
+2024-04-23 03:01:25,845 - INFO - Deleted CSV file input_csv\duplicate_683.csv
+2024-04-23 03:01:25,885 - INFO - Converted input_csv\duplicate_684.csv to Parquet format
+2024-04-23 03:01:25,888 - INFO - Deleted CSV file input_csv\duplicate_684.csv
+2024-04-23 03:01:25,926 - INFO - Converted input_csv\duplicate_685.csv to Parquet format
+2024-04-23 03:01:25,927 - INFO - Deleted CSV file input_csv\duplicate_685.csv
+2024-04-23 03:01:25,962 - INFO - Converted input_csv\duplicate_686.csv to Parquet format
+2024-04-23 03:01:25,963 - INFO - Deleted CSV file input_csv\duplicate_686.csv
+2024-04-23 03:01:25,994 - INFO - Converted input_csv\duplicate_687.csv to Parquet format
+2024-04-23 03:01:25,995 - INFO - Deleted CSV file input_csv\duplicate_687.csv
+2024-04-23 03:01:26,031 - INFO - Converted input_csv\duplicate_688.csv to Parquet format
+2024-04-23 03:01:26,033 - INFO - Deleted CSV file input_csv\duplicate_688.csv
+2024-04-23 03:01:26,078 - INFO - Converted input_csv\duplicate_689.csv to Parquet format
+2024-04-23 03:01:26,080 - INFO - Deleted CSV file input_csv\duplicate_689.csv
+2024-04-23 03:01:26,125 - INFO - Converted input_csv\duplicate_690.csv to Parquet format
+2024-04-23 03:01:26,126 - INFO - Deleted CSV file input_csv\duplicate_690.csv
+2024-04-23 03:01:26,158 - INFO - Converted input_csv\duplicate_691.csv to Parquet format
+2024-04-23 03:01:26,159 - INFO - Deleted CSV file input_csv\duplicate_691.csv
+2024-04-23 03:01:26,195 - INFO - Converted input_csv\duplicate_692.csv to Parquet format
+2024-04-23 03:01:26,197 - INFO - Deleted CSV file input_csv\duplicate_692.csv
+2024-04-23 03:01:26,225 - INFO - Converted input_csv\duplicate_693.csv to Parquet format
+2024-04-23 03:01:26,227 - INFO - Deleted CSV file input_csv\duplicate_693.csv
+2024-04-23 03:01:26,264 - INFO - Converted input_csv\duplicate_694.csv to Parquet format
+2024-04-23 03:01:26,265 - INFO - Deleted CSV file input_csv\duplicate_694.csv
+2024-04-23 03:01:26,303 - INFO - Converted input_csv\duplicate_695.csv to Parquet format
+2024-04-23 03:01:26,304 - INFO - Deleted CSV file input_csv\duplicate_695.csv
+2024-04-23 03:01:26,337 - INFO - Converted input_csv\duplicate_696.csv to Parquet format
+2024-04-23 03:01:26,339 - INFO - Deleted CSV file input_csv\duplicate_696.csv
+2024-04-23 03:01:26,367 - INFO - Converted input_csv\duplicate_697.csv to Parquet format
+2024-04-23 03:01:26,368 - INFO - Deleted CSV file input_csv\duplicate_697.csv
+2024-04-23 03:01:26,400 - INFO - Converted input_csv\duplicate_698.csv to Parquet format
+2024-04-23 03:01:26,401 - INFO - Deleted CSV file input_csv\duplicate_698.csv
+2024-04-23 03:01:26,432 - INFO - Converted input_csv\duplicate_699.csv to Parquet format
+2024-04-23 03:01:26,433 - INFO - Deleted CSV file input_csv\duplicate_699.csv
+2024-04-23 03:01:26,472 - INFO - Converted input_csv\duplicate_700.csv to Parquet format
+2024-04-23 03:01:26,474 - INFO - Deleted CSV file input_csv\duplicate_700.csv
+2024-04-23 03:01:26,514 - INFO - Converted input_csv\duplicate_701.csv to Parquet format
+2024-04-23 03:01:26,515 - INFO - Deleted CSV file input_csv\duplicate_701.csv
+2024-04-23 03:01:26,558 - INFO - Converted input_csv\duplicate_702.csv to Parquet format
+2024-04-23 03:01:26,560 - INFO - Deleted CSV file input_csv\duplicate_702.csv
+2024-04-23 03:01:26,600 - INFO - Converted input_csv\duplicate_703.csv to Parquet format
+2024-04-23 03:01:26,602 - INFO - Deleted CSV file input_csv\duplicate_703.csv
+2024-04-23 03:01:26,642 - INFO - Converted input_csv\duplicate_704.csv to Parquet format
+2024-04-23 03:01:26,644 - INFO - Deleted CSV file input_csv\duplicate_704.csv
+2024-04-23 03:01:26,687 - INFO - Converted input_csv\duplicate_705.csv to Parquet format
+2024-04-23 03:01:26,689 - INFO - Deleted CSV file input_csv\duplicate_705.csv
+2024-04-23 03:01:26,734 - INFO - Converted input_csv\duplicate_706.csv to Parquet format
+2024-04-23 03:01:26,736 - INFO - Deleted CSV file input_csv\duplicate_706.csv
+2024-04-23 03:01:26,782 - INFO - Converted input_csv\duplicate_707.csv to Parquet format
+2024-04-23 03:01:26,784 - INFO - Deleted CSV file input_csv\duplicate_707.csv
+2024-04-23 03:01:26,824 - INFO - Converted input_csv\duplicate_708.csv to Parquet format
+2024-04-23 03:01:26,826 - INFO - Deleted CSV file input_csv\duplicate_708.csv
+2024-04-23 03:01:26,871 - INFO - Converted input_csv\duplicate_709.csv to Parquet format
+2024-04-23 03:01:26,872 - INFO - Deleted CSV file input_csv\duplicate_709.csv
+2024-04-23 03:01:26,912 - INFO - Converted input_csv\duplicate_710.csv to Parquet format
+2024-04-23 03:01:26,913 - INFO - Deleted CSV file input_csv\duplicate_710.csv
+2024-04-23 03:01:26,950 - INFO - Converted input_csv\duplicate_711.csv to Parquet format
+2024-04-23 03:01:26,951 - INFO - Deleted CSV file input_csv\duplicate_711.csv
+2024-04-23 03:01:26,998 - INFO - Converted input_csv\duplicate_712.csv to Parquet format
+2024-04-23 03:01:27,000 - INFO - Deleted CSV file input_csv\duplicate_712.csv
+2024-04-23 03:01:27,044 - INFO - Converted input_csv\duplicate_713.csv to Parquet format
+2024-04-23 03:01:27,044 - INFO - Deleted CSV file input_csv\duplicate_713.csv
+2024-04-23 03:01:27,083 - INFO - Converted input_csv\duplicate_714.csv to Parquet format
+2024-04-23 03:01:27,084 - INFO - Deleted CSV file input_csv\duplicate_714.csv
+2024-04-23 03:01:27,118 - INFO - Converted input_csv\duplicate_715.csv to Parquet format
+2024-04-23 03:01:27,119 - INFO - Deleted CSV file input_csv\duplicate_715.csv
+2024-04-23 03:01:27,154 - INFO - Converted input_csv\duplicate_716.csv to Parquet format
+2024-04-23 03:01:27,156 - INFO - Deleted CSV file input_csv\duplicate_716.csv
+2024-04-23 03:01:27,189 - INFO - Converted input_csv\duplicate_717.csv to Parquet format
+2024-04-23 03:01:27,190 - INFO - Deleted CSV file input_csv\duplicate_717.csv
+2024-04-23 03:01:27,225 - INFO - Converted input_csv\duplicate_718.csv to Parquet format
+2024-04-23 03:01:27,227 - INFO - Deleted CSV file input_csv\duplicate_718.csv
+2024-04-23 03:01:27,257 - INFO - Converted input_csv\duplicate_719.csv to Parquet format
+2024-04-23 03:01:27,258 - INFO - Deleted CSV file input_csv\duplicate_719.csv
+2024-04-23 03:01:27,293 - INFO - Converted input_csv\duplicate_720.csv to Parquet format
+2024-04-23 03:01:27,294 - INFO - Deleted CSV file input_csv\duplicate_720.csv
+2024-04-23 03:01:27,319 - INFO - Converted input_csv\duplicate_721.csv to Parquet format
+2024-04-23 03:01:27,320 - INFO - Deleted CSV file input_csv\duplicate_721.csv
+2024-04-23 03:01:27,350 - INFO - Converted input_csv\duplicate_722.csv to Parquet format
+2024-04-23 03:01:27,351 - INFO - Deleted CSV file input_csv\duplicate_722.csv
+2024-04-23 03:01:27,381 - INFO - Converted input_csv\duplicate_723.csv to Parquet format
+2024-04-23 03:01:27,382 - INFO - Deleted CSV file input_csv\duplicate_723.csv
+2024-04-23 03:01:27,416 - INFO - Converted input_csv\duplicate_724.csv to Parquet format
+2024-04-23 03:01:27,417 - INFO - Deleted CSV file input_csv\duplicate_724.csv
+2024-04-23 03:01:27,443 - INFO - Converted input_csv\duplicate_725.csv to Parquet format
+2024-04-23 03:01:27,444 - INFO - Deleted CSV file input_csv\duplicate_725.csv
+2024-04-23 03:01:27,472 - INFO - Converted input_csv\duplicate_726.csv to Parquet format
+2024-04-23 03:01:27,473 - INFO - Deleted CSV file input_csv\duplicate_726.csv
+2024-04-23 03:01:27,504 - INFO - Converted input_csv\duplicate_727.csv to Parquet format
+2024-04-23 03:01:27,505 - INFO - Deleted CSV file input_csv\duplicate_727.csv
+2024-04-23 03:01:27,532 - INFO - Converted input_csv\duplicate_728.csv to Parquet format
+2024-04-23 03:01:27,532 - INFO - Deleted CSV file input_csv\duplicate_728.csv
+2024-04-23 03:01:27,566 - INFO - Converted input_csv\duplicate_729.csv to Parquet format
+2024-04-23 03:01:27,568 - INFO - Deleted CSV file input_csv\duplicate_729.csv
+2024-04-23 03:01:27,590 - INFO - Converted input_csv\duplicate_730.csv to Parquet format
+2024-04-23 03:01:27,591 - INFO - Deleted CSV file input_csv\duplicate_730.csv
+2024-04-23 03:01:27,615 - INFO - Converted input_csv\duplicate_731.csv to Parquet format
+2024-04-23 03:01:27,617 - INFO - Deleted CSV file input_csv\duplicate_731.csv
+2024-04-23 03:01:27,649 - INFO - Converted input_csv\duplicate_732.csv to Parquet format
+2024-04-23 03:01:27,650 - INFO - Deleted CSV file input_csv\duplicate_732.csv
+2024-04-23 03:01:27,673 - INFO - Converted input_csv\duplicate_733.csv to Parquet format
+2024-04-23 03:01:27,674 - INFO - Deleted CSV file input_csv\duplicate_733.csv
+2024-04-23 03:01:27,699 - INFO - Converted input_csv\duplicate_734.csv to Parquet format
+2024-04-23 03:01:27,700 - INFO - Deleted CSV file input_csv\duplicate_734.csv
+2024-04-23 03:01:27,734 - INFO - Converted input_csv\duplicate_735.csv to Parquet format
+2024-04-23 03:01:27,735 - INFO - Deleted CSV file input_csv\duplicate_735.csv
+2024-04-23 03:01:27,761 - INFO - Converted input_csv\duplicate_736.csv to Parquet format
+2024-04-23 03:01:27,762 - INFO - Deleted CSV file input_csv\duplicate_736.csv
+2024-04-23 03:01:27,787 - INFO - Converted input_csv\duplicate_737.csv to Parquet format
+2024-04-23 03:01:27,788 - INFO - Deleted CSV file input_csv\duplicate_737.csv
+2024-04-23 03:01:27,812 - INFO - Converted input_csv\duplicate_738.csv to Parquet format
+2024-04-23 03:01:27,813 - INFO - Deleted CSV file input_csv\duplicate_738.csv
+2024-04-23 03:01:27,845 - INFO - Converted input_csv\duplicate_739.csv to Parquet format
+2024-04-23 03:01:27,846 - INFO - Deleted CSV file input_csv\duplicate_739.csv
+2024-04-23 03:01:27,870 - INFO - Converted input_csv\duplicate_740.csv to Parquet format
+2024-04-23 03:01:27,871 - INFO - Deleted CSV file input_csv\duplicate_740.csv
+2024-04-23 03:01:27,896 - INFO - Converted input_csv\duplicate_741.csv to Parquet format
+2024-04-23 03:01:27,897 - INFO - Deleted CSV file input_csv\duplicate_741.csv
+2024-04-23 03:01:27,921 - INFO - Converted input_csv\duplicate_742.csv to Parquet format
+2024-04-23 03:01:27,922 - INFO - Deleted CSV file input_csv\duplicate_742.csv
+2024-04-23 03:01:27,946 - INFO - Converted input_csv\duplicate_743.csv to Parquet format
+2024-04-23 03:01:27,947 - INFO - Deleted CSV file input_csv\duplicate_743.csv
+2024-04-23 03:01:27,976 - INFO - Converted input_csv\duplicate_744.csv to Parquet format
+2024-04-23 03:01:27,977 - INFO - Deleted CSV file input_csv\duplicate_744.csv
+2024-04-23 03:01:28,039 - INFO - Converted input_csv\duplicate_745.csv to Parquet format
+2024-04-23 03:01:28,039 - INFO - Deleted CSV file input_csv\duplicate_745.csv
+2024-04-23 03:01:28,074 - INFO - Converted input_csv\duplicate_746.csv to Parquet format
+2024-04-23 03:01:28,075 - INFO - Deleted CSV file input_csv\duplicate_746.csv
+2024-04-23 03:01:28,121 - INFO - Converted input_csv\duplicate_747.csv to Parquet format
+2024-04-23 03:01:28,121 - INFO - Deleted CSV file input_csv\duplicate_747.csv
+2024-04-23 03:01:28,161 - INFO - Converted input_csv\duplicate_748.csv to Parquet format
+2024-04-23 03:01:28,163 - INFO - Deleted CSV file input_csv\duplicate_748.csv
+2024-04-23 03:01:28,198 - INFO - Converted input_csv\duplicate_749.csv to Parquet format
+2024-04-23 03:01:28,199 - INFO - Deleted CSV file input_csv\duplicate_749.csv
+2024-04-23 03:01:28,235 - INFO - Converted input_csv\duplicate_750.csv to Parquet format
+2024-04-23 03:01:28,236 - INFO - Deleted CSV file input_csv\duplicate_750.csv
+2024-04-23 03:01:28,264 - INFO - Converted input_csv\duplicate_751.csv to Parquet format
+2024-04-23 03:01:28,265 - INFO - Deleted CSV file input_csv\duplicate_751.csv
+2024-04-23 03:01:28,301 - INFO - Converted input_csv\duplicate_752.csv to Parquet format
+2024-04-23 03:01:28,303 - INFO - Deleted CSV file input_csv\duplicate_752.csv
+2024-04-23 03:01:28,342 - INFO - Converted input_csv\duplicate_753.csv to Parquet format
+2024-04-23 03:01:28,342 - INFO - Deleted CSV file input_csv\duplicate_753.csv
+2024-04-23 03:01:28,382 - INFO - Converted input_csv\duplicate_754.csv to Parquet format
+2024-04-23 03:01:28,384 - INFO - Deleted CSV file input_csv\duplicate_754.csv
+2024-04-23 03:01:28,419 - INFO - Converted input_csv\duplicate_755.csv to Parquet format
+2024-04-23 03:01:28,420 - INFO - Deleted CSV file input_csv\duplicate_755.csv
+2024-04-23 03:01:28,458 - INFO - Converted input_csv\duplicate_756.csv to Parquet format
+2024-04-23 03:01:28,459 - INFO - Deleted CSV file input_csv\duplicate_756.csv
+2024-04-23 03:01:28,492 - INFO - Converted input_csv\duplicate_757.csv to Parquet format
+2024-04-23 03:01:28,494 - INFO - Deleted CSV file input_csv\duplicate_757.csv
+2024-04-23 03:01:28,534 - INFO - Converted input_csv\duplicate_758.csv to Parquet format
+2024-04-23 03:01:28,535 - INFO - Deleted CSV file input_csv\duplicate_758.csv
+2024-04-23 03:01:28,561 - INFO - Converted input_csv\duplicate_759.csv to Parquet format
+2024-04-23 03:01:28,562 - INFO - Deleted CSV file input_csv\duplicate_759.csv
+2024-04-23 03:01:28,605 - INFO - Converted input_csv\duplicate_760.csv to Parquet format
+2024-04-23 03:01:28,606 - INFO - Deleted CSV file input_csv\duplicate_760.csv
+2024-04-23 03:01:28,635 - INFO - Converted input_csv\duplicate_761.csv to Parquet format
+2024-04-23 03:01:28,637 - INFO - Deleted CSV file input_csv\duplicate_761.csv
+2024-04-23 03:01:28,672 - INFO - Converted input_csv\duplicate_762.csv to Parquet format
+2024-04-23 03:01:28,673 - INFO - Deleted CSV file input_csv\duplicate_762.csv
+2024-04-23 03:01:28,710 - INFO - Converted input_csv\duplicate_763.csv to Parquet format
+2024-04-23 03:01:28,712 - INFO - Deleted CSV file input_csv\duplicate_763.csv
+2024-04-23 03:01:28,752 - INFO - Converted input_csv\duplicate_764.csv to Parquet format
+2024-04-23 03:01:28,752 - INFO - Deleted CSV file input_csv\duplicate_764.csv
+2024-04-23 03:01:28,792 - INFO - Converted input_csv\duplicate_765.csv to Parquet format
+2024-04-23 03:01:28,794 - INFO - Deleted CSV file input_csv\duplicate_765.csv
+2024-04-23 03:01:28,842 - INFO - Converted input_csv\duplicate_766.csv to Parquet format
+2024-04-23 03:01:28,843 - INFO - Deleted CSV file input_csv\duplicate_766.csv
+2024-04-23 03:01:28,874 - INFO - Converted input_csv\duplicate_767.csv to Parquet format
+2024-04-23 03:01:28,875 - INFO - Deleted CSV file input_csv\duplicate_767.csv
+2024-04-23 03:01:28,910 - INFO - Converted input_csv\duplicate_768.csv to Parquet format
+2024-04-23 03:01:28,911 - INFO - Deleted CSV file input_csv\duplicate_768.csv
+2024-04-23 03:01:28,953 - INFO - Converted input_csv\duplicate_769.csv to Parquet format
+2024-04-23 03:01:28,955 - INFO - Deleted CSV file input_csv\duplicate_769.csv
+2024-04-23 03:01:28,986 - INFO - Converted input_csv\duplicate_770.csv to Parquet format
+2024-04-23 03:01:28,988 - INFO - Deleted CSV file input_csv\duplicate_770.csv
+2024-04-23 03:01:29,020 - INFO - Converted input_csv\duplicate_771.csv to Parquet format
+2024-04-23 03:01:29,021 - INFO - Deleted CSV file input_csv\duplicate_771.csv
+2024-04-23 03:01:29,052 - INFO - Converted input_csv\duplicate_772.csv to Parquet format
+2024-04-23 03:01:29,053 - INFO - Deleted CSV file input_csv\duplicate_772.csv
+2024-04-23 03:01:29,087 - INFO - Converted input_csv\duplicate_773.csv to Parquet format
+2024-04-23 03:01:29,088 - INFO - Deleted CSV file input_csv\duplicate_773.csv
+2024-04-23 03:01:29,128 - INFO - Converted input_csv\duplicate_774.csv to Parquet format
+2024-04-23 03:01:29,130 - INFO - Deleted CSV file input_csv\duplicate_774.csv
+2024-04-23 03:01:29,167 - INFO - Converted input_csv\duplicate_775.csv to Parquet format
+2024-04-23 03:01:29,169 - INFO - Deleted CSV file input_csv\duplicate_775.csv
+2024-04-23 03:01:29,199 - INFO - Converted input_csv\duplicate_776.csv to Parquet format
+2024-04-23 03:01:29,200 - INFO - Deleted CSV file input_csv\duplicate_776.csv
+2024-04-23 03:01:29,235 - INFO - Converted input_csv\duplicate_777.csv to Parquet format
+2024-04-23 03:01:29,237 - INFO - Deleted CSV file input_csv\duplicate_777.csv
+2024-04-23 03:01:29,268 - INFO - Converted input_csv\duplicate_778.csv to Parquet format
+2024-04-23 03:01:29,269 - INFO - Deleted CSV file input_csv\duplicate_778.csv
+2024-04-23 03:01:29,296 - INFO - Converted input_csv\duplicate_779.csv to Parquet format
+2024-04-23 03:01:29,299 - INFO - Deleted CSV file input_csv\duplicate_779.csv
+2024-04-23 03:01:29,325 - INFO - Converted input_csv\duplicate_780.csv to Parquet format
+2024-04-23 03:01:29,326 - INFO - Deleted CSV file input_csv\duplicate_780.csv
+2024-04-23 03:01:29,359 - INFO - Converted input_csv\duplicate_781.csv to Parquet format
+2024-04-23 03:01:29,360 - INFO - Deleted CSV file input_csv\duplicate_781.csv
+2024-04-23 03:01:29,392 - INFO - Converted input_csv\duplicate_782.csv to Parquet format
+2024-04-23 03:01:29,393 - INFO - Deleted CSV file input_csv\duplicate_782.csv
+2024-04-23 03:01:29,422 - INFO - Converted input_csv\duplicate_783.csv to Parquet format
+2024-04-23 03:01:29,424 - INFO - Deleted CSV file input_csv\duplicate_783.csv
+2024-04-23 03:01:29,461 - INFO - Converted input_csv\duplicate_784.csv to Parquet format
+2024-04-23 03:01:29,463 - INFO - Deleted CSV file input_csv\duplicate_784.csv
+2024-04-23 03:01:29,496 - INFO - Converted input_csv\duplicate_785.csv to Parquet format
+2024-04-23 03:01:29,496 - INFO - Deleted CSV file input_csv\duplicate_785.csv
+2024-04-23 03:01:29,531 - INFO - Converted input_csv\duplicate_786.csv to Parquet format
+2024-04-23 03:01:29,533 - INFO - Deleted CSV file input_csv\duplicate_786.csv
+2024-04-23 03:01:29,573 - INFO - Converted input_csv\duplicate_787.csv to Parquet format
+2024-04-23 03:01:29,574 - INFO - Deleted CSV file input_csv\duplicate_787.csv
+2024-04-23 03:01:29,616 - INFO - Converted input_csv\duplicate_788.csv to Parquet format
+2024-04-23 03:01:29,617 - INFO - Deleted CSV file input_csv\duplicate_788.csv
+2024-04-23 03:01:29,675 - INFO - Converted input_csv\duplicate_789.csv to Parquet format
+2024-04-23 03:01:29,676 - INFO - Deleted CSV file input_csv\duplicate_789.csv
+2024-04-23 03:01:29,712 - INFO - Converted input_csv\duplicate_790.csv to Parquet format
+2024-04-23 03:01:29,713 - INFO - Deleted CSV file input_csv\duplicate_790.csv
+2024-04-23 03:01:29,748 - INFO - Converted input_csv\duplicate_791.csv to Parquet format
+2024-04-23 03:01:29,749 - INFO - Deleted CSV file input_csv\duplicate_791.csv
+2024-04-23 03:01:29,782 - INFO - Converted input_csv\duplicate_792.csv to Parquet format
+2024-04-23 03:01:29,783 - INFO - Deleted CSV file input_csv\duplicate_792.csv
+2024-04-23 03:01:29,832 - INFO - Converted input_csv\duplicate_793.csv to Parquet format
+2024-04-23 03:01:29,833 - INFO - Deleted CSV file input_csv\duplicate_793.csv
+2024-04-23 03:01:29,873 - INFO - Converted input_csv\duplicate_794.csv to Parquet format
+2024-04-23 03:01:29,874 - INFO - Deleted CSV file input_csv\duplicate_794.csv
+2024-04-23 03:01:29,902 - INFO - Converted input_csv\duplicate_795.csv to Parquet format
+2024-04-23 03:01:29,905 - INFO - Deleted CSV file input_csv\duplicate_795.csv
+2024-04-23 03:01:29,946 - INFO - Converted input_csv\duplicate_796.csv to Parquet format
+2024-04-23 03:01:29,947 - INFO - Deleted CSV file input_csv\duplicate_796.csv
+2024-04-23 03:01:29,980 - INFO - Converted input_csv\duplicate_797.csv to Parquet format
+2024-04-23 03:01:29,981 - INFO - Deleted CSV file input_csv\duplicate_797.csv
+2024-04-23 03:01:30,019 - INFO - Converted input_csv\duplicate_798.csv to Parquet format
+2024-04-23 03:01:30,021 - INFO - Deleted CSV file input_csv\duplicate_798.csv
+2024-04-23 03:01:30,058 - INFO - Converted input_csv\duplicate_799.csv to Parquet format
+2024-04-23 03:01:30,059 - INFO - Deleted CSV file input_csv\duplicate_799.csv
+2024-04-23 03:01:30,083 - INFO - Converted input_csv\duplicate_800.csv to Parquet format
+2024-04-23 03:01:30,084 - INFO - Deleted CSV file input_csv\duplicate_800.csv
+2024-04-23 03:01:30,128 - INFO - Converted input_csv\duplicate_801.csv to Parquet format
+2024-04-23 03:01:30,129 - INFO - Deleted CSV file input_csv\duplicate_801.csv
+2024-04-23 03:01:30,168 - INFO - Converted input_csv\duplicate_802.csv to Parquet format
+2024-04-23 03:01:30,169 - INFO - Deleted CSV file input_csv\duplicate_802.csv
+2024-04-23 03:01:30,209 - INFO - Converted input_csv\duplicate_803.csv to Parquet format
+2024-04-23 03:01:30,211 - INFO - Deleted CSV file input_csv\duplicate_803.csv
+2024-04-23 03:01:30,249 - INFO - Converted input_csv\duplicate_804.csv to Parquet format
+2024-04-23 03:01:30,250 - INFO - Deleted CSV file input_csv\duplicate_804.csv
+2024-04-23 03:01:30,295 - INFO - Converted input_csv\duplicate_805.csv to Parquet format
+2024-04-23 03:01:30,295 - INFO - Deleted CSV file input_csv\duplicate_805.csv
+2024-04-23 03:01:30,334 - INFO - Converted input_csv\duplicate_806.csv to Parquet format
+2024-04-23 03:01:30,337 - INFO - Deleted CSV file input_csv\duplicate_806.csv
+2024-04-23 03:01:30,385 - INFO - Converted input_csv\duplicate_807.csv to Parquet format
+2024-04-23 03:01:30,387 - INFO - Deleted CSV file input_csv\duplicate_807.csv
+2024-04-23 03:01:30,431 - INFO - Converted input_csv\duplicate_808.csv to Parquet format
+2024-04-23 03:01:30,433 - INFO - Deleted CSV file input_csv\duplicate_808.csv
+2024-04-23 03:01:30,471 - INFO - Converted input_csv\duplicate_809.csv to Parquet format
+2024-04-23 03:01:30,474 - INFO - Deleted CSV file input_csv\duplicate_809.csv
+2024-04-23 03:01:30,512 - INFO - Converted input_csv\duplicate_810.csv to Parquet format
+2024-04-23 03:01:30,514 - INFO - Deleted CSV file input_csv\duplicate_810.csv
+2024-04-23 03:01:30,553 - INFO - Converted input_csv\duplicate_811.csv to Parquet format
+2024-04-23 03:01:30,555 - INFO - Deleted CSV file input_csv\duplicate_811.csv
+2024-04-23 03:01:30,598 - INFO - Converted input_csv\duplicate_812.csv to Parquet format
+2024-04-23 03:01:30,599 - INFO - Deleted CSV file input_csv\duplicate_812.csv
+2024-04-23 03:01:30,633 - INFO - Converted input_csv\duplicate_813.csv to Parquet format
+2024-04-23 03:01:30,635 - INFO - Deleted CSV file input_csv\duplicate_813.csv
+2024-04-23 03:01:30,672 - INFO - Converted input_csv\duplicate_814.csv to Parquet format
+2024-04-23 03:01:30,674 - INFO - Deleted CSV file input_csv\duplicate_814.csv
+2024-04-23 03:01:30,725 - INFO - Converted input_csv\duplicate_815.csv to Parquet format
+2024-04-23 03:01:30,727 - INFO - Deleted CSV file input_csv\duplicate_815.csv
+2024-04-23 03:01:30,772 - INFO - Converted input_csv\duplicate_816.csv to Parquet format
+2024-04-23 03:01:30,774 - INFO - Deleted CSV file input_csv\duplicate_816.csv
+2024-04-23 03:01:30,807 - INFO - Converted input_csv\duplicate_817.csv to Parquet format
+2024-04-23 03:01:30,808 - INFO - Deleted CSV file input_csv\duplicate_817.csv
+2024-04-23 03:01:30,840 - INFO - Converted input_csv\duplicate_818.csv to Parquet format
+2024-04-23 03:01:30,840 - INFO - Deleted CSV file input_csv\duplicate_818.csv
+2024-04-23 03:01:30,867 - INFO - Converted input_csv\duplicate_819.csv to Parquet format
+2024-04-23 03:01:30,868 - INFO - Deleted CSV file input_csv\duplicate_819.csv
+2024-04-23 03:01:30,896 - INFO - Converted input_csv\duplicate_820.csv to Parquet format
+2024-04-23 03:01:30,897 - INFO - Deleted CSV file input_csv\duplicate_820.csv
+2024-04-23 03:01:30,923 - INFO - Converted input_csv\duplicate_821.csv to Parquet format
+2024-04-23 03:01:30,924 - INFO - Deleted CSV file input_csv\duplicate_821.csv
+2024-04-23 03:01:30,949 - INFO - Converted input_csv\duplicate_822.csv to Parquet format
+2024-04-23 03:01:30,950 - INFO - Deleted CSV file input_csv\duplicate_822.csv
+2024-04-23 03:01:30,973 - INFO - Converted input_csv\duplicate_823.csv to Parquet format
+2024-04-23 03:01:30,973 - INFO - Deleted CSV file input_csv\duplicate_823.csv
+2024-04-23 03:01:30,995 - INFO - Converted input_csv\duplicate_824.csv to Parquet format
+2024-04-23 03:01:30,996 - INFO - Deleted CSV file input_csv\duplicate_824.csv
+2024-04-23 03:01:31,019 - INFO - Converted input_csv\duplicate_825.csv to Parquet format
+2024-04-23 03:01:31,022 - INFO - Deleted CSV file input_csv\duplicate_825.csv
+2024-04-23 03:01:31,044 - INFO - Converted input_csv\duplicate_826.csv to Parquet format
+2024-04-23 03:01:31,045 - INFO - Deleted CSV file input_csv\duplicate_826.csv
+2024-04-23 03:01:31,067 - INFO - Converted input_csv\duplicate_827.csv to Parquet format
+2024-04-23 03:01:31,068 - INFO - Deleted CSV file input_csv\duplicate_827.csv
+2024-04-23 03:01:31,094 - INFO - Converted input_csv\duplicate_828.csv to Parquet format
+2024-04-23 03:01:31,095 - INFO - Deleted CSV file input_csv\duplicate_828.csv
+2024-04-23 03:01:31,127 - INFO - Converted input_csv\duplicate_829.csv to Parquet format
+2024-04-23 03:01:31,128 - INFO - Deleted CSV file input_csv\duplicate_829.csv
+2024-04-23 03:01:31,153 - INFO - Converted input_csv\duplicate_830.csv to Parquet format
+2024-04-23 03:01:31,156 - INFO - Deleted CSV file input_csv\duplicate_830.csv
+2024-04-23 03:01:31,181 - INFO - Converted input_csv\duplicate_831.csv to Parquet format
+2024-04-23 03:01:31,183 - INFO - Deleted CSV file input_csv\duplicate_831.csv
+2024-04-23 03:01:31,212 - INFO - Converted input_csv\duplicate_832.csv to Parquet format
+2024-04-23 03:01:31,213 - INFO - Deleted CSV file input_csv\duplicate_832.csv
+2024-04-23 03:01:31,249 - INFO - Converted input_csv\duplicate_833.csv to Parquet format
+2024-04-23 03:01:31,250 - INFO - Deleted CSV file input_csv\duplicate_833.csv
+2024-04-23 03:01:31,286 - INFO - Converted input_csv\duplicate_834.csv to Parquet format
+2024-04-23 03:01:31,289 - INFO - Deleted CSV file input_csv\duplicate_834.csv
+2024-04-23 03:01:31,324 - INFO - Converted input_csv\duplicate_835.csv to Parquet format
+2024-04-23 03:01:31,325 - INFO - Deleted CSV file input_csv\duplicate_835.csv
+2024-04-23 03:01:31,362 - INFO - Converted input_csv\duplicate_836.csv to Parquet format
+2024-04-23 03:01:31,363 - INFO - Deleted CSV file input_csv\duplicate_836.csv
+2024-04-23 03:01:31,393 - INFO - Converted input_csv\duplicate_837.csv to Parquet format
+2024-04-23 03:01:31,394 - INFO - Deleted CSV file input_csv\duplicate_837.csv
+2024-04-23 03:01:31,425 - INFO - Converted input_csv\duplicate_838.csv to Parquet format
+2024-04-23 03:01:31,425 - INFO - Deleted CSV file input_csv\duplicate_838.csv
+2024-04-23 03:01:31,464 - INFO - Converted input_csv\duplicate_839.csv to Parquet format
+2024-04-23 03:01:31,465 - INFO - Deleted CSV file input_csv\duplicate_839.csv
+2024-04-23 03:01:31,500 - INFO - Converted input_csv\duplicate_840.csv to Parquet format
+2024-04-23 03:01:31,501 - INFO - Deleted CSV file input_csv\duplicate_840.csv
+2024-04-23 03:01:31,534 - INFO - Converted input_csv\duplicate_841.csv to Parquet format
+2024-04-23 03:01:31,535 - INFO - Deleted CSV file input_csv\duplicate_841.csv
+2024-04-23 03:01:31,571 - INFO - Converted input_csv\duplicate_842.csv to Parquet format
+2024-04-23 03:01:31,572 - INFO - Deleted CSV file input_csv\duplicate_842.csv
+2024-04-23 03:01:31,602 - INFO - Converted input_csv\duplicate_843.csv to Parquet format
+2024-04-23 03:01:31,605 - INFO - Deleted CSV file input_csv\duplicate_843.csv
+2024-04-23 03:01:31,629 - INFO - Converted input_csv\duplicate_844.csv to Parquet format
+2024-04-23 03:01:31,630 - INFO - Deleted CSV file input_csv\duplicate_844.csv
+2024-04-23 03:01:31,663 - INFO - Converted input_csv\duplicate_845.csv to Parquet format
+2024-04-23 03:01:31,665 - INFO - Deleted CSV file input_csv\duplicate_845.csv
+2024-04-23 03:01:31,699 - INFO - Converted input_csv\duplicate_846.csv to Parquet format
+2024-04-23 03:01:31,700 - INFO - Deleted CSV file input_csv\duplicate_846.csv
+2024-04-23 03:01:31,728 - INFO - Converted input_csv\duplicate_847.csv to Parquet format
+2024-04-23 03:01:31,729 - INFO - Deleted CSV file input_csv\duplicate_847.csv
+2024-04-23 03:01:31,755 - INFO - Converted input_csv\duplicate_848.csv to Parquet format
+2024-04-23 03:01:31,757 - INFO - Deleted CSV file input_csv\duplicate_848.csv
+2024-04-23 03:01:31,779 - INFO - Converted input_csv\duplicate_849.csv to Parquet format
+2024-04-23 03:01:31,780 - INFO - Deleted CSV file input_csv\duplicate_849.csv
+2024-04-23 03:01:31,805 - INFO - Converted input_csv\duplicate_850.csv to Parquet format
+2024-04-23 03:01:31,807 - INFO - Deleted CSV file input_csv\duplicate_850.csv
+2024-04-23 03:01:31,831 - INFO - Converted input_csv\duplicate_851.csv to Parquet format
+2024-04-23 03:01:31,832 - INFO - Deleted CSV file input_csv\duplicate_851.csv
+2024-04-23 03:01:31,858 - INFO - Converted input_csv\duplicate_852.csv to Parquet format
+2024-04-23 03:01:31,859 - INFO - Deleted CSV file input_csv\duplicate_852.csv
+2024-04-23 03:01:31,882 - INFO - Converted input_csv\duplicate_853.csv to Parquet format
+2024-04-23 03:01:31,883 - INFO - Deleted CSV file input_csv\duplicate_853.csv
+2024-04-23 03:01:31,914 - INFO - Converted input_csv\duplicate_854.csv to Parquet format
+2024-04-23 03:01:31,914 - INFO - Deleted CSV file input_csv\duplicate_854.csv
+2024-04-23 03:01:31,937 - INFO - Converted input_csv\duplicate_855.csv to Parquet format
+2024-04-23 03:01:31,939 - INFO - Deleted CSV file input_csv\duplicate_855.csv
+2024-04-23 03:01:31,960 - INFO - Converted input_csv\duplicate_856.csv to Parquet format
+2024-04-23 03:01:31,961 - INFO - Deleted CSV file input_csv\duplicate_856.csv
+2024-04-23 03:01:31,984 - INFO - Converted input_csv\duplicate_857.csv to Parquet format
+2024-04-23 03:01:31,985 - INFO - Deleted CSV file input_csv\duplicate_857.csv
+2024-04-23 03:01:32,021 - INFO - Converted input_csv\duplicate_858.csv to Parquet format
+2024-04-23 03:01:32,022 - INFO - Deleted CSV file input_csv\duplicate_858.csv
+2024-04-23 03:01:32,044 - INFO - Converted input_csv\duplicate_859.csv to Parquet format
+2024-04-23 03:01:32,045 - INFO - Deleted CSV file input_csv\duplicate_859.csv
+2024-04-23 03:01:32,071 - INFO - Converted input_csv\duplicate_860.csv to Parquet format
+2024-04-23 03:01:32,072 - INFO - Deleted CSV file input_csv\duplicate_860.csv
+2024-04-23 03:01:32,095 - INFO - Converted input_csv\duplicate_861.csv to Parquet format
+2024-04-23 03:01:32,096 - INFO - Deleted CSV file input_csv\duplicate_861.csv
+2024-04-23 03:01:32,128 - INFO - Converted input_csv\duplicate_862.csv to Parquet format
+2024-04-23 03:01:32,129 - INFO - Deleted CSV file input_csv\duplicate_862.csv
+2024-04-23 03:01:32,152 - INFO - Converted input_csv\duplicate_863.csv to Parquet format
+2024-04-23 03:01:32,154 - INFO - Deleted CSV file input_csv\duplicate_863.csv
+2024-04-23 03:01:32,176 - INFO - Converted input_csv\duplicate_864.csv to Parquet format
+2024-04-23 03:01:32,176 - INFO - Deleted CSV file input_csv\duplicate_864.csv
+2024-04-23 03:01:32,200 - INFO - Converted input_csv\duplicate_865.csv to Parquet format
+2024-04-23 03:01:32,202 - INFO - Deleted CSV file input_csv\duplicate_865.csv
+2024-04-23 03:01:32,231 - INFO - Converted input_csv\duplicate_866.csv to Parquet format
+2024-04-23 03:01:32,232 - INFO - Deleted CSV file input_csv\duplicate_866.csv
+2024-04-23 03:01:32,279 - INFO - Converted input_csv\duplicate_867.csv to Parquet format
+2024-04-23 03:01:32,280 - INFO - Deleted CSV file input_csv\duplicate_867.csv
+2024-04-23 03:01:32,322 - INFO - Converted input_csv\duplicate_868.csv to Parquet format
+2024-04-23 03:01:32,323 - INFO - Deleted CSV file input_csv\duplicate_868.csv
+2024-04-23 03:01:32,350 - INFO - Converted input_csv\duplicate_869.csv to Parquet format
+2024-04-23 03:01:32,351 - INFO - Deleted CSV file input_csv\duplicate_869.csv
+2024-04-23 03:01:32,387 - INFO - Converted input_csv\duplicate_870.csv to Parquet format
+2024-04-23 03:01:32,389 - INFO - Deleted CSV file input_csv\duplicate_870.csv
+2024-04-23 03:01:32,422 - INFO - Converted input_csv\duplicate_871.csv to Parquet format
+2024-04-23 03:01:32,423 - INFO - Deleted CSV file input_csv\duplicate_871.csv
+2024-04-23 03:01:32,459 - INFO - Converted input_csv\duplicate_872.csv to Parquet format
+2024-04-23 03:01:32,460 - INFO - Deleted CSV file input_csv\duplicate_872.csv
+2024-04-23 03:01:32,502 - INFO - Converted input_csv\duplicate_873.csv to Parquet format
+2024-04-23 03:01:32,505 - INFO - Deleted CSV file input_csv\duplicate_873.csv
+2024-04-23 03:01:32,531 - INFO - Converted input_csv\duplicate_874.csv to Parquet format
+2024-04-23 03:01:32,532 - INFO - Deleted CSV file input_csv\duplicate_874.csv
+2024-04-23 03:01:32,563 - INFO - Converted input_csv\duplicate_875.csv to Parquet format
+2024-04-23 03:01:32,563 - INFO - Deleted CSV file input_csv\duplicate_875.csv
+2024-04-23 03:01:32,591 - INFO - Converted input_csv\duplicate_876.csv to Parquet format
+2024-04-23 03:01:32,592 - INFO - Deleted CSV file input_csv\duplicate_876.csv
+2024-04-23 03:01:32,624 - INFO - Converted input_csv\duplicate_877.csv to Parquet format
+2024-04-23 03:01:32,624 - INFO - Deleted CSV file input_csv\duplicate_877.csv
+2024-04-23 03:01:32,660 - INFO - Converted input_csv\duplicate_878.csv to Parquet format
+2024-04-23 03:01:32,661 - INFO - Deleted CSV file input_csv\duplicate_878.csv
+2024-04-23 03:01:32,712 - INFO - Converted input_csv\duplicate_879.csv to Parquet format
+2024-04-23 03:01:32,714 - INFO - Deleted CSV file input_csv\duplicate_879.csv
+2024-04-23 03:01:32,757 - INFO - Converted input_csv\duplicate_880.csv to Parquet format
+2024-04-23 03:01:32,759 - INFO - Deleted CSV file input_csv\duplicate_880.csv
+2024-04-23 03:01:32,787 - INFO - Converted input_csv\duplicate_881.csv to Parquet format
+2024-04-23 03:01:32,788 - INFO - Deleted CSV file input_csv\duplicate_881.csv
+2024-04-23 03:01:32,824 - INFO - Converted input_csv\duplicate_882.csv to Parquet format
+2024-04-23 03:01:32,826 - INFO - Deleted CSV file input_csv\duplicate_882.csv
+2024-04-23 03:01:32,851 - INFO - Converted input_csv\duplicate_883.csv to Parquet format
+2024-04-23 03:01:32,852 - INFO - Deleted CSV file input_csv\duplicate_883.csv
+2024-04-23 03:01:32,882 - INFO - Converted input_csv\duplicate_884.csv to Parquet format
+2024-04-23 03:01:32,883 - INFO - Deleted CSV file input_csv\duplicate_884.csv
+2024-04-23 03:01:32,914 - INFO - Converted input_csv\duplicate_885.csv to Parquet format
+2024-04-23 03:01:32,916 - INFO - Deleted CSV file input_csv\duplicate_885.csv
+2024-04-23 03:01:32,947 - INFO - Converted input_csv\duplicate_886.csv to Parquet format
+2024-04-23 03:01:32,948 - INFO - Deleted CSV file input_csv\duplicate_886.csv
+2024-04-23 03:01:32,981 - INFO - Converted input_csv\duplicate_887.csv to Parquet format
+2024-04-23 03:01:32,982 - INFO - Deleted CSV file input_csv\duplicate_887.csv
+2024-04-23 03:01:33,022 - INFO - Converted input_csv\duplicate_888.csv to Parquet format
+2024-04-23 03:01:33,025 - INFO - Deleted CSV file input_csv\duplicate_888.csv
+2024-04-23 03:01:33,064 - INFO - Converted input_csv\duplicate_889.csv to Parquet format
+2024-04-23 03:01:33,065 - INFO - Deleted CSV file input_csv\duplicate_889.csv
+2024-04-23 03:01:33,106 - INFO - Converted input_csv\duplicate_890.csv to Parquet format
+2024-04-23 03:01:33,108 - INFO - Deleted CSV file input_csv\duplicate_890.csv
+2024-04-23 03:01:33,140 - INFO - Converted input_csv\duplicate_891.csv to Parquet format
+2024-04-23 03:01:33,141 - INFO - Deleted CSV file input_csv\duplicate_891.csv
+2024-04-23 03:01:33,175 - INFO - Converted input_csv\duplicate_892.csv to Parquet format
+2024-04-23 03:01:33,176 - INFO - Deleted CSV file input_csv\duplicate_892.csv
+2024-04-23 03:01:33,224 - INFO - Converted input_csv\duplicate_893.csv to Parquet format
+2024-04-23 03:01:33,226 - INFO - Deleted CSV file input_csv\duplicate_893.csv
+2024-04-23 03:01:33,269 - INFO - Converted input_csv\duplicate_894.csv to Parquet format
+2024-04-23 03:01:33,272 - INFO - Deleted CSV file input_csv\duplicate_894.csv
+2024-04-23 03:01:33,314 - INFO - Converted input_csv\duplicate_895.csv to Parquet format
+2024-04-23 03:01:33,315 - INFO - Deleted CSV file input_csv\duplicate_895.csv
+2024-04-23 03:01:33,362 - INFO - Converted input_csv\duplicate_896.csv to Parquet format
+2024-04-23 03:01:33,363 - INFO - Deleted CSV file input_csv\duplicate_896.csv
+2024-04-23 03:01:33,403 - INFO - Converted input_csv\duplicate_897.csv to Parquet format
+2024-04-23 03:01:33,405 - INFO - Deleted CSV file input_csv\duplicate_897.csv
+2024-04-23 03:01:33,448 - INFO - Converted input_csv\duplicate_898.csv to Parquet format
+2024-04-23 03:01:33,449 - INFO - Deleted CSV file input_csv\duplicate_898.csv
+2024-04-23 03:01:33,491 - INFO - Converted input_csv\duplicate_899.csv to Parquet format
+2024-04-23 03:01:33,493 - INFO - Deleted CSV file input_csv\duplicate_899.csv
+2024-04-23 03:01:33,524 - INFO - Converted input_csv\duplicate_900.csv to Parquet format
+2024-04-23 03:01:33,525 - INFO - Deleted CSV file input_csv\duplicate_900.csv
+2024-04-23 03:01:33,560 - INFO - Converted input_csv\duplicate_901.csv to Parquet format
+2024-04-23 03:01:33,561 - INFO - Deleted CSV file input_csv\duplicate_901.csv
+2024-04-23 03:01:33,594 - INFO - Converted input_csv\duplicate_902.csv to Parquet format
+2024-04-23 03:01:33,595 - INFO - Deleted CSV file input_csv\duplicate_902.csv
+2024-04-23 03:01:33,626 - INFO - Converted input_csv\duplicate_903.csv to Parquet format
+2024-04-23 03:01:33,627 - INFO - Deleted CSV file input_csv\duplicate_903.csv
+2024-04-23 03:01:33,656 - INFO - Converted input_csv\duplicate_904.csv to Parquet format
+2024-04-23 03:01:33,659 - INFO - Deleted CSV file input_csv\duplicate_904.csv
+2024-04-23 03:01:33,693 - INFO - Converted input_csv\duplicate_905.csv to Parquet format
+2024-04-23 03:01:33,694 - INFO - Deleted CSV file input_csv\duplicate_905.csv
+2024-04-23 03:01:33,735 - INFO - Converted input_csv\duplicate_906.csv to Parquet format
+2024-04-23 03:01:33,736 - INFO - Deleted CSV file input_csv\duplicate_906.csv
+2024-04-23 03:01:33,777 - INFO - Converted input_csv\duplicate_907.csv to Parquet format
+2024-04-23 03:01:33,779 - INFO - Deleted CSV file input_csv\duplicate_907.csv
+2024-04-23 03:01:33,828 - INFO - Converted input_csv\duplicate_908.csv to Parquet format
+2024-04-23 03:01:33,829 - INFO - Deleted CSV file input_csv\duplicate_908.csv
+2024-04-23 03:01:33,867 - INFO - Converted input_csv\duplicate_909.csv to Parquet format
+2024-04-23 03:01:33,868 - INFO - Deleted CSV file input_csv\duplicate_909.csv
+2024-04-23 03:01:33,900 - INFO - Converted input_csv\duplicate_910.csv to Parquet format
+2024-04-23 03:01:33,902 - INFO - Deleted CSV file input_csv\duplicate_910.csv
+2024-04-23 03:01:33,943 - INFO - Converted input_csv\duplicate_911.csv to Parquet format
+2024-04-23 03:01:33,944 - INFO - Deleted CSV file input_csv\duplicate_911.csv
+2024-04-23 03:01:33,978 - INFO - Converted input_csv\duplicate_912.csv to Parquet format
+2024-04-23 03:01:33,979 - INFO - Deleted CSV file input_csv\duplicate_912.csv
+2024-04-23 03:01:34,026 - INFO - Converted input_csv\duplicate_913.csv to Parquet format
+2024-04-23 03:01:34,027 - INFO - Deleted CSV file input_csv\duplicate_913.csv
+2024-04-23 03:01:34,062 - INFO - Converted input_csv\duplicate_914.csv to Parquet format
+2024-04-23 03:01:34,063 - INFO - Deleted CSV file input_csv\duplicate_914.csv
+2024-04-23 03:01:34,101 - INFO - Converted input_csv\duplicate_915.csv to Parquet format
+2024-04-23 03:01:34,102 - INFO - Deleted CSV file input_csv\duplicate_915.csv
+2024-04-23 03:01:34,141 - INFO - Converted input_csv\duplicate_916.csv to Parquet format
+2024-04-23 03:01:34,142 - INFO - Deleted CSV file input_csv\duplicate_916.csv
+2024-04-23 03:01:34,179 - INFO - Converted input_csv\duplicate_917.csv to Parquet format
+2024-04-23 03:01:34,181 - INFO - Deleted CSV file input_csv\duplicate_917.csv
+2024-04-23 03:01:34,210 - INFO - Converted input_csv\duplicate_918.csv to Parquet format
+2024-04-23 03:01:34,212 - INFO - Deleted CSV file input_csv\duplicate_918.csv
+2024-04-23 03:01:34,243 - INFO - Converted input_csv\duplicate_919.csv to Parquet format
+2024-04-23 03:01:34,245 - INFO - Deleted CSV file input_csv\duplicate_919.csv
+2024-04-23 03:01:34,285 - INFO - Converted input_csv\duplicate_920.csv to Parquet format
+2024-04-23 03:01:34,287 - INFO - Deleted CSV file input_csv\duplicate_920.csv
+2024-04-23 03:01:34,335 - INFO - Converted input_csv\duplicate_921.csv to Parquet format
+2024-04-23 03:01:34,336 - INFO - Deleted CSV file input_csv\duplicate_921.csv
+2024-04-23 03:01:34,372 - INFO - Converted input_csv\duplicate_922.csv to Parquet format
+2024-04-23 03:01:34,374 - INFO - Deleted CSV file input_csv\duplicate_922.csv
+2024-04-23 03:01:34,401 - INFO - Converted input_csv\duplicate_923.csv to Parquet format
+2024-04-23 03:01:34,403 - INFO - Deleted CSV file input_csv\duplicate_923.csv
+2024-04-23 03:01:34,434 - INFO - Converted input_csv\duplicate_924.csv to Parquet format
+2024-04-23 03:01:34,435 - INFO - Deleted CSV file input_csv\duplicate_924.csv
+2024-04-23 03:01:34,469 - INFO - Converted input_csv\duplicate_925.csv to Parquet format
+2024-04-23 03:01:34,471 - INFO - Deleted CSV file input_csv\duplicate_925.csv
+2024-04-23 03:01:34,504 - INFO - Converted input_csv\duplicate_926.csv to Parquet format
+2024-04-23 03:01:34,505 - INFO - Deleted CSV file input_csv\duplicate_926.csv
+2024-04-23 03:01:34,532 - INFO - Converted input_csv\duplicate_927.csv to Parquet format
+2024-04-23 03:01:34,533 - INFO - Deleted CSV file input_csv\duplicate_927.csv
+2024-04-23 03:01:34,558 - INFO - Converted input_csv\duplicate_928.csv to Parquet format
+2024-04-23 03:01:34,560 - INFO - Deleted CSV file input_csv\duplicate_928.csv
+2024-04-23 03:01:34,583 - INFO - Converted input_csv\duplicate_929.csv to Parquet format
+2024-04-23 03:01:34,584 - INFO - Deleted CSV file input_csv\duplicate_929.csv
+2024-04-23 03:01:34,607 - INFO - Converted input_csv\duplicate_930.csv to Parquet format
+2024-04-23 03:01:34,609 - INFO - Deleted CSV file input_csv\duplicate_930.csv
+2024-04-23 03:01:34,635 - INFO - Converted input_csv\duplicate_931.csv to Parquet format
+2024-04-23 03:01:34,637 - INFO - Deleted CSV file input_csv\duplicate_931.csv
+2024-04-23 03:01:34,662 - INFO - Converted input_csv\duplicate_932.csv to Parquet format
+2024-04-23 03:01:34,662 - INFO - Deleted CSV file input_csv\duplicate_932.csv
+2024-04-23 03:01:34,685 - INFO - Converted input_csv\duplicate_933.csv to Parquet format
+2024-04-23 03:01:34,685 - INFO - Deleted CSV file input_csv\duplicate_933.csv
+2024-04-23 03:01:34,719 - INFO - Converted input_csv\duplicate_934.csv to Parquet format
+2024-04-23 03:01:34,719 - INFO - Deleted CSV file input_csv\duplicate_934.csv
+2024-04-23 03:01:34,744 - INFO - Converted input_csv\duplicate_935.csv to Parquet format
+2024-04-23 03:01:34,745 - INFO - Deleted CSV file input_csv\duplicate_935.csv
+2024-04-23 03:01:34,774 - INFO - Converted input_csv\duplicate_936.csv to Parquet format
+2024-04-23 03:01:34,776 - INFO - Deleted CSV file input_csv\duplicate_936.csv
+2024-04-23 03:01:34,800 - INFO - Converted input_csv\duplicate_937.csv to Parquet format
+2024-04-23 03:01:34,801 - INFO - Deleted CSV file input_csv\duplicate_937.csv
+2024-04-23 03:01:34,833 - INFO - Converted input_csv\duplicate_938.csv to Parquet format
+2024-04-23 03:01:34,834 - INFO - Deleted CSV file input_csv\duplicate_938.csv
+2024-04-23 03:01:34,862 - INFO - Converted input_csv\duplicate_939.csv to Parquet format
+2024-04-23 03:01:34,864 - INFO - Deleted CSV file input_csv\duplicate_939.csv
+2024-04-23 03:01:34,890 - INFO - Converted input_csv\duplicate_940.csv to Parquet format
+2024-04-23 03:01:34,892 - INFO - Deleted CSV file input_csv\duplicate_940.csv
+2024-04-23 03:01:34,929 - INFO - Converted input_csv\duplicate_941.csv to Parquet format
+2024-04-23 03:01:34,930 - INFO - Deleted CSV file input_csv\duplicate_941.csv
+2024-04-23 03:01:34,956 - INFO - Converted input_csv\duplicate_942.csv to Parquet format
+2024-04-23 03:01:34,957 - INFO - Deleted CSV file input_csv\duplicate_942.csv
+2024-04-23 03:01:34,981 - INFO - Converted input_csv\duplicate_943.csv to Parquet format
+2024-04-23 03:01:34,982 - INFO - Deleted CSV file input_csv\duplicate_943.csv
+2024-04-23 03:01:35,018 - INFO - Converted input_csv\duplicate_944.csv to Parquet format
+2024-04-23 03:01:35,020 - INFO - Deleted CSV file input_csv\duplicate_944.csv
+2024-04-23 03:01:35,049 - INFO - Converted input_csv\duplicate_945.csv to Parquet format
+2024-04-23 03:01:35,050 - INFO - Deleted CSV file input_csv\duplicate_945.csv
+2024-04-23 03:01:35,075 - INFO - Converted input_csv\duplicate_946.csv to Parquet format
+2024-04-23 03:01:35,077 - INFO - Deleted CSV file input_csv\duplicate_946.csv
+2024-04-23 03:01:35,112 - INFO - Converted input_csv\duplicate_947.csv to Parquet format
+2024-04-23 03:01:35,112 - INFO - Deleted CSV file input_csv\duplicate_947.csv
+2024-04-23 03:01:35,139 - INFO - Converted input_csv\duplicate_948.csv to Parquet format
+2024-04-23 03:01:35,140 - INFO - Deleted CSV file input_csv\duplicate_948.csv
+2024-04-23 03:01:35,163 - INFO - Converted input_csv\duplicate_949.csv to Parquet format
+2024-04-23 03:01:35,164 - INFO - Deleted CSV file input_csv\duplicate_949.csv
+2024-04-23 03:01:35,189 - INFO - Converted input_csv\duplicate_950.csv to Parquet format
+2024-04-23 03:01:35,191 - INFO - Deleted CSV file input_csv\duplicate_950.csv
+2024-04-23 03:01:35,224 - INFO - Converted input_csv\duplicate_951.csv to Parquet format
+2024-04-23 03:01:35,225 - INFO - Deleted CSV file input_csv\duplicate_951.csv
+2024-04-23 03:01:35,257 - INFO - Converted input_csv\duplicate_952.csv to Parquet format
+2024-04-23 03:01:35,258 - INFO - Deleted CSV file input_csv\duplicate_952.csv
+2024-04-23 03:01:35,293 - INFO - Converted input_csv\duplicate_953.csv to Parquet format
+2024-04-23 03:01:35,296 - INFO - Deleted CSV file input_csv\duplicate_953.csv
+2024-04-23 03:01:35,323 - INFO - Converted input_csv\duplicate_954.csv to Parquet format
+2024-04-23 03:01:35,324 - INFO - Deleted CSV file input_csv\duplicate_954.csv
+2024-04-23 03:01:35,360 - INFO - Converted input_csv\duplicate_955.csv to Parquet format
+2024-04-23 03:01:35,361 - INFO - Deleted CSV file input_csv\duplicate_955.csv
+2024-04-23 03:01:35,389 - INFO - Converted input_csv\duplicate_956.csv to Parquet format
+2024-04-23 03:01:35,390 - INFO - Deleted CSV file input_csv\duplicate_956.csv
+2024-04-23 03:01:35,418 - INFO - Converted input_csv\duplicate_957.csv to Parquet format
+2024-04-23 03:01:35,419 - INFO - Deleted CSV file input_csv\duplicate_957.csv
+2024-04-23 03:01:35,453 - INFO - Converted input_csv\duplicate_958.csv to Parquet format
+2024-04-23 03:01:35,454 - INFO - Deleted CSV file input_csv\duplicate_958.csv
+2024-04-23 03:01:35,492 - INFO - Converted input_csv\duplicate_959.csv to Parquet format
+2024-04-23 03:01:35,495 - INFO - Deleted CSV file input_csv\duplicate_959.csv
+2024-04-23 03:01:35,525 - INFO - Converted input_csv\duplicate_960.csv to Parquet format
+2024-04-23 03:01:35,527 - INFO - Deleted CSV file input_csv\duplicate_960.csv
+2024-04-23 03:01:35,575 - INFO - Converted input_csv\duplicate_961.csv to Parquet format
+2024-04-23 03:01:35,576 - INFO - Deleted CSV file input_csv\duplicate_961.csv
+2024-04-23 03:01:35,622 - INFO - Converted input_csv\duplicate_962.csv to Parquet format
+2024-04-23 03:01:35,625 - INFO - Deleted CSV file input_csv\duplicate_962.csv
+2024-04-23 03:01:35,667 - INFO - Converted input_csv\duplicate_963.csv to Parquet format
+2024-04-23 03:01:35,668 - INFO - Deleted CSV file input_csv\duplicate_963.csv
+2024-04-23 03:01:35,707 - INFO - Converted input_csv\duplicate_964.csv to Parquet format
+2024-04-23 03:01:35,709 - INFO - Deleted CSV file input_csv\duplicate_964.csv
+2024-04-23 03:01:35,738 - INFO - Converted input_csv\duplicate_965.csv to Parquet format
+2024-04-23 03:01:35,739 - INFO - Deleted CSV file input_csv\duplicate_965.csv
+2024-04-23 03:01:35,772 - INFO - Converted input_csv\duplicate_966.csv to Parquet format
+2024-04-23 03:01:35,773 - INFO - Deleted CSV file input_csv\duplicate_966.csv
+2024-04-23 03:01:35,802 - INFO - Converted input_csv\duplicate_967.csv to Parquet format
+2024-04-23 03:01:35,803 - INFO - Deleted CSV file input_csv\duplicate_967.csv
+2024-04-23 03:01:35,826 - INFO - Converted input_csv\duplicate_968.csv to Parquet format
+2024-04-23 03:01:35,828 - INFO - Deleted CSV file input_csv\duplicate_968.csv
+2024-04-23 03:01:35,853 - INFO - Converted input_csv\duplicate_969.csv to Parquet format
+2024-04-23 03:01:35,855 - INFO - Deleted CSV file input_csv\duplicate_969.csv
+2024-04-23 03:01:35,886 - INFO - Converted input_csv\duplicate_970.csv to Parquet format
+2024-04-23 03:01:35,887 - INFO - Deleted CSV file input_csv\duplicate_970.csv
+2024-04-23 03:01:35,912 - INFO - Converted input_csv\duplicate_971.csv to Parquet format
+2024-04-23 03:01:35,914 - INFO - Deleted CSV file input_csv\duplicate_971.csv
+2024-04-23 03:01:35,940 - INFO - Converted input_csv\duplicate_972.csv to Parquet format
+2024-04-23 03:01:35,941 - INFO - Deleted CSV file input_csv\duplicate_972.csv
+2024-04-23 03:01:35,972 - INFO - Converted input_csv\duplicate_973.csv to Parquet format
+2024-04-23 03:01:35,972 - INFO - Deleted CSV file input_csv\duplicate_973.csv
+2024-04-23 03:01:35,998 - INFO - Converted input_csv\duplicate_974.csv to Parquet format
+2024-04-23 03:01:35,999 - INFO - Deleted CSV file input_csv\duplicate_974.csv
+2024-04-23 03:01:36,032 - INFO - Converted input_csv\duplicate_975.csv to Parquet format
+2024-04-23 03:01:36,033 - INFO - Deleted CSV file input_csv\duplicate_975.csv
+2024-04-23 03:01:36,059 - INFO - Converted input_csv\duplicate_976.csv to Parquet format
+2024-04-23 03:01:36,060 - INFO - Deleted CSV file input_csv\duplicate_976.csv
+2024-04-23 03:01:36,094 - INFO - Converted input_csv\duplicate_977.csv to Parquet format
+2024-04-23 03:01:36,097 - INFO - Deleted CSV file input_csv\duplicate_977.csv
+2024-04-23 03:01:36,124 - INFO - Converted input_csv\duplicate_978.csv to Parquet format
+2024-04-23 03:01:36,124 - INFO - Deleted CSV file input_csv\duplicate_978.csv
+2024-04-23 03:01:36,156 - INFO - Converted input_csv\duplicate_979.csv to Parquet format
+2024-04-23 03:01:36,156 - INFO - Deleted CSV file input_csv\duplicate_979.csv
+2024-04-23 03:01:36,186 - INFO - Converted input_csv\duplicate_980.csv to Parquet format
+2024-04-23 03:01:36,187 - INFO - Deleted CSV file input_csv\duplicate_980.csv
+2024-04-23 03:01:36,215 - INFO - Converted input_csv\duplicate_981.csv to Parquet format
+2024-04-23 03:01:36,217 - INFO - Deleted CSV file input_csv\duplicate_981.csv
+2024-04-23 03:01:36,244 - INFO - Converted input_csv\duplicate_982.csv to Parquet format
+2024-04-23 03:01:36,246 - INFO - Deleted CSV file input_csv\duplicate_982.csv
+2024-04-23 03:01:36,279 - INFO - Converted input_csv\duplicate_983.csv to Parquet format
+2024-04-23 03:01:36,281 - INFO - Deleted CSV file input_csv\duplicate_983.csv
+2024-04-23 03:01:36,307 - INFO - Converted input_csv\duplicate_984.csv to Parquet format
+2024-04-23 03:01:36,308 - INFO - Deleted CSV file input_csv\duplicate_984.csv
+2024-04-23 03:01:36,333 - INFO - Converted input_csv\duplicate_985.csv to Parquet format
+2024-04-23 03:01:36,334 - INFO - Deleted CSV file input_csv\duplicate_985.csv
+2024-04-23 03:01:36,362 - INFO - Converted input_csv\duplicate_986.csv to Parquet format
+2024-04-23 03:01:36,364 - INFO - Deleted CSV file input_csv\duplicate_986.csv
+2024-04-23 03:01:36,386 - INFO - Converted input_csv\duplicate_987.csv to Parquet format
+2024-04-23 03:01:36,388 - INFO - Deleted CSV file input_csv\duplicate_987.csv
+2024-04-23 03:01:36,415 - INFO - Converted input_csv\duplicate_988.csv to Parquet format
+2024-04-23 03:01:36,416 - INFO - Deleted CSV file input_csv\duplicate_988.csv
+2024-04-23 03:01:36,448 - INFO - Converted input_csv\duplicate_989.csv to Parquet format
+2024-04-23 03:01:36,450 - INFO - Deleted CSV file input_csv\duplicate_989.csv
+2024-04-23 03:01:36,475 - INFO - Converted input_csv\duplicate_990.csv to Parquet format
+2024-04-23 03:01:36,476 - INFO - Deleted CSV file input_csv\duplicate_990.csv
+2024-04-23 03:01:36,503 - INFO - Converted input_csv\duplicate_991.csv to Parquet format
+2024-04-23 03:01:36,503 - INFO - Deleted CSV file input_csv\duplicate_991.csv
+2024-04-23 03:01:36,531 - INFO - Converted input_csv\duplicate_992.csv to Parquet format
+2024-04-23 03:01:36,532 - INFO - Deleted CSV file input_csv\duplicate_992.csv
+2024-04-23 03:01:36,556 - INFO - Converted input_csv\duplicate_993.csv to Parquet format
+2024-04-23 03:01:36,557 - INFO - Deleted CSV file input_csv\duplicate_993.csv
+2024-04-23 03:01:36,591 - INFO - Converted input_csv\duplicate_994.csv to Parquet format
+2024-04-23 03:01:36,593 - INFO - Deleted CSV file input_csv\duplicate_994.csv
+2024-04-23 03:01:36,632 - INFO - Converted input_csv\duplicate_995.csv to Parquet format
+2024-04-23 03:01:36,634 - INFO - Deleted CSV file input_csv\duplicate_995.csv
+2024-04-23 03:01:36,666 - INFO - Converted input_csv\duplicate_996.csv to Parquet format
+2024-04-23 03:01:36,667 - INFO - Deleted CSV file input_csv\duplicate_996.csv
+2024-04-23 03:01:36,700 - INFO - Converted input_csv\duplicate_997.csv to Parquet format
+2024-04-23 03:01:36,701 - INFO - Deleted CSV file input_csv\duplicate_997.csv
+2024-04-23 03:01:36,736 - INFO - Converted input_csv\duplicate_998.csv to Parquet format
+2024-04-23 03:01:36,738 - INFO - Deleted CSV file input_csv\duplicate_998.csv
+2024-04-23 03:01:36,762 - INFO - Converted input_csv\duplicate_999.csv to Parquet format
+2024-04-23 03:01:36,763 - INFO - Deleted CSV file input_csv\duplicate_999.csv
+2024-04-23 03:01:39,631 - INFO - Total Parquet processing time: 10.90 seconds
+2024-04-23 03:01:39,631 - INFO - Total Parquet size: 16.31 MB
+2024-04-23 03:01:39,631 - INFO - Total Parquet files converted: 999
+2024-04-23 03:04:33,838 - INFO - Watching input CSV folder...
+2024-04-23 03:06:29,077 - INFO - Watching input CSV folder...
