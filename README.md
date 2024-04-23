@@ -1,8 +1,10 @@
 ### Resource :
 Retrieve the math performance dataset from https://archive.ics.uci.edu/dataset/320/student+performance. The metadata is available in the 'student.txt' file.
 
-## Code :
-Let's suppose the math performance dataset is obtained through an automated evaluation system. This data arrives on a scheduled basis (e.g., daily, weekly, monthly) and requires processing to generate student-based metrics. The objective is to read the dataset and populate the data into an RDBMS. The choice to insert the data into an open-source RDBMS is optional.
+## Code Solution :
+Background - Let's suppose the math performance dataset is obtained through an automated evaluation system. This data arrives on a scheduled basis (e.g., daily, weekly, monthly) and requires processing to generate student-based metrics. The objective is to read the dataset and populate the data into an RDBMS. The choice to insert the data into an open-source RDBMS is optional.
+
+![Screenshot 2024-04-23 160755](https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/083de1d8-8662-42f7-a80c-9aa01cbf4636)
 
 ```Assuming that the incoming data is provided in CSV format, the solution is constructed to manage various methods of data input, including manual uploads, bulk uploads, and scripted extractions or ingestions (such as through a pipeline). It is designed to emulate an event-driven architecture model when deployed locally, and when transitioned to any cloud platform, it allows for serverless trigger capabilities and automatic scaling features.```
 
