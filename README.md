@@ -26,20 +26,20 @@ Assuming that the incoming data is provided in CSV format, the solution is const
 During the workflow of the solution, every step is meticulously documented and recorded in a 'conversion_log.txt' file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.
 </td></tr></table>
 
-3. It should handle potential data quality issues like missing data.
+2. It should handle potential data quality issues like missing data.
 
-<td><tr><table>
+<table><tr><td>
 Presently, the solution addresses basic data quality issues including missing values, null values, schema mismatches, and incorrect delimiters. However, there is potential for the solution to evolve and tackle more complex challenges such as data type inconsistencies, data formatting errors, duplicate entries, incomplete datasets, outlier and anomaly detection, and data loss prevention over time. To maintain efficiency and simplicity, the solution currently focuses on managing fundamental data quality concerns.
 </td></tr></table>
 
-4. The solution should follow good data management practices, ensuring accessibility for various user profiles (e.g., scientists, business stakeholders).
+3. The solution should follow good data management practices, ensuring accessibility for various user profiles (e.g., scientists, business stakeholders).
 
-<td><tr><table>
+<table><tr><td>
 The pipeline currently checks, compresses and stores valid CSVs into a folder. In an ideal scenario, this folder would be a cloud object store where access control, data security, data retention and other lifecycle management processes can be ensured. At the moment the solution incorporates some aspects of good data management practices like data validation, logging, automation, schema management, error handling and data disposal ```
 </td></tr></table>
   
-7. Provide a way to serve and visualise the data. 
-8. Dashboards and/or plots should be runnable on open-source software, both locally and on the system.
+4. Provide a way to serve and visualise the data. 
+5. Dashboards and/or plots should be runnable on open-source software, both locally and on the system.
 
 ### Alternative Scenarios :
 What could be done if data volume increases 100x?
