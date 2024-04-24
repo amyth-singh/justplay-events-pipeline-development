@@ -23,7 +23,7 @@ Assuming that the incoming data is provided in CSV format, the solution is const
 
 ### Repository Files Functionality :
 
-```main.py```
+```main.py```<br>
 <img src="https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/06bbb073-2305-4c88-8ee0-97bed201eddd" align="center" alt="main.py" style="width:600px;"/>
 
 ## Answering Requirements :
