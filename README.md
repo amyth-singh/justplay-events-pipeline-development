@@ -19,7 +19,11 @@ Given incoming data in CSV format, the solution manages multiple input methods s
 </p>
 <br>
 
-```main.py``` - This is the main python script where all the functionality, methords and features are housed. To use this file,first start with replacing fields that have ```student_data``` with the table name you desire. Note, create the table in your MySQL database to make the script run smoothly. Second, install all the modules necesssary to run the main.py script. Here's the list : ```python import pandas as pd
+```main.py``` - This is the main python script where all the functionality, methords and features are housed. To use this file,first start with replacing fields that have ```student_data``` with the table name you desire. Note, create the table in your MySQL database to make the script run smoothly. Second, install all the modules necesssary to run the main.py script. 
+
+Here's the list : 
+```python
+import pandas as pd
 import yaml
 import time
 import os
@@ -28,7 +32,8 @@ import mysql.connector
 from datetime import datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from sqlalchemy import create_engine, text```
+from sqlalchemy import create_engine, text
+```
 
 ```input_csv``` - This folder is monitored for CSV files. Drop bulk or individual CSVs here to trigger the pipeline.
 
