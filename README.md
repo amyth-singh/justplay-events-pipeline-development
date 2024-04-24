@@ -17,6 +17,11 @@ Let's suppose the math performance dataset is obtained through an automated eval
 > View ```conversion_log.txt``` log details.
 
 ### Instructions on How-To-Use:	
+
+> [!IMPORTANT]
+> Please clone the entire repository first.
+> If the folders 'input_csv', 'output_failed', and 'output_parquet' do not exist after cloning, ensure to create them locally. 
+
 <p align="center">
 <img src="https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/06bbb073-2305-4c88-8ee0-97bed201eddd" alt="main.py" style="width:600px;"/>
 </p>
