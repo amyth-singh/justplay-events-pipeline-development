@@ -71,6 +71,13 @@ SELECT DISTINCT mjob
 FROM just_play_db.student_data
 WHERE sex = 'm' AND age < 20 AND mjob IS NOT NULL;
 ```
+|mjob    |
+|--------|
+|services|
+|other   |
+|health  |
+|teacher |
+|at_home |
 
 3. Most frequent “travel time” among students that live in rural areas
 4. Top 3 “father’s job” for students grouped by parent’s cohabitation status.
