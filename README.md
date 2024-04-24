@@ -135,19 +135,19 @@ database:
 - Presently, the main.py script substitutes the ```;``` delimiter with a comma ```,```. If the CSVs being ingested contain a different delimiter, the script will encounter an error. Thus, it is necessary to replace ```;``` with the delimiter identified in the ingested CSVs. 
 
 ## Answering Requirements :
-1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
+The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
 
 - During the workflow of the solution, every step is meticulously documented and recorded in a ```conversion_log.txt``` file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.
 
-2. It should handle potential data quality issues like missing data.
+It should handle potential data quality issues like missing data.
 
 - Presently, the solution addresses basic data quality issues including missing values, null values, schema mismatches, and incorrect delimiters. However, there is potential for the solution to evolve and tackle more complex challenges such as data type inconsistencies, data formatting errors, duplicate entries, incomplete datasets, outlier and anomaly detection, and data loss prevention over time. To maintain efficiency and simplicity, the solution currently focuses on managing fundamental data quality concerns.
 
-3. The solution should follow good data management practices, ensuring accessibility for various user profiles (e.g., scientists, business stakeholders).
+The solution should follow good data management practices, ensuring accessibility for various user profiles (e.g., scientists, business stakeholders).
 
 - The pipeline currently checks, compresses and stores valid CSVs into a folder. In an ideal scenario, this folder would be a cloud object store where access control, data security, data retention and other lifecycle management processes can be ensured. At the moment the solution incorporates some aspects of good data management practices like data validation, logging, automation, schema management, error handling and data disposal.
   
-4. Provide a way to serve and visualise the data, dashboards and/or plots should be runnable on open-source software, both locally and on the system.
+Provide a way to serve and visualise the data, dashboards and/or plots should be runnable on open-source software, both locally and on the system.
 
 - At present, the data loads into a MySQL database, serving as a data source for any data visualization. Expanding data routing to additional storage layers, such as a cloud data warehouse like BigQuery, is straightforward. By simply incorporating a function that exports the dataframe to a table in BigQuery, this integration can be achieved seamlessly.
 
