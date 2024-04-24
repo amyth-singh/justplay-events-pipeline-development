@@ -24,7 +24,9 @@ Let's suppose the math performance dataset is obtained through an automated eval
 
 > [!IMPORTANT]
 > Please clone the entire repository first.
-> If the folders ```input_csv```, ```output_failed```, and ```output_parquet``` do not exist after cloning, ensure to create them locally. 
+> If the folders ```input_csv```, ```output_failed```, and ```output_parquet``` do not exist after cloning, ensure to create them locally.
+> To start the entire pipeline, run the ```main.py``` file
+> When you see the message 'Waiting for CSV files', start dopping the files into the 'input_csv' bucket 
 
 ```main.py```
 - This serves as the primary Python script containing all functionality, methods, and features. To utilise this file, begin by replacing instances of "student_data" with your desired table name.
@@ -76,7 +78,7 @@ from sqlalchemy import create_engine, text
 - It specifies the host address, username, port number, password, and database name required to establish a connection to the database.
 - When constructing the table in the MySQL database, the main.py script utilises these fields to establish a secure connection with the database.
 
-### For successful processing within the pipeline, the CSV must adhere to the following guidelines:
+## For successful processing within the pipeline, the CSV must adhere to the following guidelines:
 - The field names in the CSV must precisely match those specified in the 'schema.yaml' file. If any fields are added or removed, ensure consistency between the CSV and the schema file.
 - Ensure that the table name specified in the 'schema_sql.yaml' file aligns consistently with the provided 'table_name' in main.py and the corresponding MySQL table (e.g., "student_name")
 - Presently, the main.py script substitutes the ```;``` delimiter with a comma ```,```. If the CSVs being ingested contain a different delimiter, the script will encounter an error. Thus, it is necessary to replace ```;``` with the delimiter identified in the ingested CSVs. 
