@@ -94,7 +94,7 @@ LIMIT 1;
 |1         |35   |
 
 3. Top 3 “father’s job” for students grouped by parent’s cohabitation status.
-
+   
 ```mysql
 SELECT s.pstatus, s.fjob, s.job_count
 FROM (
@@ -118,7 +118,7 @@ WHERE s.rn <= 3;
 |t      |teacher   |24       |
 
 4. Most frequent “class failures” label grouped by family sizes.
-
+   
 ```mysql
 SELECT s.famsize, s.failures, s.class_fail_count
 FROM (
@@ -138,6 +138,22 @@ WHERE rn = 1;
 |le3      |0         |90             |
 
 5. Median “absences” for average and low family relationship qualities, group by sex.
+
+```mysql
+SELECT sex, famrel, ROUND(AVG(absences)) AS median_absences
+FROM just_play_db.student_data
+WHERE famrel <= 3
+GROUP BY sex, famrel
+ORDER BY sex, famrel;
+```
+|sex|famreal|median_absences|
+|---|-------|---------------|
+|f  |1	    |8              |
+|f  |2	    |6              |
+|f  |3	    |6              |
+|m  |1	    |5              |
+|m  |2	    |6              |
+|m  |3	    |5              |
 
 # Part 3
 _note - this is a design exercise, no code implementation is needed._
