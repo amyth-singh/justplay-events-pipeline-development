@@ -5727,3 +5727,400 @@
 2024-04-24 05:02:43,167 - INFO - Converted input_csv\student-mat_copy100.csv to Parquet format and uploaded to output_parquet\student-mat_copy100.parquet
 2024-04-24 05:02:43,168 - INFO - Deleted CSV file input_csv\student-mat_copy100.csv
 2024-04-24 05:02:43,214 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:14:37,144 - INFO - Watching input CSV folder...
+2024-04-24 05:15:14,963 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:15,089 - INFO - Converted input_csv\student-mat_copy2.csv to Parquet format and uploaded to output_parquet\student-mat_copy2.parquet
+2024-04-24 05:15:15,110 - INFO - Deleted CSV file input_csv\student-mat_copy2.csv
+2024-04-24 05:15:15,521 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:15,595 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:15,637 - INFO - Converted input_csv\student-mat_copy3.csv to Parquet format and uploaded to output_parquet\student-mat_copy3.parquet
+2024-04-24 05:15:15,641 - INFO - Deleted CSV file input_csv\student-mat_copy3.csv
+2024-04-24 05:15:15,912 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:15,977 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:16,021 - INFO - Converted input_csv\student-mat_copy4.csv to Parquet format and uploaded to output_parquet\student-mat_copy4.parquet
+2024-04-24 05:15:16,029 - INFO - Deleted CSV file input_csv\student-mat_copy4.csv
+2024-04-24 05:15:16,229 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:16,337 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:16,479 - INFO - Converted input_csv\student-mat_copy5.csv to Parquet format and uploaded to output_parquet\student-mat_copy5.parquet
+2024-04-24 05:15:16,485 - INFO - Deleted CSV file input_csv\student-mat_copy5.csv
+2024-04-24 05:15:16,655 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:16,739 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:16,830 - INFO - Converted input_csv\student-mat_copy6.csv to Parquet format and uploaded to output_parquet\student-mat_copy6.parquet
+2024-04-24 05:15:16,836 - INFO - Deleted CSV file input_csv\student-mat_copy6.csv
+2024-04-24 05:15:16,992 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:17,061 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:17,107 - INFO - Converted input_csv\student-mat_copy7.csv to Parquet format and uploaded to output_parquet\student-mat_copy7.parquet
+2024-04-24 05:15:17,108 - INFO - Deleted CSV file input_csv\student-mat_copy7.csv
+2024-04-24 05:15:17,360 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:17,421 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:17,447 - INFO - Converted input_csv\student-mat_copy8.csv to Parquet format and uploaded to output_parquet\student-mat_copy8.parquet
+2024-04-24 05:15:17,451 - INFO - Deleted CSV file input_csv\student-mat_copy8.csv
+2024-04-24 05:15:17,725 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:17,784 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:17,809 - INFO - Converted input_csv\student-mat_copy9.csv to Parquet format and uploaded to output_parquet\student-mat_copy9.parquet
+2024-04-24 05:15:17,810 - INFO - Deleted CSV file input_csv\student-mat_copy9.csv
+2024-04-24 05:15:17,987 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:18,242 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:18,286 - INFO - Converted input_csv\student-mat_copy10.csv to Parquet format and uploaded to output_parquet\student-mat_copy10.parquet
+2024-04-24 05:15:18,288 - INFO - Deleted CSV file input_csv\student-mat_copy10.csv
+2024-04-24 05:15:18,442 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:18,516 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:18,669 - INFO - Converted input_csv\student-mat_copy11.csv to Parquet format and uploaded to output_parquet\student-mat_copy11.parquet
+2024-04-24 05:15:18,676 - INFO - Deleted CSV file input_csv\student-mat_copy11.csv
+2024-04-24 05:15:18,907 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:18,964 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:18,990 - INFO - Converted input_csv\student-mat_copy12.csv to Parquet format and uploaded to output_parquet\student-mat_copy12.parquet
+2024-04-24 05:15:19,000 - INFO - Deleted CSV file input_csv\student-mat_copy12.csv
+2024-04-24 05:15:19,181 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:19,345 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:19,524 - INFO - Converted input_csv\student-mat_copy13.csv to Parquet format and uploaded to output_parquet\student-mat_copy13.parquet
+2024-04-24 05:15:19,526 - INFO - Deleted CSV file input_csv\student-mat_copy13.csv
+2024-04-24 05:15:19,679 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:19,754 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:19,861 - INFO - Converted input_csv\student-mat_copy14.csv to Parquet format and uploaded to output_parquet\student-mat_copy14.parquet
+2024-04-24 05:15:19,863 - INFO - Deleted CSV file input_csv\student-mat_copy14.csv
+2024-04-24 05:15:20,085 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:20,192 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:20,314 - INFO - Converted input_csv\student-mat_copy15.csv to Parquet format and uploaded to output_parquet\student-mat_copy15.parquet
+2024-04-24 05:15:20,315 - INFO - Deleted CSV file input_csv\student-mat_copy15.csv
+2024-04-24 05:15:20,578 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:20,697 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:20,806 - INFO - Converted input_csv\student-mat_copy16.csv to Parquet format and uploaded to output_parquet\student-mat_copy16.parquet
+2024-04-24 05:15:20,810 - INFO - Deleted CSV file input_csv\student-mat_copy16.csv
+2024-04-24 05:15:21,019 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:21,114 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:21,185 - INFO - Converted input_csv\student-mat_copy17.csv to Parquet format and uploaded to output_parquet\student-mat_copy17.parquet
+2024-04-24 05:15:21,196 - INFO - Deleted CSV file input_csv\student-mat_copy17.csv
+2024-04-24 05:15:21,539 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:21,602 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:21,676 - INFO - Converted input_csv\student-mat_copy18.csv to Parquet format and uploaded to output_parquet\student-mat_copy18.parquet
+2024-04-24 05:15:21,678 - INFO - Deleted CSV file input_csv\student-mat_copy18.csv
+2024-04-24 05:15:21,866 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:22,185 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:22,277 - INFO - Converted input_csv\student-mat_copy19.csv to Parquet format and uploaded to output_parquet\student-mat_copy19.parquet
+2024-04-24 05:15:22,278 - INFO - Deleted CSV file input_csv\student-mat_copy19.csv
+2024-04-24 05:15:22,495 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:22,620 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:22,648 - INFO - Converted input_csv\student-mat_copy20.csv to Parquet format and uploaded to output_parquet\student-mat_copy20.parquet
+2024-04-24 05:15:22,656 - INFO - Deleted CSV file input_csv\student-mat_copy20.csv
+2024-04-24 05:15:22,917 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:22,972 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:23,009 - INFO - Converted input_csv\student-mat_copy21.csv to Parquet format and uploaded to output_parquet\student-mat_copy21.parquet
+2024-04-24 05:15:23,067 - INFO - Deleted CSV file input_csv\student-mat_copy21.csv
+2024-04-24 05:15:23,229 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:23,294 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:23,348 - INFO - Converted input_csv\student-mat_copy22.csv to Parquet format and uploaded to output_parquet\student-mat_copy22.parquet
+2024-04-24 05:15:23,352 - INFO - Deleted CSV file input_csv\student-mat_copy22.csv
+2024-04-24 05:15:23,522 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:23,603 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:23,668 - INFO - Converted input_csv\student-mat_copy23.csv to Parquet format and uploaded to output_parquet\student-mat_copy23.parquet
+2024-04-24 05:15:23,672 - INFO - Deleted CSV file input_csv\student-mat_copy23.csv
+2024-04-24 05:15:23,888 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:23,968 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:24,011 - INFO - Converted input_csv\student-mat_copy24.csv to Parquet format and uploaded to output_parquet\student-mat_copy24.parquet
+2024-04-24 05:15:24,020 - INFO - Deleted CSV file input_csv\student-mat_copy24.csv
+2024-04-24 05:15:24,295 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:24,360 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:24,391 - INFO - Converted input_csv\student-mat_copy25.csv to Parquet format and uploaded to output_parquet\student-mat_copy25.parquet
+2024-04-24 05:15:24,392 - INFO - Deleted CSV file input_csv\student-mat_copy25.csv
+2024-04-24 05:15:24,605 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:24,754 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:24,879 - INFO - Converted input_csv\student-mat_copy26.csv to Parquet format and uploaded to output_parquet\student-mat_copy26.parquet
+2024-04-24 05:15:24,881 - INFO - Deleted CSV file input_csv\student-mat_copy26.csv
+2024-04-24 05:15:25,026 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:25,085 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:25,119 - INFO - Converted input_csv\student-mat_copy27.csv to Parquet format and uploaded to output_parquet\student-mat_copy27.parquet
+2024-04-24 05:15:25,122 - INFO - Deleted CSV file input_csv\student-mat_copy27.csv
+2024-04-24 05:15:25,318 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:25,388 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:25,427 - INFO - Converted input_csv\student-mat_copy28.csv to Parquet format and uploaded to output_parquet\student-mat_copy28.parquet
+2024-04-24 05:15:25,430 - INFO - Deleted CSV file input_csv\student-mat_copy28.csv
+2024-04-24 05:15:25,594 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:25,676 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:25,723 - INFO - Converted input_csv\student-mat_copy29.csv to Parquet format and uploaded to output_parquet\student-mat_copy29.parquet
+2024-04-24 05:15:25,724 - INFO - Deleted CSV file input_csv\student-mat_copy29.csv
+2024-04-24 05:15:25,943 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:26,060 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:26,100 - INFO - Converted input_csv\student-mat_copy30.csv to Parquet format and uploaded to output_parquet\student-mat_copy30.parquet
+2024-04-24 05:15:26,102 - INFO - Deleted CSV file input_csv\student-mat_copy30.csv
+2024-04-24 05:15:26,245 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:26,315 - INFO - Total no of rows in DataFrame398
+2024-04-24 05:15:26,354 - INFO - Converted input_csv\student-mat_copy32.csv to Parquet format and uploaded to output_parquet\student-mat_copy32.parquet
+2024-04-24 05:15:26,368 - INFO - Deleted CSV file input_csv\student-mat_copy32.csv
+2024-04-24 05:15:26,571 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:26,643 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:26,707 - INFO - Converted input_csv\student-mat_copy33.csv to Parquet format and uploaded to output_parquet\student-mat_copy33.parquet
+2024-04-24 05:15:26,709 - INFO - Deleted CSV file input_csv\student-mat_copy33.csv
+2024-04-24 05:15:26,869 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:27,058 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:27,209 - INFO - Converted input_csv\student-mat_copy34.csv to Parquet format and uploaded to output_parquet\student-mat_copy34.parquet
+2024-04-24 05:15:27,211 - INFO - Deleted CSV file input_csv\student-mat_copy34.csv
+2024-04-24 05:15:27,596 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:27,723 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:27,771 - INFO - Converted input_csv\student-mat_copy35.csv to Parquet format and uploaded to output_parquet\student-mat_copy35.parquet
+2024-04-24 05:15:27,772 - INFO - Deleted CSV file input_csv\student-mat_copy35.csv
+2024-04-24 05:15:27,932 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:27,993 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:28,041 - INFO - Converted input_csv\student-mat_copy36.csv to Parquet format and uploaded to output_parquet\student-mat_copy36.parquet
+2024-04-24 05:15:28,057 - INFO - Deleted CSV file input_csv\student-mat_copy36.csv
+2024-04-24 05:15:28,276 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:28,338 - INFO - Total no of rows in DataFrame396
+2024-04-24 05:15:28,379 - INFO - Converted input_csv\student-mat_copy37.csv to Parquet format and uploaded to output_parquet\student-mat_copy37.parquet
+2024-04-24 05:15:28,410 - INFO - Deleted CSV file input_csv\student-mat_copy37.csv
+2024-04-24 05:15:28,653 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:28,712 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:28,744 - INFO - Converted input_csv\student-mat_copy38.csv to Parquet format and uploaded to output_parquet\student-mat_copy38.parquet
+2024-04-24 05:15:28,746 - INFO - Deleted CSV file input_csv\student-mat_copy38.csv
+2024-04-24 05:15:28,945 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:29,084 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:29,159 - INFO - Converted input_csv\student-mat_copy39.csv to Parquet format and uploaded to output_parquet\student-mat_copy39.parquet
+2024-04-24 05:15:29,162 - INFO - Deleted CSV file input_csv\student-mat_copy39.csv
+2024-04-24 05:15:29,446 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:29,712 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:29,881 - INFO - Converted input_csv\student-mat_copy40.csv to Parquet format and uploaded to output_parquet\student-mat_copy40.parquet
+2024-04-24 05:15:29,890 - INFO - Deleted CSV file input_csv\student-mat_copy40.csv
+2024-04-24 05:15:30,066 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:30,329 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:30,395 - INFO - Converted input_csv\student-mat_copy41.csv to Parquet format and uploaded to output_parquet\student-mat_copy41.parquet
+2024-04-24 05:15:30,400 - INFO - Deleted CSV file input_csv\student-mat_copy41.csv
+2024-04-24 05:15:30,586 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:30,669 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:30,792 - INFO - Converted input_csv\student-mat_copy42.csv to Parquet format and uploaded to output_parquet\student-mat_copy42.parquet
+2024-04-24 05:15:30,796 - INFO - Deleted CSV file input_csv\student-mat_copy42.csv
+2024-04-24 05:15:31,157 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:31,276 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:31,343 - INFO - Converted input_csv\student-mat_copy43.csv to Parquet format and uploaded to output_parquet\student-mat_copy43.parquet
+2024-04-24 05:15:31,344 - INFO - Deleted CSV file input_csv\student-mat_copy43.csv
+2024-04-24 05:15:31,508 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:31,607 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:31,668 - INFO - Converted input_csv\student-mat_copy44.csv to Parquet format and uploaded to output_parquet\student-mat_copy44.parquet
+2024-04-24 05:15:31,674 - INFO - Deleted CSV file input_csv\student-mat_copy44.csv
+2024-04-24 05:15:31,918 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:31,973 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:32,002 - INFO - Converted input_csv\student-mat_copy45.csv to Parquet format and uploaded to output_parquet\student-mat_copy45.parquet
+2024-04-24 05:15:32,006 - INFO - Deleted CSV file input_csv\student-mat_copy45.csv
+2024-04-24 05:15:32,161 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:32,242 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:32,283 - INFO - Converted input_csv\student-mat_copy46.csv to Parquet format and uploaded to output_parquet\student-mat_copy46.parquet
+2024-04-24 05:15:32,287 - INFO - Deleted CSV file input_csv\student-mat_copy46.csv
+2024-04-24 05:15:32,498 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:32,562 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:32,602 - INFO - Converted input_csv\student-mat_copy47.csv to Parquet format and uploaded to output_parquet\student-mat_copy47.parquet
+2024-04-24 05:15:32,614 - INFO - Deleted CSV file input_csv\student-mat_copy47.csv
+2024-04-24 05:15:32,779 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:32,876 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:32,952 - INFO - Converted input_csv\student-mat_copy48.csv to Parquet format and uploaded to output_parquet\student-mat_copy48.parquet
+2024-04-24 05:15:32,960 - INFO - Deleted CSV file input_csv\student-mat_copy48.csv
+2024-04-24 05:15:33,157 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:33,252 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:33,366 - INFO - Converted input_csv\student-mat_copy49.csv to Parquet format and uploaded to output_parquet\student-mat_copy49.parquet
+2024-04-24 05:15:33,370 - INFO - Deleted CSV file input_csv\student-mat_copy49.csv
+2024-04-24 05:15:33,567 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:33,671 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:33,708 - INFO - Converted input_csv\student-mat_copy50.csv to Parquet format and uploaded to output_parquet\student-mat_copy50.parquet
+2024-04-24 05:15:33,710 - INFO - Deleted CSV file input_csv\student-mat_copy50.csv
+2024-04-24 05:15:33,857 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:33,915 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:33,950 - INFO - Converted input_csv\student-mat_copy51.csv to Parquet format and uploaded to output_parquet\student-mat_copy51.parquet
+2024-04-24 05:15:33,953 - INFO - Deleted CSV file input_csv\student-mat_copy51.csv
+2024-04-24 05:15:34,112 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:34,174 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:34,238 - INFO - Converted input_csv\student-mat_copy52.csv to Parquet format and uploaded to output_parquet\student-mat_copy52.parquet
+2024-04-24 05:15:34,243 - INFO - Deleted CSV file input_csv\student-mat_copy52.csv
+2024-04-24 05:15:34,437 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:34,501 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:34,528 - INFO - Converted input_csv\student-mat_copy53.csv to Parquet format and uploaded to output_parquet\student-mat_copy53.parquet
+2024-04-24 05:15:34,530 - INFO - Deleted CSV file input_csv\student-mat_copy53.csv
+2024-04-24 05:15:34,814 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:34,880 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:34,907 - INFO - Converted input_csv\student-mat_copy54.csv to Parquet format and uploaded to output_parquet\student-mat_copy54.parquet
+2024-04-24 05:15:34,956 - INFO - Deleted CSV file input_csv\student-mat_copy54.csv
+2024-04-24 05:15:35,189 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:35,285 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:35,378 - INFO - Converted input_csv\student-mat_copy55.csv to Parquet format and uploaded to output_parquet\student-mat_copy55.parquet
+2024-04-24 05:15:35,380 - INFO - Deleted CSV file input_csv\student-mat_copy55.csv
+2024-04-24 05:15:35,574 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:35,662 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:35,749 - INFO - Converted input_csv\student-mat_copy56.csv to Parquet format and uploaded to output_parquet\student-mat_copy56.parquet
+2024-04-24 05:15:35,751 - INFO - Deleted CSV file input_csv\student-mat_copy56.csv
+2024-04-24 05:15:35,935 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:36,002 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:36,027 - INFO - Converted input_csv\student-mat_copy57.csv to Parquet format and uploaded to output_parquet\student-mat_copy57.parquet
+2024-04-24 05:15:36,045 - INFO - Deleted CSV file input_csv\student-mat_copy57.csv
+2024-04-24 05:15:36,225 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:36,350 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:36,426 - INFO - Converted input_csv\student-mat_copy58.csv to Parquet format and uploaded to output_parquet\student-mat_copy58.parquet
+2024-04-24 05:15:36,433 - INFO - Deleted CSV file input_csv\student-mat_copy58.csv
+2024-04-24 05:15:36,584 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:36,639 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:36,666 - INFO - Converted input_csv\student-mat_copy59.csv to Parquet format and uploaded to output_parquet\student-mat_copy59.parquet
+2024-04-24 05:15:36,668 - INFO - Deleted CSV file input_csv\student-mat_copy59.csv
+2024-04-24 05:15:36,802 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:36,898 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:36,938 - INFO - Converted input_csv\student-mat_copy60.csv to Parquet format and uploaded to output_parquet\student-mat_copy60.parquet
+2024-04-24 05:15:36,943 - INFO - Deleted CSV file input_csv\student-mat_copy60.csv
+2024-04-24 05:15:37,154 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:37,217 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:37,245 - INFO - Converted input_csv\student-mat_copy61.csv to Parquet format and uploaded to output_parquet\student-mat_copy61.parquet
+2024-04-24 05:15:37,252 - INFO - Deleted CSV file input_csv\student-mat_copy61.csv
+2024-04-24 05:15:37,434 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:37,495 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:37,534 - INFO - Converted input_csv\student-mat_copy62.csv to Parquet format and uploaded to output_parquet\student-mat_copy62.parquet
+2024-04-24 05:15:37,544 - INFO - Deleted CSV file input_csv\student-mat_copy62.csv
+2024-04-24 05:15:37,747 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:37,999 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:38,235 - INFO - Converted input_csv\student-mat_copy63.csv to Parquet format and uploaded to output_parquet\student-mat_copy63.parquet
+2024-04-24 05:15:38,253 - INFO - Deleted CSV file input_csv\student-mat_copy63.csv
+2024-04-24 05:15:38,457 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:38,512 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:38,584 - INFO - Converted input_csv\student-mat_copy64.csv to Parquet format and uploaded to output_parquet\student-mat_copy64.parquet
+2024-04-24 05:15:38,596 - INFO - Deleted CSV file input_csv\student-mat_copy64.csv
+2024-04-24 05:15:38,836 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:38,890 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:38,941 - INFO - Converted input_csv\student-mat_copy65.csv to Parquet format and uploaded to output_parquet\student-mat_copy65.parquet
+2024-04-24 05:15:38,946 - INFO - Deleted CSV file input_csv\student-mat_copy65.csv
+2024-04-24 05:15:39,087 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:39,155 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:39,207 - INFO - Converted input_csv\student-mat_copy66.csv to Parquet format and uploaded to output_parquet\student-mat_copy66.parquet
+2024-04-24 05:15:39,215 - INFO - Deleted CSV file input_csv\student-mat_copy66.csv
+2024-04-24 05:15:39,395 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:39,455 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:39,481 - INFO - Converted input_csv\student-mat_copy67.csv to Parquet format and uploaded to output_parquet\student-mat_copy67.parquet
+2024-04-24 05:15:39,483 - INFO - Deleted CSV file input_csv\student-mat_copy67.csv
+2024-04-24 05:15:39,644 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:39,712 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:39,857 - INFO - Converted input_csv\student-mat_copy68.csv to Parquet format and uploaded to output_parquet\student-mat_copy68.parquet
+2024-04-24 05:15:39,902 - INFO - Deleted CSV file input_csv\student-mat_copy68.csv
+2024-04-24 05:15:40,090 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:40,199 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:40,292 - INFO - Converted input_csv\student-mat_copy69.csv to Parquet format and uploaded to output_parquet\student-mat_copy69.parquet
+2024-04-24 05:15:40,344 - INFO - Deleted CSV file input_csv\student-mat_copy69.csv
+2024-04-24 05:15:40,648 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:40,705 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:40,756 - INFO - Converted input_csv\student-mat_copy70.csv to Parquet format and uploaded to output_parquet\student-mat_copy70.parquet
+2024-04-24 05:15:40,758 - INFO - Deleted CSV file input_csv\student-mat_copy70.csv
+2024-04-24 05:15:40,967 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:41,033 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:41,059 - INFO - Converted input_csv\student-mat_copy71.csv to Parquet format and uploaded to output_parquet\student-mat_copy71.parquet
+2024-04-24 05:15:41,060 - INFO - Deleted CSV file input_csv\student-mat_copy71.csv
+2024-04-24 05:15:41,235 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:41,354 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:41,396 - INFO - Converted input_csv\student-mat_copy72.csv to Parquet format and uploaded to output_parquet\student-mat_copy72.parquet
+2024-04-24 05:15:41,443 - INFO - Deleted CSV file input_csv\student-mat_copy72.csv
+2024-04-24 05:15:41,630 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:41,697 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:41,803 - INFO - Converted input_csv\student-mat_copy73.csv to Parquet format and uploaded to output_parquet\student-mat_copy73.parquet
+2024-04-24 05:15:41,817 - INFO - Deleted CSV file input_csv\student-mat_copy73.csv
+2024-04-24 05:15:42,096 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:42,162 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:42,203 - INFO - Converted input_csv\student-mat_copy74.csv to Parquet format and uploaded to output_parquet\student-mat_copy74.parquet
+2024-04-24 05:15:42,205 - INFO - Deleted CSV file input_csv\student-mat_copy74.csv
+2024-04-24 05:15:42,335 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:42,397 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:42,435 - INFO - Converted input_csv\student-mat_copy75.csv to Parquet format and uploaded to output_parquet\student-mat_copy75.parquet
+2024-04-24 05:15:42,437 - INFO - Deleted CSV file input_csv\student-mat_copy75.csv
+2024-04-24 05:15:42,872 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:42,963 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:43,008 - INFO - Converted input_csv\student-mat_copy76.csv to Parquet format and uploaded to output_parquet\student-mat_copy76.parquet
+2024-04-24 05:15:43,013 - INFO - Deleted CSV file input_csv\student-mat_copy76.csv
+2024-04-24 05:15:43,194 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:43,270 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:43,354 - INFO - Converted input_csv\student-mat_copy77.csv to Parquet format and uploaded to output_parquet\student-mat_copy77.parquet
+2024-04-24 05:15:43,363 - INFO - Deleted CSV file input_csv\student-mat_copy77.csv
+2024-04-24 05:15:43,545 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:43,695 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:43,756 - INFO - Converted input_csv\student-mat_copy78.csv to Parquet format and uploaded to output_parquet\student-mat_copy78.parquet
+2024-04-24 05:15:43,794 - INFO - Deleted CSV file input_csv\student-mat_copy78.csv
+2024-04-24 05:15:43,946 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:44,012 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:44,105 - INFO - Converted input_csv\student-mat_copy79.csv to Parquet format and uploaded to output_parquet\student-mat_copy79.parquet
+2024-04-24 05:15:44,106 - INFO - Deleted CSV file input_csv\student-mat_copy79.csv
+2024-04-24 05:15:44,264 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:44,337 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:44,375 - INFO - Converted input_csv\student-mat_copy80.csv to Parquet format and uploaded to output_parquet\student-mat_copy80.parquet
+2024-04-24 05:15:44,380 - INFO - Deleted CSV file input_csv\student-mat_copy80.csv
+2024-04-24 05:15:44,568 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:44,667 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:44,723 - INFO - Converted input_csv\student-mat_copy81.csv to Parquet format and uploaded to output_parquet\student-mat_copy81.parquet
+2024-04-24 05:15:44,725 - INFO - Deleted CSV file input_csv\student-mat_copy81.csv
+2024-04-24 05:15:44,905 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:44,964 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:44,987 - INFO - Converted input_csv\student-mat_copy82.csv to Parquet format and uploaded to output_parquet\student-mat_copy82.parquet
+2024-04-24 05:15:45,026 - INFO - Deleted CSV file input_csv\student-mat_copy82.csv
+2024-04-24 05:15:45,192 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:45,257 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:45,306 - INFO - Converted input_csv\student-mat_copy83.csv to Parquet format and uploaded to output_parquet\student-mat_copy83.parquet
+2024-04-24 05:15:45,308 - INFO - Deleted CSV file input_csv\student-mat_copy83.csv
+2024-04-24 05:15:45,461 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:45,563 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:45,641 - INFO - Converted input_csv\student-mat_copy84.csv to Parquet format and uploaded to output_parquet\student-mat_copy84.parquet
+2024-04-24 05:15:45,642 - INFO - Deleted CSV file input_csv\student-mat_copy84.csv
+2024-04-24 05:15:45,807 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:45,955 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:45,995 - INFO - Converted input_csv\student-mat_copy85.csv to Parquet format and uploaded to output_parquet\student-mat_copy85.parquet
+2024-04-24 05:15:45,997 - INFO - Deleted CSV file input_csv\student-mat_copy85.csv
+2024-04-24 05:15:46,232 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:46,299 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:46,332 - INFO - Converted input_csv\student-mat_copy86.csv to Parquet format and uploaded to output_parquet\student-mat_copy86.parquet
+2024-04-24 05:15:46,335 - INFO - Deleted CSV file input_csv\student-mat_copy86.csv
+2024-04-24 05:15:46,803 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:46,921 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:47,049 - INFO - Converted input_csv\student-mat_copy87.csv to Parquet format and uploaded to output_parquet\student-mat_copy87.parquet
+2024-04-24 05:15:47,050 - INFO - Deleted CSV file input_csv\student-mat_copy87.csv
+2024-04-24 05:15:47,187 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:47,247 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:47,276 - INFO - Converted input_csv\student-mat_copy88.csv to Parquet format and uploaded to output_parquet\student-mat_copy88.parquet
+2024-04-24 05:15:47,278 - INFO - Deleted CSV file input_csv\student-mat_copy88.csv
+2024-04-24 05:15:47,506 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:47,566 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:47,588 - INFO - Converted input_csv\student-mat_copy89.csv to Parquet format and uploaded to output_parquet\student-mat_copy89.parquet
+2024-04-24 05:15:47,590 - INFO - Deleted CSV file input_csv\student-mat_copy89.csv
+2024-04-24 05:15:47,741 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:47,852 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:47,939 - INFO - Converted input_csv\student-mat_copy90.csv to Parquet format and uploaded to output_parquet\student-mat_copy90.parquet
+2024-04-24 05:15:47,945 - INFO - Deleted CSV file input_csv\student-mat_copy90.csv
+2024-04-24 05:15:48,147 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:48,237 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:48,296 - INFO - Converted input_csv\student-mat_copy91.csv to Parquet format and uploaded to output_parquet\student-mat_copy91.parquet
+2024-04-24 05:15:48,297 - INFO - Deleted CSV file input_csv\student-mat_copy91.csv
+2024-04-24 05:15:48,486 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:48,551 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:48,611 - INFO - Converted input_csv\student-mat_copy92.csv to Parquet format and uploaded to output_parquet\student-mat_copy92.parquet
+2024-04-24 05:15:48,626 - INFO - Deleted CSV file input_csv\student-mat_copy92.csv
+2024-04-24 05:15:48,930 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:49,016 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:49,065 - INFO - Converted input_csv\student-mat_copy93.csv to Parquet format and uploaded to output_parquet\student-mat_copy93.parquet
+2024-04-24 05:15:49,067 - INFO - Deleted CSV file input_csv\student-mat_copy93.csv
+2024-04-24 05:15:49,307 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:49,391 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:49,432 - INFO - Converted input_csv\student-mat_copy94.csv to Parquet format and uploaded to output_parquet\student-mat_copy94.parquet
+2024-04-24 05:15:49,436 - INFO - Deleted CSV file input_csv\student-mat_copy94.csv
+2024-04-24 05:15:49,606 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:49,666 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:49,727 - INFO - Converted input_csv\student-mat_copy95.csv to Parquet format and uploaded to output_parquet\student-mat_copy95.parquet
+2024-04-24 05:15:49,745 - INFO - Deleted CSV file input_csv\student-mat_copy95.csv
+2024-04-24 05:15:49,936 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:50,004 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:50,037 - INFO - Converted input_csv\student-mat_copy96.csv to Parquet format and uploaded to output_parquet\student-mat_copy96.parquet
+2024-04-24 05:15:50,040 - INFO - Deleted CSV file input_csv\student-mat_copy96.csv
+2024-04-24 05:15:50,207 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:50,266 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:50,304 - INFO - Converted input_csv\student-mat_copy97.csv to Parquet format and uploaded to output_parquet\student-mat_copy97.parquet
+2024-04-24 05:15:50,314 - INFO - Deleted CSV file input_csv\student-mat_copy97.csv
+2024-04-24 05:15:50,453 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:50,514 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:50,585 - INFO - Converted input_csv\student-mat_copy98.csv to Parquet format and uploaded to output_parquet\student-mat_copy98.parquet
+2024-04-24 05:15:50,587 - INFO - Deleted CSV file input_csv\student-mat_copy98.csv
+2024-04-24 05:15:50,830 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:50,911 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:50,956 - INFO - Converted input_csv\student-mat_copy99.csv to Parquet format and uploaded to output_parquet\student-mat_copy99.parquet
+2024-04-24 05:15:50,958 - INFO - Deleted CSV file input_csv\student-mat_copy99.csv
+2024-04-24 05:15:51,111 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:15:51,191 - INFO - Total no of rows in DataFrame395
+2024-04-24 05:15:51,230 - INFO - Converted input_csv\student-mat_copy100.csv to Parquet format and uploaded to output_parquet\student-mat_copy100.parquet
+2024-04-24 05:15:51,232 - INFO - Deleted CSV file input_csv\student-mat_copy100.csv
+2024-04-24 05:15:51,406 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 05:17:35,313 - INFO - Table already exists
+2024-04-24 05:17:35,316 - INFO - Total Parquet processing time: 0.00 seconds
+2024-04-24 05:17:35,316 - INFO - Total Parquet size: 2.21 MB
+2024-04-24 05:17:35,316 - INFO - Total Parquet files converted: 0
