@@ -65,10 +65,17 @@ As scalability becomes a priority, transitioning the solution to robust cloud se
 Use the data in the RDBMS from part 1 and write SQL quries to answer the following :
 
 1. List of unique “mother’s job” for male students younger than 20 years old.
-2. Most frequent “travel time” among students that live in rural areas
-3. Top 3 “father’s job” for students grouped by parent’s cohabitation status.
-4. Most frequent “class failures” label grouped by family sizes.
-5. Median “absences” for average and low family relationship qualities, group by sex.
+
+```mysql
+SELECT DISTINCT mjob
+FROM just_play_db.student_data
+WHERE sex = 'm' AND age < 20 AND mjob IS NOT NULL;
+```
+
+3. Most frequent “travel time” among students that live in rural areas
+4. Top 3 “father’s job” for students grouped by parent’s cohabitation status.
+5. Most frequent “class failures” label grouped by family sizes.
+6. Median “absences” for average and low family relationship qualities, group by sex.
 
 # Part 3
 _note - this is a design exercise, no code implementation is needed._
