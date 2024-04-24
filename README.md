@@ -19,7 +19,7 @@ Given incoming data in CSV format, the solution manages multiple input methods s
 </p>
 <br>
 
-```main.py``` - This is the main python script where all the functionality, methords and features are housed. To use this file, first start with replacing fields that have ```student_data``` with the table name you desire. Note, create the table in your MySQL database to make the script run smoothly. Second, install all the modules necesssary to run the main.py script. 
+```main.py``` - This serves as the primary Python script containing all functionality, methods, and features. To utilise this file, begin by replacing instances of "student_data" with your desired table name. Ensure you create the corresponding table in your MySQL database for seamless script execution. Additionally, install all required modules to enable smooth operation of the main.py script. 
 
 Here's the list : 
 ```python
@@ -35,9 +35,16 @@ from watchdog.events import FileSystemEventHandler
 from sqlalchemy import create_engine, text
 ```
 
-```input_csv``` - This folder is monitored for CSV files. Drop bulk or individual CSVs here to trigger the pipeline.
+```input_csv``` - CSV files placed in this folder are monitored. You can deposit bulk or individual CSVs here to activate the pipeline.
 
-```output_failed``` - This folder should be located inside the ```input_csv``` folder
+```output_failed``` - This folder is expected to reside within the input_csv directory. It serves as the destination for CSV files that fail the validation check. Please review these files manually for errors and re-upload them to the input_csv folder. 
+
+For successful processing within the pipeline, the CSV must adhere to the following guidelines:
+```The field names in the CSV must precisely match those specified in the 'schema.yaml' file. If any fields are added or removed, ensure consistency between the CSV and the schema file.```
+
+```Ensure that the table name specified in the 'schema_sql.yaml' file aligns consistently with the provided 'table_name' in main.py and the corresponding MySQL table (e.g., "student_name")```
+
+
 
 ## Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
