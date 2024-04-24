@@ -1,4 +1,4 @@
-# Part 1 - Pipeline
+# Part 1 - Event-Driven Architecture Pipeline
 
 #### Resource and Background :
 Retrieve the math performance dataset from [DataSet](https://archive.ics.uci.edu/dataset/320/student+performance). The metadata is available in the 'student.txt' file.
@@ -15,6 +15,10 @@ Let's suppose the math performance dataset is obtained through an automated eval
 
 > [!NOTE]
 > View ```conversion_log.txt``` log details.
+
+> [!IMPORTANT]
+> Watch the 'how-this-works.mp4' video attached to the repository to see a demo.
+> Note: some file names may not be the same as in the doc. (e.g ```db_creds.yaml``` aka ```config.yaml```)
 
 ### Instructions on How-To-Use:	
 <p align="center">
@@ -251,23 +255,17 @@ Provide schematics, explanations and reasoning for the above use-cases.
 - Mobile Client SDK:
 	- Captures player actions, purchases, and stores them temporarily (buffering).
 	- Bundles events for efficient network transfer (batching).
-
 - Data Collector (Flexible):
 	- Option 1 (Direct): Game sends events directly to a streaming service (e.g., Kafka). (Efficient but less flexible)
 	- Option 2 (Backend API): Game sends events to a central API for validation, transformation, and forwarding to streaming service. (More flexible, requires modifying the API)
-
 - Streaming Service (Apache Kafka):
 	- Handles high-volume real-time data streams reliably.
-
 - Data Processing (Apache Spark):
 	- Cleans, enriches, and validates data received from Kafka.
-
 - Data Storage (Data Lake):
 	- Stores all processed data for historical analysis (e.g., Amazon S3, Google Cloud Storage).
-
 - Optional Data Warehouse:
 	- Faster querying and analysis (populated from the data lake with tools like Apache Hive/Impala).
-
 - Data Visualization:
 	- Tools like Tableau or Power BI create dashboards for key metrics (engagement, level completion, revenue).
 
@@ -297,3 +295,9 @@ Provide schematics, explanations and reasoning for the above use-cases.
                                  (Optional)                        (Tableaux, Power BI)
 ```
 
+### Additional Considerations :
+- Security: Implement data encryption at rest and in transit to protect sensitive player information.
+- Data Compression: Compress data before storage to reduce storage costs.
+- Monitoring: Monitor the health of the pipeline components to identify and address any issues promptly.
+
+This design provides a scalable, reliable, and maintainable data ingestion pipeline for mobile game telemetry data. The data visualisation layer empowers stakeholders with actionable insights to improve the game and player experience.
