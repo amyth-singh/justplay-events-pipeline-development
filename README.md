@@ -79,10 +79,23 @@ WHERE sex = 'm' AND age < 20 AND mjob IS NOT NULL;
 |teacher |
 |at_home |
 
-3. Most frequent “travel time” among students that live in rural areas
-4. Top 3 “father’s job” for students grouped by parent’s cohabitation status.
-5. Most frequent “class failures” label grouped by family sizes.
-6. Median “absences” for average and low family relationship qualities, group by sex.
+2. Most frequent “travel time” among students that live in rural areas
+
+```mysql
+SELECT traveltime, COUNT(*) AS count
+FROM just_play_db.student_data
+WHERE address = 'R'
+GROUP BY traveltime
+ORDER BY count DESC
+LIMIT 1;
+```
+|traveltime|count|
+|----------|-----|
+|1         |35   |
+
+3. Top 3 “father’s job” for students grouped by parent’s cohabitation status.
+4. Most frequent “class failures” label grouped by family sizes.
+5. Median “absences” for average and low family relationship qualities, group by sex.
 
 # Part 3
 _note - this is a design exercise, no code implementation is needed._
