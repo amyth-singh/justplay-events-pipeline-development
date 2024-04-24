@@ -135,48 +135,42 @@ database:
 ## Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
 
-<table><tr><td>
-
-<i>During the workflow of the solution, every step is meticulously documented and recorded in a ```conversion_log.txt``` file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.</i>
-</td></tr></table>
+```markdown
+During the workflow of the solution, every step is meticulously documented and recorded in a ```conversion_log.txt``` file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.
+```
 
 2. It should handle potential data quality issues like missing data.
-
-<table><tr><td>
-<i>Presently, the solution addresses basic data quality issues including missing values, null values, schema mismatches, and incorrect delimiters. However, there is potential for the solution to evolve and tackle more complex challenges such as data type inconsistencies, data formatting errors, duplicate entries, incomplete datasets, outlier and anomaly detection, and data loss prevention over time. To maintain efficiency and simplicity, the solution currently focuses on managing fundamental data quality concerns.</i>
-</td></tr></table>
+```markdown
+Presently, the solution addresses basic data quality issues including missing values, null values, schema mismatches, and incorrect delimiters. However, there is potential for the solution to evolve and tackle more complex challenges such as data type inconsistencies, data formatting errors, duplicate entries, incomplete datasets, outlier and anomaly detection, and data loss prevention over time. To maintain efficiency and simplicity, the solution currently focuses on managing fundamental data quality concerns.
+```
 
 3. The solution should follow good data management practices, ensuring accessibility for various user profiles (e.g., scientists, business stakeholders).
-
-<table><tr><td>
-<i>The pipeline currently checks, compresses and stores valid CSVs into a folder. In an ideal scenario, this folder would be a cloud object store where access control, data security, data retention and other lifecycle management processes can be ensured. At the moment the solution incorporates some aspects of good data management practices like data validation, logging, automation, schema management, error handling and data disposal.
-</td></tr></table></i>
+```markdown
+The pipeline currently checks, compresses and stores valid CSVs into a folder. In an ideal scenario, this folder would be a cloud object store where access control, data security, data retention and other lifecycle management processes can be ensured. At the moment the solution incorporates some aspects of good data management practices like data validation, logging, automation, schema management, error handling and data disposal.
+```
   
 4. Provide a way to serve and visualise the data, dashboards and/or plots should be runnable on open-source software, both locally and on the system.
-<table><tr><td>
-<i>At present, the data loads into a MySQL database, serving as a data source for any data visualization. Expanding data routing to additional storage layers, such as a cloud data warehouse like BigQuery, is straightforward. By simply incorporating a function that exports the dataframe to a table in BigQuery, this integration can be achieved seamlessly.
+```markdown
+At present, the data loads into a MySQL database, serving as a data source for any data visualization. Expanding data routing to additional storage layers, such as a cloud data warehouse like BigQuery, is straightforward. By simply incorporating a function that exports the dataframe to a table in BigQuery, this integration can be achieved seamlessly.
 
 Alternatively, you can create another .py file that establishes a connection to the MySQL database, imports the necessary data visualization modules, and conducts analysis.
-</td></tr></table></i>
+```
 
 ## Alternative Scenarios :
 What could be done if data volume increases 100x?
-
-<table><tr><td>
+```markdown
 Each original CSV file measures 56 KB. Following compression and conversion, each resulting Parquet file is reduced to 17 KB, representing a compression rate of approximately 69.64%. The entire conversion process of 999 CSV files concluded within 10.90 seconds, equating to an average conversion time of 0.01091 seconds per file. Scaling up by 100x would involve processing 99,900 files, requiring an estimated duration of 1088.109 seconds or approximately 18.13515 minutes. To ensure the system maintains efficiency and reliability as it scales, optimising data processing for parallelisation and distributed computing is paramount. Implementing several other measures such as elastic scaling capabilities, multi-node fault-tolerant storage, automated resource allocation, serverless deployment of the solution can help handle data volume, and finally, having more robust data quality and validation rules.
-</td></tr></table>
+```
 
 What could be done if data is delivered frequently at 6am every two days?
-
-<table><tr><td>
+```markdown
 The solution is crafted with event streaming as its core focus. Deploying it onto a function-as-a-service platform like 'Google Cloud Functions' or 'AWS Glue' enables responsiveness to inbound or manual data drops of varying frequencies, recency, and volumes. If cloud deployment is not viable, operating the solution locally via a 'cronjob' facilitates a recurring scheduling mechanism as well.
-</td></tr></table>
+```
 
 What could be done if the data has to be made available to a bigger organisation of 1000+ people?
-
-<table><tr><td>
+```markdown
 As scalability becomes a priority, transitioning the solution to robust cloud services such as Google DataProc, Google DataFlow, or similar big data processing platforms becomes essential. These services leverage frameworks like Apache Spark, Apache Beam, or Apache Flink to handle large-scale data processing efficiently. Additionally, employing scalable database services such as Amazon RDS or Google Cloud SQL becomes necessary to support a larger user base. Establishing access control, governance, compliance policies, performance monitoring, and self-service and data visualisation solutions should also be considered to ensure the smooth operation and management of the system.
-</td></tr></table>
+```
 
 # Part 2 - SQL
 Use the data in the RDBMS from part 1 and write SQL quries to answer the following :
