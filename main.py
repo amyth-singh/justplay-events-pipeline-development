@@ -171,7 +171,7 @@ def watch_input_csv_folder(input_folder, output_folder, schema_file):
     observer.stop()
     observer.join()
 
-    handler.conversion_complete_flag = True  # Set conversion_complete_flag to True
+    handler.conversion_complete_flag = True
     return True
 
 if __name__ == "__main__":

@@ -6124,3 +6124,12 @@
 2024-04-24 05:17:35,316 - INFO - Total Parquet processing time: 0.00 seconds
 2024-04-24 05:17:35,316 - INFO - Total Parquet size: 2.21 MB
 2024-04-24 05:17:35,316 - INFO - Total Parquet files converted: 0
+2024-04-24 13:39:28,295 - INFO - Watching input CSV folder...
+2024-04-24 13:40:51,528 - INFO - Total no of rows in DataFrame395
+2024-04-24 13:40:51,619 - INFO - Converted input_csv\student-mat_copy1.csv to Parquet format and uploaded to output_parquet\student-mat_copy1.parquet
+2024-04-24 13:40:51,620 - INFO - Deleted CSV file input_csv\student-mat_copy1.csv
+2024-04-24 13:40:51,761 - INFO - DataFrame successfully loaded into MySQL table 'student_data'
+2024-04-24 13:41:53,673 - INFO - Table already exists
+2024-04-24 13:41:53,673 - INFO - Total Parquet processing time: 0.00 seconds
+2024-04-24 13:41:53,673 - INFO - Total Parquet size: 0.02 MB
+2024-04-24 13:41:53,673 - INFO - Total Parquet files converted: 0
