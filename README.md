@@ -13,14 +13,26 @@ Given incoming data in CSV format, the solution manages multiple input methods s
 > [!NOTE]
 > View ```conversion_log.txt``` log details.
 
-### File Functionality :	
+### Instructions on How-To-Use:	
 <p align="center">
-<img src="https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/06bbb073-2305-4c88-8ee0-97bed201eddd" alt="main.py" style="width:500px;"/>
+<img src="https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/06bbb073-2305-4c88-8ee0-97bed201eddd" alt="main.py" style="width:600px;"/>
 </p>
 <br>
 
-```main.py``` - This Python script monitors a folder for CSV files using the Watchdog library, converts them to Parquet format, and loads them into a MySQL database. It imports modules for data manipulation, file handling, timing operations, logging, and database connectivity. The CSVHandler class handles file creation events, schema loading, validation, table creation, CSV processing, MySQL data loading, and file deletion. The 'watch_input_csv_folder' function sets up an observer to monitor the input CSV folder and waits until the conversion process completes or is interrupted. The main script creates necessary folders, initialises the observer, starts watching the input CSV folder, enters a loop until interrupted, calculates Parquet file sizes, creates a CSVHandler instance, retrieves database credentials, creates a database table, and logs statistics such as processing time, Parquet size, and converted files.
+```main.py``` - This is the main python script where all the functionality, methords and features are housed. To use this file,first start with replacing fields that have ```student_data``` with the table name you desire. Note, create the table in your MySQL database to make the script run smoothly. Second, install all the modules necesssary to run the main.py script. Here's the list : ```python import pandas as pd
+import yaml
+import time
+import os
+import logging
+import mysql.connector
+from datetime import datetime
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+from sqlalchemy import create_engine, text```
 
+```input_csv``` - This folder is monitored for CSV files. Drop bulk or individual CSVs here to trigger the pipeline.
+
+```output_failed``` - This folder should be located inside the ```input_csv``` folder
 
 ## Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
