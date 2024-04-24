@@ -41,7 +41,7 @@ from sqlalchemy import create_engine, text
 
 ### For successful processing within the pipeline, the CSV must adhere to the following guidelines:
 
-```python
+```markdown
 The field names in the CSV must precisely match those specified in the 'schema.yaml' file.
 If any fields are added or removed, ensure consistency between the CSV and the schema file.
 ```
