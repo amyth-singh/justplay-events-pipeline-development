@@ -118,6 +118,25 @@ WHERE s.rn <= 3;
 |t      |teacher   |24       |
 
 4. Most frequent “class failures” label grouped by family sizes.
+
+```mysql
+SELECT s.famsize, s.failures, s.class_fail_count
+FROM (
+	SELECT famsize, failures, class_fail_count,
+		ROW_NUMBER() OVER (PARTITION by famsize ORDER BY class_fail_count DESC) AS rn
+	FROM (
+		SELECT famsize, failures, COUNT(*) AS class_fail_count
+        FROM just_play_db.student_data
+        GROUP BY famsize, failures
+    ) AS counted_count
+) AS s
+WHERE rn = 1;
+```
+|famsize  |failures  |class_fail_freq|
+|---------|----------|---------------|
+|gt3      |0         |222            |
+|le3      |0         |90             |
+
 5. Median “absences” for average and low family relationship qualities, group by sex.
 
 # Part 3
