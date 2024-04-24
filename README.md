@@ -139,21 +139,37 @@ WHERE rn = 1;
 
 5. Median “absences” for average and low family relationship qualities, group by sex.
 
+```The query provided calculates the median "absences" for individuals with average and low family relationship qualities, grouped by sex. It ensures that the median calculation is accurate by considering both odd and even counts of absences within each group.```
+
 ```mysql
-SELECT sex, famrel, ROUND(AVG(absences)) AS median_absences
-FROM just_play_db.student_data
-WHERE famrel <= 3
+SELECT sex, famrel, 
+    CASE
+        WHEN COUNT(*) % 2 = 1 THEN AVG(absences)
+        ELSE (SUM(absences) / 2)
+    END AS median_absences
+FROM (
+    SELECT sex, famrel, absences,
+        @rn := IF(@prev_sex = sex AND @prev_famrel = famrel, @rn + 1, 1) AS rn,
+        @prev_sex := sex,
+        @prev_famrel := famrel
+    FROM 
+        (SELECT *, (@rn := 0) FROM just_play_db.student_data WHERE famrel <= 3 ORDER BY sex, famrel, absences) sorted,
+        (SELECT @prev_sex := NULL, @prev_famrel := NULL) init
+) ranked
+WHERE 
+    rn = CEIL((SELECT COUNT(*) FROM just_play_db.student_data WHERE famrel <= 3 AND sex = ranked.sex AND famrel = ranked.famrel) / 2)
+    OR rn = FLOOR((SELECT COUNT(*) FROM just_play_db.student_data WHERE famrel <= 3 AND sex = ranked.sex AND famrel = ranked.famrel) / 2) + 1
 GROUP BY sex, famrel
 ORDER BY sex, famrel;
 ```
 |sex|famreal|median_absences|
 |---|-------|---------------|
-|f  |1	    |8              |
-|f  |2	    |6              |
-|f  |3	    |6              |
+|f  |1	    |14             |
+|f  |2	    |15             |
+|f  |3	    |2              |
 |m  |1	    |5              |
-|m  |2	    |6              |
-|m  |3	    |5              |
+|m  |2	    |3              |
+|m  |3	    |2              |
 
 # Part 3
 _note - this is a design exercise, no code implementation is needed._
