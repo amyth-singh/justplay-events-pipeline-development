@@ -31,5 +31,3 @@ absences: INTEGER
 g1: INTEGER
 g2: INTEGER
 g3: INTEGER
-id : INTEGER
-creating_timestamp: DATETIME

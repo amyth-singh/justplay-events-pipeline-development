@@ -3,16 +3,14 @@ import time
 import pandas as pd
 import logging
 import yaml
-import mysql.connector
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from datetime import datetime
-from sqlalchemy import create_engine, MetaData, Table, Column, Integer, DateTime, Float, Date, TIMESTAMP
 
 class CSVHandler(FileSystemEventHandler):
     csv_processing_times, parquet_processing_times = [], []
     total_csv_size, total_parquet_size = 0, 0
-    total_parquet_files = 0  # New counter for total Parquet files converted
+    total_parquet_files = 0 
 
     def __init__(self, input_folder, output_folder, schema_file):
         super().__init__()
@@ -41,8 +39,6 @@ class CSVHandler(FileSystemEventHandler):
         df.columns = map(str.lower, df.columns)
         df = df.map(lambda x: str(x).lower() if isinstance(x, str) else str(x))
         
-        df['creating_timestamp'] = datetime.now()
-        df['id'] = range(self.counter, self.counter + len(df))
         self.counter += len(df)
 
         if not self.validate_schema(df):
@@ -81,59 +77,6 @@ class CSVHandler(FileSystemEventHandler):
         os.remove(csv_file)
         logging.info(f"Deleted CSV file {csv_file}")
 
-    def get_database_credentials():
-        try:
-            with open("config.yaml", 'r') as stream:
-                credentials = yaml.safe_load(stream)
-                return credentials['database']
-        except FileNotFoundError:
-            print("Config file not found!")
-            return None
-
-    def get_schema_from_file():
-        try:
-            with open("schema_sql.yaml", 'r') as stream:
-                schema = yaml.safe_load(stream)
-                return schema
-        except FileNotFoundError:
-            print("Schema file not found!")
-            return None    
-
-    def table_exists(cursor, table_name):
-        cursor.execute(f"SHOW TABLES LIKE '{table_name}'")
-        return cursor.fetchone() is not None
-
-    def create_table():
-        db_credentials = get_database_credentials()
-
-        if db_credentials:
-            schema = get_schema_from_file()
-            if schema:
-                try:
-                    conn = mysql.connector.connect(**db_credentials)
-                    cursor = conn.cursor()
-                    table_name = next(iter(schema))
-                    if not table_exists(cursor, table_name):
-                        columns = schema[table_name]
-                        create_table_query = f"CREATE TABLE {table_name} ("
-                        for column in columns:
-                            column_name = column['name']
-                            column_type = column['type']
-                            create_table_query += f"{column_name} {column_type}, "
-                        create_table_query = create_table_query[:-2]
-                        create_table_query += ")"
-                        cursor.execute(create_table_query)
-                        print("Table created successfully")
-                    else:
-                        print("Table already exists")
-                except mysql.connector.Error as e:
-                    print(f"Error creating table: {e}")
-                finally:
-                    if conn.is_connected():
-                        cursor.close()
-                        conn.close()
-                        print("MySQL connection is closed")
-
 def watch_input_csv_folder(input_folder, output_folder, schema_file):
     observer = Observer()
     observer.schedule(CSVHandler(input_folder, output_folder, schema_file), path=input_folder)
@@ -163,4 +106,4 @@ if __name__ == "__main__":
 
     logging.info(f"Total Parquet processing time: {sum(CSVHandler.parquet_processing_times):.2f} seconds")
     logging.info(f"Total Parquet size: {total_parquet_size_mb:.2f} MB")
-    logging.info(f"Total Parquet files converted: {CSVHandler.total_parquet_files}")  # Log the total Parquet files converted
+    logging.info(f"Total Parquet files converted: {CSVHandler.total_parquet_files}") 

@@ -97,10 +97,3 @@ student_data:
 
   - name: g3
     type: Integer
-
-  - name: id
-    type: Integer
-    attributes: AUTO_INCREMENT PRIMARY KEY
-
-  - name: creating_timestamp
-    type: DATETIME

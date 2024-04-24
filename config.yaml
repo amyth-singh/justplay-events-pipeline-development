@@ -1,6 +1,6 @@
 database:
-  host: localhost
-  user: postgres
-  port: 5432
-  password: porcupine6
-  database: amithdb
+  host: 127.0.0.1
+  user: root
+  port: 3306
+  password: porcupine6 
+  database: just_play_db
