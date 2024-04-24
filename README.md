@@ -1,6 +1,6 @@
 # Part 1 - Pipeline
 
-### Resource and Background :
+#### Resource and Background :
 Retrieve the math performance dataset from [DataSet](https://archive.ics.uci.edu/dataset/320/student+performance). The metadata is available in the 'student.txt' file.
 
 Let's suppose the math performance dataset is obtained through an automated evaluation system. This data arrives on a scheduled basis (e.g., daily, weekly, monthly) and requires processing to generate student-based metrics. The objective is to read the dataset and populate the data into an RDBMS. The choice to insert the data into an open-source RDBMS is optional.
@@ -9,28 +9,20 @@ Let's suppose the math performance dataset is obtained through an automated eval
 ![Screenshot 2024-04-23 164807](https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/c29b0023-11fb-48e8-9b4c-a69591ad16c3)
 
 <table><tr><td>
-Assuming that the incoming data is provided in CSV format, the solution is constructed to manage various methods of data input, including manual uploads, bulk uploads, and scripted extractions or ingestions (such as through a pipeline). It is designed to emulate an event-driven architecture model locally, however, the same functionality can be translated to any cloud platform, which would allow for serverless, trigger-driven and automatic scaling capabilities.<br>
-  
-<br>The current solution in the repository oversees a ```input_csv``` folder where CSV files are expected to be placed or introduced. Upon the arrival of CSV files in this folder, it initiates an automated process involving extraction, validation, and pre-processing. This process includes removing rows with missing or null values, standardising values and field names to lowercase and substituting the delimiters with a comma. Additionally, the system individually assesses each CSV file against the schema defined in the ```schema.yaml``` file to ensure compliance.<br>
-
-<br>Once the pre-processing and validation stages are completed without issues, the compliant CSV file proceeds into a rule-based system. In this system, if the file meets the specified criteria, it undergoes conversion and compression into a Parquet file, after which it is relocated to a ```output_parquet``` folder. Conversely, if the CSV file fails validation or pre-processing, it is transferred to a designated ```output_failed``` folder which resides in the ```input_csv``` folder. This allows analysts or engineers to manually review the problematic files for further investigation.<br>
-
-<br>Subsequently, the successful Parquet files within the folder initiate an automated pipeline responsible for uploading the Parquet file to a ```PostgresSQL/MySQL``` database getting database credential information from ```db_creds.yaml``` file and pre-defined database schema from the ```schema_sql.yaml``` file. In an optimal scenario, this pipeline would additionally transfer the files to a data warehouse (e.g. BigQuery), enabling the analytics team to access and analyze the data. Furthermore, it would move the files to an object store (e.g. google cloud storage or s3 buckets), facilitating widespread access for other technical teams. However, for the purposes of the project, the files are uploaded to a local database to facilitate viewing and execution of SQL queries.
+Given incoming data in CSV format, the solution manages multiple input methods such as manual uploads, bulk uploads, or scripted extractions via pipelines. It's built to mimic a local event-driven architecture but is adaptable to any cloud platform, allowing for serverless, trigger-based, and automatic scaling capabilities. Within the repository, it supervises an <b>input_csv</b> folder, where CSV files are expected. Upon their arrival, it initiates an automated process involving extraction, validation, and pre-processing, including removing null rows, standardizing values, and field names, and changing delimiters. Each CSV file is individually checked against the schema defined in schema.yaml for compliance. Validated files enter a rule-based system: compliant ones are converted to Parquet and moved to output_parquet, while failures go to output_failed within input_csv for manual review. Successful Parquet files trigger an automated pipeline to upload data to a PostgresSQL/MySQL database, using credentials from db_creds.yaml and schema from schema_sql.yaml. Ideally, this pipeline would extend to a data warehouse like BigQuery for analytics and to an object store such as Google Cloud Storage or S3 for broader access. However, for project purposes, files are uploaded to a local database for easier viewing and SQL query execution.
 </td></tr></table>
 
 > [!NOTE]
 > View ```conversion_log.txt``` for debugging and logging details.
 
-### Repository Files Functionality :
-<p align="center">
-	
-```main.py```
-
-</p>
-<br>
+### Repository Files Functionality :	
 <p align="center">
 <img src="https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/06bbb073-2305-4c88-8ee0-97bed201eddd" alt="main.py" style="width:500px;"/>
 </p>
+<br>
+
+```main.py``` - This Python script monitors a folder for CSV files using the Watchdog library, converts them to Parquet format, and loads them into a MySQL database. It imports modules for data manipulation, file handling, timing operations, logging, and database connectivity. The CSVHandler class handles file creation events, schema loading, validation, table creation, CSV processing, MySQL data loading, and file deletion. The 'watch_input_csv_folder' function sets up an observer to monitor the input CSV folder and waits until the conversion process completes or is interrupted. The main script creates necessary folders, initialises the observer, starts watching the input CSV folder, enters a loop until interrupted, calculates Parquet file sizes, creates a CSVHandler instance, retrieves database credentials, creates a database table, and logs statistics such as processing time, Parquet size, and converted files.
+
 
 ## Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
