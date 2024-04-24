@@ -19,7 +19,7 @@ Given incoming data in CSV format, the solution manages multiple input methods s
 </p>
 <br>
 
-```main.py``` - This is the main python script where all the functionality, methords and features are housed. To use this file,first start with replacing fields that have ```student_data``` with the table name you desire. Note, create the table in your MySQL database to make the script run smoothly. Second, install all the modules necesssary to run the main.py script. 
+```main.py``` - This is the main python script where all the functionality, methords and features are housed. To use this file, first start with replacing fields that have ```student_data``` with the table name you desire. Note, create the table in your MySQL database to make the script run smoothly. Second, install all the modules necesssary to run the main.py script. 
 
 Here's the list : 
 ```python
