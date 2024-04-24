@@ -21,9 +21,10 @@ Assuming that the incoming data is provided in CSV format, the solution is const
 > [!NOTE]
 > View ```conversion_log.txt``` for debugging and logging details.
 
-### Repository Structure Breakdown
+### Repository Files Functionality :
 
-
+```main.py```
+![Screenshot 2024-04-24 190539](https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/06bbb073-2305-4c88-8ee0-97bed201eddd)
 
 ## Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
