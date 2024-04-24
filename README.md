@@ -17,7 +17,7 @@ Let's suppose the math performance dataset is obtained through an automated eval
 > View ```conversion_log.txt``` log details.
 
 > [!IMPORTANT]
-> Watch the 'how-this-works.mp4' video attached to the repository to see a demo.
+> Watch the 'how-this-works.mp4' video attached to the repository to see a demo.<br>
 > Note: ```test.py``` in the video is the same as ```main.py``` in the repo. Run the ```main.py```
 
 ### Instructions on How-To-Use:	
@@ -27,10 +27,10 @@ Let's suppose the math performance dataset is obtained through an automated eval
 <br>
 
 > [!IMPORTANT]
-> Please clone the entire repository first.
-> If the folders ```input_csv```, ```output_failed```, and ```output_parquet``` do not exist after cloning, ensure to create them locally.
-> To start the entire pipeline, run the ```main.py``` file
-> When you see the message 'Waiting for CSV files', start dopping the files into the 'input_csv' bucket 
+> Please clone the entire repository first.<br>
+> If the folders ```input_csv```, ```output_failed```, and ```output_parquet``` do not exist after cloning, ensure to create them locally.<br>
+> To start the entire pipeline, run the ```main.py``` file<br>
+> When you see the message 'Waiting for CSV files', start dopping the files into the ```input_csv``` bucket 
 
 ```main.py```
 - This serves as the primary Python script containing all functionality, methods, and features. To utilise this file, begin by replacing instances of "student_data" with your desired table name.
@@ -129,48 +129,44 @@ database:
 
 ## For successful processing within the pipeline, the CSV must adhere to the following guidelines:
 - The field names in the CSV must precisely match those specified in the 'schema.yaml' file. If any fields are added or removed, ensure consistency between the CSV and the schema file.
+
 - Ensure that the table name specified in the 'schema_sql.yaml' file aligns consistently with the provided 'table_name' in main.py and the corresponding MySQL table (e.g., "student_name")
+
 - Presently, the main.py script substitutes the ```;``` delimiter with a comma ```,```. If the CSVs being ingested contain a different delimiter, the script will encounter an error. Thus, it is necessary to replace ```;``` with the delimiter identified in the ingested CSVs. 
 
 ## Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
 
-```markdown
-During the workflow of the solution, every step is meticulously documented and recorded in a ```conversion_log.txt``` file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.
-```
+- During the workflow of the solution, every step is meticulously documented and recorded in a ```conversion_log.txt``` file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.
 
 2. It should handle potential data quality issues like missing data.
-```markdown
-Presently, the solution addresses basic data quality issues including missing values, null values, schema mismatches, and incorrect delimiters. However, there is potential for the solution to evolve and tackle more complex challenges such as data type inconsistencies, data formatting errors, duplicate entries, incomplete datasets, outlier and anomaly detection, and data loss prevention over time. To maintain efficiency and simplicity, the solution currently focuses on managing fundamental data quality concerns.
-```
+
+- Presently, the solution addresses basic data quality issues including missing values, null values, schema mismatches, and incorrect delimiters. However, there is potential for the solution to evolve and tackle more complex challenges such as data type inconsistencies, data formatting errors, duplicate entries, incomplete datasets, outlier and anomaly detection, and data loss prevention over time. To maintain efficiency and simplicity, the solution currently focuses on managing fundamental data quality concerns.
 
 3. The solution should follow good data management practices, ensuring accessibility for various user profiles (e.g., scientists, business stakeholders).
-```markdown
-The pipeline currently checks, compresses and stores valid CSVs into a folder. In an ideal scenario, this folder would be a cloud object store where access control, data security, data retention and other lifecycle management processes can be ensured. At the moment the solution incorporates some aspects of good data management practices like data validation, logging, automation, schema management, error handling and data disposal.
-```
+
+- The pipeline currently checks, compresses and stores valid CSVs into a folder. In an ideal scenario, this folder would be a cloud object store where access control, data security, data retention and other lifecycle management processes can be ensured. At the moment the solution incorporates some aspects of good data management practices like data validation, logging, automation, schema management, error handling and data disposal.
   
 4. Provide a way to serve and visualise the data, dashboards and/or plots should be runnable on open-source software, both locally and on the system.
-```markdown
-At present, the data loads into a MySQL database, serving as a data source for any data visualization. Expanding data routing to additional storage layers, such as a cloud data warehouse like BigQuery, is straightforward. By simply incorporating a function that exports the dataframe to a table in BigQuery, this integration can be achieved seamlessly.
+
+- At present, the data loads into a MySQL database, serving as a data source for any data visualization. Expanding data routing to additional storage layers, such as a cloud data warehouse like BigQuery, is straightforward. By simply incorporating a function that exports the dataframe to a table in BigQuery, this integration can be achieved seamlessly.
 
 Alternatively, you can create another .py file that establishes a connection to the MySQL database, imports the necessary data visualization modules, and conducts analysis.
-```
 
 ## Alternative Scenarios :
 What could be done if data volume increases 100x?
-```markdown
-Each original CSV file measures 56 KB. Following compression and conversion, each resulting Parquet file is reduced to 17 KB, representing a compression rate of approximately 69.64%. The entire conversion process of 999 CSV files concluded within 10.90 seconds, equating to an average conversion time of 0.01091 seconds per file. Scaling up by 100x would involve processing 99,900 files, requiring an estimated duration of 1088.109 seconds or approximately 18.13515 minutes. To ensure the system maintains efficiency and reliability as it scales, optimising data processing for parallelisation and distributed computing is paramount. Implementing several other measures such as elastic scaling capabilities, multi-node fault-tolerant storage, automated resource allocation, serverless deployment of the solution can help handle data volume, and finally, having more robust data quality and validation rules.
-```
+
+- Each original CSV file measures 56 KB. Following compression and conversion, each resulting Parquet file is reduced to 17 KB, representing a compression rate of approximately 69.64%. The entire conversion process of 999 CSV files concluded within 10.90 seconds, equating to an average conversion time of 0.01091 seconds per file. Scaling up by 100x would involve processing 99,900 files, requiring an estimated duration of 1088.109 seconds or approximately 18.13515 minutes. To ensure the system maintains efficiency and reliability as it scales, optimising data processing for parallelisation and distributed computing is paramount. Implementing several other measures such as elastic scaling capabilities, multi-node fault-tolerant storage, automated resource allocation, serverless deployment of the solution can help handle data volume, and finally, having more robust data quality and validation rules.
 
 What could be done if data is delivered frequently at 6am every two days?
-```markdown
-The solution is crafted with event streaming as its core focus. Deploying it onto a function-as-a-service platform like 'Google Cloud Functions' or 'AWS Glue' enables responsiveness to inbound or manual data drops of varying frequencies, recency, and volumes. If cloud deployment is not viable, operating the solution locally via a 'cronjob' facilitates a recurring scheduling mechanism as well.
-```
+
+- The solution is crafted with event streaming as its core focus. Deploying it onto a function-as-a-service platform like 'Google Cloud Functions' or 'AWS Glue' enables responsiveness to inbound or manual data drops of varying frequencies, recency, and volumes. If cloud deployment is not viable, operating the solution locally via a 'cronjob' facilitates a recurring scheduling mechanism as well.
+
 
 What could be done if the data has to be made available to a bigger organisation of 1000+ people?
-```markdown
-As scalability becomes a priority, transitioning the solution to robust cloud services such as Google DataProc, Google DataFlow, or similar big data processing platforms becomes essential. These services leverage frameworks like Apache Spark, Apache Beam, or Apache Flink to handle large-scale data processing efficiently. Additionally, employing scalable database services such as Amazon RDS or Google Cloud SQL becomes necessary to support a larger user base. Establishing access control, governance, compliance policies, performance monitoring, and self-service and data visualisation solutions should also be considered to ensure the smooth operation and management of the system.
-```
+
+- As scalability becomes a priority, transitioning the solution to robust cloud services such as Google DataProc, Google DataFlow, or similar big data processing platforms becomes essential. These services leverage frameworks like Apache Spark, Apache Beam, or Apache Flink to handle large-scale data processing efficiently. Additionally, employing scalable database services such as Amazon RDS or Google Cloud SQL becomes necessary to support a larger user base. Establishing access control, governance, compliance policies, performance monitoring, and self-service and data visualisation solutions should also be considered to ensure the smooth operation and management of the system.
+
 
 # Part 2 - SQL
 Use the data in the RDBMS from part 1 and write SQL quries to answer the following :
@@ -249,8 +245,6 @@ WHERE rn = 1;
 |le3      |0         |90             |
 
 5. Median “absences” for average and low family relationship qualities, group by sex.
-
-```The query provided calculates the median "absences" for individuals with average and low family relationship qualities, grouped by sex. It ensures that the median calculation is accurate by considering both odd and even counts of absences within each group.```
 
 ```mysql
 SELECT sex, famrel, 
