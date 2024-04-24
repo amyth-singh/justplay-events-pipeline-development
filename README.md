@@ -24,8 +24,9 @@ Assuming that the incoming data is provided in CSV format, the solution is const
 ### Repository Files Functionality :
 
 ```main.py```<br>
-
-<img src="https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/06bbb073-2305-4c88-8ee0-97bed201eddd" align="center" alt="main.py" style="width:400px;"/>
+<p align="center">
+<img src="https://github.com/amyth-singh/justplay-infra-pipeline-development/assets/78929302/06bbb073-2305-4c88-8ee0-97bed201eddd" alt="main.py" style="width:500px;"/>
+</p>
 
 ## Answering Requirements :
 1. The solution should be easy to reproduce and automate across all stages: data collection, preparation, modeling, and presentation.
