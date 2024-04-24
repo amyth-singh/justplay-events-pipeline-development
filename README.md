@@ -10,7 +10,7 @@ Let's suppose the math performance dataset is obtained through an automated eval
 
 - Given incoming data in CSV format, the solution manages multiple input methods such as manual uploads, bulk uploads, or scripted extractions via pipelines. It's built to mimic a local event-driven architecture but is adaptable to any cloud platform, allowing for serverless, trigger-based, and automatic scaling capabilities. - Within the repository, it supervises an ```input_csv``` folder, where CSV files are expected. Upon their arrival, it initiates an automated process involving extraction, validation, and pre-processing, including removing null rows, standardizing values, and field names, and changing delimiters.
 - Each CSV file is individually checked against the schema defined in ```schema.yaml``` for compliance. Validated files enter a rule-based system: _compliant_ ones are converted to Parquet and moved to ```output_parquet```, while _failures_ go to ```output_failed``` within input_csv for manual review.
-- Successful Parquet files trigger an automated pipeline to upload data to a ```MySQL``` database, using credentials from ```config.yaml``` and schema from ```schema_sql.yaml```.
+- Successful Parquet files trigger an automated pipeline to upload data to a ```MySQL``` database, using credentials from ```db_creds.yaml``` and schema from ```schema_sql.yaml```.
 - Ideally, this pipeline would extend to a data warehouse like BigQuery for analytics and to an object store such as Google Cloud Storage or S3 for broader access. However, for project purposes, files are uploaded to a local database for easier viewing and SQL query execution.
 
 > [!NOTE]
@@ -18,7 +18,7 @@ Let's suppose the math performance dataset is obtained through an automated eval
 
 > [!IMPORTANT]
 > Watch the 'how-this-works.mp4' video attached to the repository to see a demo.
-> Note: some file names may not be the same as in the doc. (e.g ```db_creds.yaml``` aka ```config.yaml```)
+> Note: ```test.py``` in the video is the same as ```main.py``` in the repo. Run the ```main.py```
 
 ### Instructions on How-To-Use:	
 <p align="center">
@@ -112,7 +112,7 @@ famsize: VARCHAR(10)
 pstatus: VARCHAR(10)
 ```
 
-```config.yaml``` aka ```db_creds.yaml```
+```db_creds.yaml```
 - A YAML configuration file containing database connection details.
 - It specifies the host address, username, port number, password, and database name required to establish a connection to the database.
 - When constructing the table in the MySQL database, the main.py script utilises these fields to establish a secure connection with the database.
