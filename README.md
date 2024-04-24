@@ -94,6 +94,29 @@ LIMIT 1;
 |1         |35   |
 
 3. Top 3 “father’s job” for students grouped by parent’s cohabitation status.
+
+```mysql
+SELECT s.pstatus, s.fjob, s.job_count
+FROM (
+    SELECT pstatus, fjob, job_count,
+           ROW_NUMBER() OVER (PARTITION BY pstatus ORDER BY job_count DESC) AS rn
+    FROM (
+        SELECT pstatus, fjob, COUNT(*) AS job_count
+        FROM just_play_db.student_data
+        GROUP BY pstatus, fjob
+    ) AS counted_jobs
+) AS s
+WHERE s.rn <= 3;
+```
+|pstatus|fjob      |job_count|
+|-------|----------|---------|
+|a      |other     |23       |
+|a      |services  |7        |
+|a      |teacher   |5        |
+|t      |other     |194      |
+|t      |services  |104      |
+|t      |teacher   |24       |
+
 4. Most frequent “class failures” label grouped by family sizes.
 5. Median “absences” for average and low family relationship qualities, group by sex.
 
