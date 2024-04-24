@@ -88,7 +88,7 @@ from sqlalchemy import create_engine, text
 
 <table><tr><td>
 
-During the workflow of the solution, every step is meticulously documented and recorded in a ```conversion_log.txt``` file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.
+<i>During the workflow of the solution, every step is meticulously documented and recorded in a ```conversion_log.txt``` file, facilitating documentation and debugging. Furthermore, each stage is designed to be accessible and reproducible, enabling seamless replication across various environments. Additionally, the utilisation of trigger-based and rule-based integrations ensures automation, consistency, and reliability throughout the entirety of the solution's lifecycle.</i>
 </td></tr></table>
 
 2. It should handle potential data quality issues like missing data.
