@@ -1,4 +1,4 @@
-# Part 1 - Event-Driven Architecture Pipeline
+# Part 1 - Event-Driven/Serverless Architecture Pipeline
 
 #### Resource and Background :
 Retrieve the math performance dataset from [DataSet](https://archive.ics.uci.edu/dataset/320/student+performance). The metadata is available in the 'student.txt' file.
