@@ -160,6 +160,8 @@ What could be done if data volume increases 100x?
 
 - But generally, to ensure the system maintains efficiency and reliability as it scales, its important to optimise data processing for parallelisation and/or concurrency and distribute computing. Implementing several other measures such as elastic scaling capability, compressed aggregated storage _(asin ask the question, do we genuinly need to hold on to ALL of the data? can we aggregate most of it? can we only hold on to the most important bits and pieces?)_, automated resource allocation, serverless deployment of the solution can help handle data volume, and finally, having more robust data quality and validation rules.
 
+- From a storage point-of-view, If storage services over the cloud are to be utilised, its important to get an understanding of the object store classes to store efficiently and cost-effectivelly  (standard, nearline, coldline, archieve) 
+
 - And finally its important to optimise for query computation, that way when the 100x needs to be queried we do it without incurring a major query cost.
 
 What could be done if data is delivered frequently at 6am every two days?
