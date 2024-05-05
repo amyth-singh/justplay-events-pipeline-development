@@ -156,7 +156,7 @@ Alternatively, you can create another .py file that establishes a connection to 
 ## Alternative Scenarios :
 What could be done if data volume increases 100x?
 
-- Each original CSV file measures 56 KB. Following compression and conversion, each resulting Parquet file is reduced to 17 KB, representing a compression rate of approximately 69.64%. The entire conversion process of 999 CSV files concluded within 10.90 seconds, equating to an average conversion time of 0.01091 seconds per file. Scaling up by 100x would involve processing 99,900 files, requiring an estimated duration of 1088.109 seconds or approximately 18.13515 minutes. 
+- Each original CSV file at the moment roughyly measures 56 KB. After compression and conversion, each resulting Parquet file is reduced to 17 KB, representing a compression rate of approximately 69.64%. The entire conversion process of 999 CSV files concluded within 10.90 seconds, equating to an average conversion time of 0.01091 seconds per file. Scaling up by 100x would involve processing 99,900 files, requiring an estimated duration of 1088.109 seconds or approximately 18.13515 minutes. 
 
 - But generally, to ensure the system maintains efficiency and reliability as it scales, its important to optimise data processing for parallelisation and/or concurrency and distribute computing. Implementing several other measures such as elastic scaling capability, compressed aggregated storage _(asin ask the question, do we genuinly need to hold on to ALL of the data? can we aggregate most of it? can we only hold on to the most important bits and pieces?)_, automated resource allocation, serverless deployment of the solution can help handle data volume, and finally, having more robust data quality and validation rules.
 
@@ -166,6 +166,7 @@ What could be done if data is delivered frequently at 6am every two days?
 
 - The solution is crafted with event streaming as its core focus. Deploying it onto a function-as-a-service platform like 'Google Cloud Functions' or 'AWS Glue' enables responsiveness to inbound or manual data drops of varying frequencies, recency, and volumes. If cloud deployment is not viable, operating the solution locally via a 'cronjob' facilitates a recurring scheduling mechanism as well.
 
+- However, a simpler ways to retrive data from a source is by automating the retrival process. e.g. deploy a DAG on Google Cloud Composer aka Apache Airflow on GCP to batch process bulk CSVs from a source to destination bucket and then trigger processing and storage.
 
 What could be done if the data has to be made available to a bigger organisation of 1000+ people?
 
