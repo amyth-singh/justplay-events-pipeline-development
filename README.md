@@ -293,14 +293,14 @@ Provide schematics, explanations and reasoning for the above use-cases.
 
 ## Solution :
 - Mobile Client SDK:
-	- Captures player actions, purchases, and stores them temporarily (buffering).
+	- Captures player actions, purchases, and stores them temporarily (buffering or queue) e.g. SDK > Pub/Sub Topic.
 	- Bundles events for efficient network transfer (batching).
 - Data Collector (Flexible):
-	- Option 1 (Direct): Game sends events directly to a streaming service (e.g., Kafka). (Efficient but less flexible)
+	- Option 1 (Direct): Game sends events directly to a streaming service (e.g., Kafka, Pub/Sub). (Efficient but less flexible)
 	- Option 2 (Backend API): Game sends events to a central API for validation, transformation, and forwarding to streaming service. (More flexible, requires modifying the API)
-- Streaming Service (Apache Kafka):
+- Streaming Service (Apache Kafka, Pub/Sub):
 	- Handles high-volume real-time data streams reliably.
-- Data Processing (Apache Spark):
+- Data Processing (Apache Spark, DataProc, Apache Flink):
 	- Cleans, enriches, and validates data received from Kafka.
 - Data Storage (Data Lake):
 	- Stores all processed data for historical analysis (e.g., Amazon S3, Google Cloud Storage).
